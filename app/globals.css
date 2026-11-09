@@ -1,26 +1,69 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Tokens from ux-engine systems/cursor: warm canvas, one orange that only means "tap this". */
+@theme {
+  --color-canvas: #f7f7f4;
+  --color-canvas-soft: #fafaf7;
+  --color-card: #ffffff;
+  --color-ink: #26251e;
+  --color-body: #5a5852;
+  --color-muted: #75726a;
+  --color-hairline: #e6e5e0;
+  --color-hairline-strong: #cfcdc4;
+  --color-primary: #f54e00;
+  --color-primary-active: #d04200;
+  --color-on-ink-muted: #b9b6ab;
+  --color-on-ink-soft: #d6d3c9;
+  --color-match-soft: #fde6da;
+
+  /* One color per path, used only to mark which path a thing belongs to. */
+  --color-policy: #9fbbe0;
+  --color-defense: #dfa88f;
+  --color-trust: #9fc9a2;
+  --color-expansion: #c0a8dd;
+  --color-risk: #d9a85c;
+
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+  }
+  ::selection {
+    background: #fbd5c2;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-track {
+  animation: ticker 60s linear infinite;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .ticker:hover .ticker-track {
+    animation-play-state: paused;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .ticker-track {
+    animation: none;
+  }
 }
