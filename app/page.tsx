@@ -1,3 +1,4 @@
+import Directory from "@/components/Directory";
 import Guide from "@/components/Guide";
 import { baseline, plan, postings, resources, stats } from "@/lib/data";
 
@@ -10,6 +11,7 @@ const nav = [
   { href: "#quiz", label: "Quiz" },
   { href: "#paths", label: "Paths" },
   { href: "#plan", label: "Plan" },
+  { href: "#orgs", label: "Orgs" },
   { href: "#resources", label: "Resources" },
 ];
 
@@ -49,6 +51,7 @@ export default function Home() {
       <main id="top">
         {/* Hero */}
         <section className="mx-auto max-w-5xl px-4 pt-16 pb-12 sm:px-6 sm:pt-28">
+          <p className="mb-6 font-mono text-sm text-muted">For Sienna Kim</p>
           <h1 className="max-w-4xl text-[2.6rem] leading-[1.05] font-normal tracking-[-0.03em] sm:text-7xl">
             Tech companies are hiring people who study what you study.
           </h1>
@@ -213,6 +216,26 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Faith and the work */}
+        <section id="faith" className="scroll-mt-16 bg-ink text-canvas">
+          <div className="mx-auto max-w-3xl px-4 py-20 sm:px-6 sm:py-28">
+            <h2 className="text-3xl font-normal tracking-tight sm:text-4xl">Faith and the work</h2>
+            <blockquote className="mt-10 border-l border-on-ink-muted pl-6 text-2xl leading-snug sm:text-3xl">
+              &ldquo;Seek the welfare of the city where I have sent you into exile, and pray to the Lord on its behalf, for in its welfare you
+              will find your welfare.&rdquo;
+              <footer className="mt-4 font-mono text-sm text-on-ink-muted">Jeremiah 29:7</footer>
+            </blockquote>
+            <p className="mt-10 max-w-2xl text-lg leading-relaxed text-on-ink-soft">
+              God told exiles in Babylon to work for the good of a foreign nation. That&apos;s close to what every one of these paths does. Policy
+              decides rules billions of people live under. Trust and safety protects people who can&apos;t protect themselves online. Risk work
+              keeps families and companies out of harm&apos;s way. Following Jesus in that work looks like telling the truth in a memo when it
+              costs you and caring about the people on the other end of a decision.
+            </p>
+          </div>
+        </section>
+
+        <Directory />
+
         {/* Resources */}
         <section
           id="resources"
@@ -266,7 +289,7 @@ export default function Home() {
 
       <footer className="border-t border-hairline">
         <div className="mx-auto flex max-w-5xl flex-col gap-2 px-4 py-10 text-sm text-body sm:flex-row sm:items-center sm:justify-between sm:px-6">
-          <p>Made by a friend who thinks you&apos;d be great at this.</p>
+          <p>Made for Sienna by Caleb, who thinks you&apos;d be great at this.</p>
           <p className="text-muted">
             Checked November 2026. Postings change, so confirm on each
             company&apos;s careers page.

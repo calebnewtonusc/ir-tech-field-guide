@@ -1,0 +1,250 @@
+[
+ {
+  "name": "ACTS 17 Collective",
+  "href": "https://acts17collective.org",
+  "description": "Our mission is to make a case for Christ to leaders in technology and entertainment. We provide a relaxed and welcoming environment where leaders can explore the idea of faith and its relevance, regardless of their starting point. Ultimately, we are redefining success to those who define culture.",
+  "tags": [
+   "Events",
+   "Technology",
+   "National",
+   "Community"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Basil Tech",
+  "href": "https://www.basiltech.org",
+  "description": "Basil Tech exists to serve Jesus through technology. We do this in 3 ways: 1) We provide technology consulting to ministries and churches 2) We build innovative technologies to serve the church 3) We invest in discipling believers in tech to connect them with opportunities to use their gifts for the Kingdom",
+  "tags": [],
+  "approved": true
+ },
+ {
+  "name": "Bay Area Center for Faith, Work & Tech",
+  "href": "https://faithworktech.org",
+  "description": "We exist to cultivate faith and work integration in the Bay Area to transform people who are transforming the world.",
+  "tags": [
+   "Bay",
+   "Area",
+   "Community",
+   "Events",
+   "Discipleship",
+   "Technology",
+   "Education",
+   "Small",
+   "Groups"
+  ],
+  "approved": true
+ },
+ {
+  "name": "BioLogos",
+  "href": "https://biologos.org",
+  "description": "BioLogos explores God\u2019s Word and God\u2019s World to inspire authentic faith for today. Our vision is faith and science working hand in hand.",
+  "tags": [
+   "National",
+   "Events",
+   "Education",
+   "Technology"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Connect Silicon Valley",
+  "href": "https://connect.sv",
+  "description": "Our vision is to see Silicon Valley known not only as an epicenter of technological innovation and entrepreneurship, but also as a place transformed by the love of Jesus. Our mission is to catalyze the Great Commission among Silicon Valley young professionals through relationship driven experiences.",
+  "tags": [
+   "Bay",
+   "Area",
+   "Community",
+   "Discipleship",
+   "Events",
+   "Social",
+   "Impact",
+   "Young",
+   "Adults"
+  ],
+  "approved": true
+ },
+ {
+  "name": "CW3",
+  "href": "https://cw3.global",
+  "description": "At Christians in Web3, we're a private, vetted, highly educated faith community on a quest to equip all generations with AI, Crypto, Blockchain, and Metaverse technologies to love our neighbors and build a better world. Our vision is to unite Christians who are building, investing, and ministering within the Web3 industry. Our mission is to pray, gather, and innovate so that technology leads all generation to Jesus",
+  "tags": [
+   "Bay",
+   "Area",
+   "National",
+   "Community",
+   "Technology"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Faith & Work Movement Global",
+  "href": "https://faithandworkmovement.org",
+  "description": "We help Christians faithfully represent Christ in their workplace together with other followers of Jesus who work in the same company. Together they can positively impact companies that impact the world.",
+  "tags": [
+   "Bay",
+   "Area",
+   "ERG",
+   "National",
+   "Small",
+   "Groups"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Faith Driven Entrepreneur",
+  "href": "https://faithdrivenentrepreneur.org",
+  "description": "As entrepreneurs, we follow in the footsteps of the Original Entrepreneur. From the very beginning, God created us to share in His entrepreneurial process with purpose, passion, and pursuit. He gives us ideas, dreams and ventures to reflect His image and bring about His glory. Faith Driven Entrepreneur exists to help shape the entrepreneurs who are shaping our culture to know God and look more like Him. In our pursuit, we adhere to the Lausanne Covenant which serves as a rallying cry for us to work together to make Jesus Christ known throughout the world. It is a covenant with one another, and a covenant with God himself.",
+  "tags": [
+   "Entrepreneurs",
+   "Small",
+   "Groups",
+   "Discipleship",
+   "Bay",
+   "Area",
+   "National"
+  ],
+  "approved": true
+ },
+ {
+  "name": "FaithTech",
+  "href": "https://faithtech.com/",
+  "description": "FaithTech exists to see a Jesus revival awakened in and through tech by practicing redemptive technology design.",
+  "tags": [
+   "Bay",
+   "Area",
+   "National",
+   "Technology",
+   "Events"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Generosity Bay Area",
+  "href": "https://www.generositybayarea.org",
+  "description": "Generosity Bay Area inspires a culture of radical giving in the Bay Area\u2014 catalyzing a faithful community to joyfully imitate the generosity of Christ.",
+  "tags": [
+   "Bay",
+   "Area",
+   "Community",
+   "Discipleship",
+   "Social",
+   "Impact",
+   "Events"
+  ],
+  "approved": true
+ },
+ {
+  "name": "GoLiveServe",
+  "href": "https://www.goliveserve.org",
+  "description": "We send long-term and short-term business & tech professionals to serve in emerging economies that are mostly unreached nations. We also promote \"work as globalocal mission\" among churches through conferences, webinars & Sunday school curriculum.",
+  "tags": [
+   "Bay",
+   "Area",
+   "Missions",
+   "Technology",
+   "Social",
+   "Impact"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Iona House",
+  "href": "https://ionahouse.org/",
+  "description": "A place to reimagine all of life in reference to Christ Iona House is a 71 acre center for contemplation and Christian formation located in Placerville, CA. It is currently under development and operational. Iona House offers a unique experience of formation within a communal setting, rooted within the Great Tradition of Christianity, in which all of life is structured in reference to Christ.",
+  "tags": [
+   "Bay",
+   "Area",
+   "Community"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Kingdom Haus",
+  "href": "https://www.kingdom.haus",
+  "description": "Through place and hospitality, KingdomHaus enables human flourishing by immersing and equipping people in Kingdom living. We cultivate deeply formed leaders, practicing God-powered living and imagination, and converging faith, vocation, family, and fun.",
+  "tags": [
+   "Bay",
+   "Area"
+  ],
+  "approved": true
+ },
+ {
+  "name": "New College Berkeley",
+  "href": "https://www.newcollegeberkeley.org",
+  "description": "NCB is about discerning gospel-faithfulness together in the San Francisco Bay Area. We help the Church discern and contextualize the way of Christ, cultivating gospel imagination and spiritual friendship for our time.",
+  "tags": [
+   "Bay",
+   "Area",
+   "Education",
+   "Community",
+   "Events"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Nexus Mentoring",
+  "href": "https://www.nexusmentoring.com/",
+  "description": "Our Mission: Mentor people to discover their life design to flourish and make an impact in their communities. Our Purpose: Mentor young adults to discover their life design and activate their future.",
+  "tags": [
+   "Bay",
+   "Area",
+   "Discipleship",
+   "Young",
+   "Adults"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Pray the Bay",
+  "href": "https://praythebay.org/",
+  "description": "Pray the Bay is a unifying prayer & worship movement for and through the local Church of the San Francisco Bay Area. We are believing for revival in the Church, renewal in our cities, and an awakening to the presence of God. We see a future of 24/7 prayer rooms with led prayer & worship sessions every morning, noon, and night in each region across the Bay.",
+  "tags": [
+   "Bay",
+   "Area",
+   "Community",
+   "Prayer"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Regent College - MALTS",
+  "href": "https://www.regent-college.edu/graduate-programs/malts",
+  "description": "The MA in Leadership, Theology & Society is a program designed to enable participants to remain in their current workplace while developing their leadership abilities through which they can bring transformation to their organizations and society.",
+  "tags": [
+   "National"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Tech of Eden",
+  "href": "https://www.techofeden.com/",
+  "description": "At Tech of Eden, we nurture a community of the most influential AI stakeholders, thought-leaders, and innovators who have hearts open to Christ for a setting where iron sharpens iron. The forum is diverse and interdisciplinary, uniting the realms of business, law, academia, healthcare, and policy. We foster a safe and open space for critical discussions on what it looks like to plant faith, ethics, and values at the root of AI advancement and application in society. We encourage collaborative growth and collective imagination that moves us towards technology that reflects compassion, peace, transparency, and a commitment to humanity's flourishing\u2014bringing us closer to Eden on Earth. We\u2019re building a beacon of hope to the world that God is working for our good, even\u2014and especially in\u2014fields like AI.",
+  "tags": [
+   "Technology",
+   "National"
+  ],
+  "approved": true
+ },
+ {
+  "name": "The Institute for Innovation, Integration & Impact",
+  "href": "https://www.brettjohnson.biz",
+  "description": "Repurposing Business--Transforming Society",
+  "tags": [
+   "National"
+  ],
+  "approved": true
+ },
+ {
+  "name": "Transforming the Bay with Christ",
+  "href": "https://tbc.city",
+  "description": "Connecting and Equipping Leaders to help Ignite a Gospel Movement in the Bay Area",
+  "tags": [
+   "Bay",
+   "Area",
+   "Community",
+   "Events"
+  ],
+  "approved": true
+ }
+]

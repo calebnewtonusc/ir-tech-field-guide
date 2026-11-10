@@ -93,7 +93,7 @@ export default function Guide() {
             Which path fits you?
           </h2>
           <p className="mt-3 text-on-ink-muted">
-            Seven questions, about two minutes. Your answers reorder the five
+            Not sure which part of IR you like yet? That&apos;s what this is for. Seven questions, about two minutes. Your answers reorder the five
             paths below.
           </p>
 

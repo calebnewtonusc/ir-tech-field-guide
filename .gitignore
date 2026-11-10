@@ -4,3 +4,5 @@ out
 .ui-proof
 .vercel
 tsconfig.tsbuildinfo
+research/*.html
+research/fwt-directory.json

@@ -461,6 +461,15 @@ export const resources: ResourceGroup[] = [
     ],
   },
   {
+    title: "Faith and work",
+    items: [
+      { name: "International Justice Mission", note: "Christian org fighting violence against the poor worldwide, hires for policy and tech", href: "https://www.ijm.org" },
+      { name: "FaithTech", note: "Christians building technology, with local chapters and hackathons", href: "https://faithtech.com" },
+      { name: "Praxis", note: "Fellowships for Christians starting and joining ventures", href: "https://www.praxislabs.org" },
+      { name: "Every Good Endeavor", note: "Tim Keller on how faith connects to any job", href: "https://www.goodreads.com/search?q=every+good+endeavor+keller" },
+    ],
+  },
+  {
     title: "Books",
     items: [
       {
