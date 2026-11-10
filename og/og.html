@@ -1,30 +1,40 @@
 <!doctype html><html><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=JetBrains+Mono:wght@600&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=JetBrains+Mono:wght@500;700&display=block" rel="stylesheet">
 <style>
 *{margin:0;box-sizing:border-box}
-html,body{width:1200px;height:630px;overflow:hidden;background:#14130f;font-family:Inter,sans-serif;color:#f2f0e8}
-.dots{position:absolute;inset:0;background-image:radial-gradient(#3d3a30 1.6px,transparent 1.8px);background-size:18px 18px;opacity:.55;
- -webkit-mask-image:linear-gradient(90deg,transparent 0%,#000 55%);mask-image:linear-gradient(90deg,transparent 0%,#000 55%)}
-.left{position:absolute;left:72px;top:72px;width:620px}
-.kicker{font:600 26px "JetBrains Mono",monospace;letter-spacing:.14em;color:#f54e00;text-transform:uppercase}
-h1{margin-top:28px;font-weight:700;font-size:82px;line-height:1.02;letter-spacing:-.035em}
-.sub{margin-top:30px;font-size:32px;line-height:1.3;color:#d6d3c9;font-weight:500}
-.sub b{color:#f2f0e8;font-weight:700}
-.stamps{position:absolute;right:56px;top:58px;width:430px;height:514px}
-.st{position:absolute;padding:16px 22px;border:5px solid;border-radius:14px;font:600 25px "JetBrains Mono",monospace;letter-spacing:.06em;text-transform:uppercase;background:rgba(20,19,15,.72);white-space:nowrap}
-.st small{display:block;font:600 15px "JetBrains Mono",monospace;letter-spacing:.18em;opacity:.8;margin-bottom:4px}
+html,body{width:1200px;height:630px;overflow:hidden;background:#14130f}
+.dots{position:absolute;inset:0;background-image:radial-gradient(#3d3a30 1.5px,transparent 1.7px);background-size:16px 16px;opacity:.7}
+.glow{position:absolute;left:280px;top:40px;width:700px;height:560px;background:radial-gradient(closest-side,rgba(245,78,0,.10),transparent)}
+/* open passport: navy cover on the left, paper page on the right */
+.book{position:absolute;left:170px;top:58px;width:860px;height:514px;transform:rotate(-3deg);filter:drop-shadow(0 40px 50px rgba(0,0,0,.6))}
+.cover{position:absolute;left:0;top:0;width:410px;height:514px;background:#1b2740;border-radius:12px 4px 4px 12px;color:#c9a45c;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:56px 0 60px;font-family:"JetBrains Mono",monospace}
+.cover .t{font-size:17px;letter-spacing:.38em}
+.cover .p{font-size:40px;font-weight:700;letter-spacing:.3em;padding-left:.3em}
+.cover:after{content:"";position:absolute;right:14px;top:0;bottom:0;width:1px;background:rgba(201,164,92,.25)}
+.page{position:absolute;left:410px;top:0;width:450px;height:514px;background:#fbf6ea;border-radius:4px 12px 12px 4px;overflow:hidden;box-shadow:inset 18px 0 24px -16px rgba(20,19,15,.35)}
+.page svg.g{position:absolute;right:-110px;bottom:-110px;width:420px;height:420px;color:#e9dfc8}
+.lab{position:absolute;left:40px;top:40px;font:500 15px "JetBrains Mono",monospace;letter-spacing:.2em;color:#8a7f66}
+.st{position:absolute;display:grid;place-items:center;border-radius:50%;border:4px solid;font:700 19px "JetBrains Mono",monospace;letter-spacing:.06em;width:112px;height:112px;opacity:.88;mix-blend-mode:multiply}
+.st:before{content:"";position:absolute;inset:7px;border-radius:50%;border:1.5px dashed currentColor;opacity:.7}
+.ok{position:absolute;left:118px;top:338px;transform:rotate(-9deg);border:6px solid #f54e00;color:#f54e00;border-radius:10px;padding:10px 22px;font:700 40px "JetBrains Mono",monospace;letter-spacing:.2em;mix-blend-mode:multiply;opacity:.92}
 </style></head><body>
-<div class="dots"></div>
-<div class="left">
-  <div class="kicker">For IR majors</div>
-  <h1>Where do you fit in tech?</h1>
-  <p class="sub">Take the <b>7-question passport quiz</b>. Get your visa, the companies hiring for it, and what to do first.</p>
-</div>
-<div class="stamps">
-  <div class="st" style="color:#9fbbe0;border-color:#9fbbe0;left:40px;top:0;transform:rotate(-6deg)"><small>Visa</small>Policy</div>
-  <div class="st" style="color:#dfa88f;border-color:#dfa88f;left:210px;top:70px;transform:rotate(7deg)"><small>Visa</small>Defense</div>
-  <div class="st" style="color:#9fc9a2;border-color:#9fc9a2;left:0;top:178px;transform:rotate(4deg)"><small>Visa</small>Trust &amp; safety</div>
-  <div class="st" style="color:#c0a8dd;border-color:#c0a8dd;left:150px;top:298px;transform:rotate(-5deg)"><small>Visa</small>Expansion</div>
-  <div class="st" style="color:#d9a85c;border-color:#d9a85c;left:20px;top:410px;transform:rotate(3deg)"><small>Visa</small>Geopolitical risk</div>
+<div class="dots"></div><div class="glow"></div>
+<div class="book">
+  <div class="cover">
+    <span class="t">IR &times; TECH</span>
+    <svg viewBox="0 0 100 100" width="170" height="170" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="50" cy="50" r="38"/><ellipse cx="50" cy="50" rx="16" ry="38"/><ellipse cx="50" cy="50" rx="30" ry="38"/><path d="M12 50h76M18 32h64M18 68h64"/><circle cx="50" cy="50" r="46" stroke-dasharray="2 3"/></svg>
+    <span class="p">PASSPORT</span>
+  </div>
+  <div class="page">
+    <svg class="g" viewBox="0 0 200 200" fill="none"><g stroke="currentColor" stroke-width=".6">
+      <ellipse cx="100" cy="100" rx="30" ry="18"/><ellipse cx="100" cy="100" rx="35" ry="24" transform="rotate(13 100 100)"/><ellipse cx="100" cy="100" rx="40" ry="30" transform="rotate(26 100 100)"/><ellipse cx="100" cy="100" rx="45" ry="36" transform="rotate(39 100 100)"/><ellipse cx="100" cy="100" rx="50" ry="42" transform="rotate(52 100 100)"/><ellipse cx="100" cy="100" rx="55" ry="48" transform="rotate(65 100 100)"/><ellipse cx="100" cy="100" rx="60" ry="54" transform="rotate(78 100 100)"/><ellipse cx="100" cy="100" rx="65" ry="60" transform="rotate(91 100 100)"/><ellipse cx="100" cy="100" rx="70" ry="66" transform="rotate(104 100 100)"/><ellipse cx="100" cy="100" rx="75" ry="72" transform="rotate(117 100 100)"/></g></svg>
+    <span class="lab">VISAS / 01</span>
+    <span class="st" style="color:#3f63a6;left:46px;top:92px;transform:rotate(-8deg)">POLICY</span>
+    <span class="st" style="color:#b4532a;left:186px;top:76px;transform:rotate(6deg)">DEFENSE</span>
+    <span class="st" style="color:#2f7a45;left:300px;top:150px;transform:rotate(-4deg)">TRUST</span>
+    <span class="st" style="color:#6f4aa8;left:86px;top:212px;transform:rotate(9deg)">GLOBAL</span>
+    <span class="st" style="color:#9a6a12;left:226px;top:226px;transform:rotate(-11deg)">RISK</span>
+    <span class="ok">APPROVED</span>
+  </div>
 </div>
 </body></html>

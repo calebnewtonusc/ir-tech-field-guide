@@ -15,10 +15,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Every tech company is a foreign policy company now.",
     description: "If you study how the world works, they need you. Here's where you'd fit.",
-    images: [{ url: "/og.png?v=2", width: 1200, height: 630, alt: "Where do you fit in tech? Five visa stamps: policy, defense, trust and safety, expansion, geopolitical risk" }],
+    images: [{ url: "/og.png?v=3", width: 1200, height: 630, alt: "An open navy passport, its page stamped Policy, Defense, Trust, Global and Risk, with an Approved stamp" }],
     type: "website",
   },
-  twitter: { card: "summary_large_image", images: ["/og.png?v=2"] },
+  twitter: { card: "summary_large_image", images: ["/og.png?v=3"] },
 };
 
 export default function RootLayout({
