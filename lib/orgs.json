@@ -2,6 +2,10 @@
  {
   "name": "NeuroNav",
   "source": "praxis",
+  "places": [
+   "Oakland, CA, USA",
+   "Manchester, UK"
+  ],
   "href": "https://neuronav.org",
   "jobsHref": "https://jobs.praxis.co/companies/neuronav-2",
   "openRoles": 107,
@@ -14,6 +18,9 @@
  {
   "name": "Venus Aerospace",
   "source": "praxis",
+  "places": [
+   "Houston, TX, USA"
+  ],
   "href": "https://venusaero.com",
   "jobsHref": "https://jobs.praxis.co/companies/venus-aerospace",
   "openRoles": 25,
@@ -26,6 +33,9 @@
  {
   "name": "Refined Technologies",
   "source": "praxis",
+  "places": [
+   "The Woodlands, TX, USA"
+  ],
   "href": "https://refinedtechnologies.com",
   "jobsHref": "https://jobs.praxis.co/companies/refined-technologies",
   "openRoles": 13,
@@ -38,6 +48,9 @@
  {
   "name": "Pronoia",
   "source": "praxis",
+  "places": [
+   "Los Angeles, CA, USA"
+  ],
   "href": "https://pronoiaenergy.com",
   "jobsHref": "https://jobs.praxis.co/companies/pronoia-2",
   "openRoles": 10,
@@ -50,6 +63,10 @@
  {
   "name": "Settled",
   "source": "praxis",
+  "places": [
+   "Newport, UK",
+   "Ukraine"
+  ],
   "href": "https://settled.org",
   "jobsHref": "https://jobs.praxis.co/companies/settled-2-9ea3e197-8008-4a6d-b752-e1c0aae0de99",
   "openRoles": 9,
@@ -62,6 +79,9 @@
  {
   "name": "HOPE International",
   "source": "praxis",
+  "places": [
+   "Lancaster, PA, USA"
+  ],
   "href": "https://hopeinternational.org",
   "jobsHref": "https://jobs.praxis.co/companies/hope-international",
   "openRoles": 5,
@@ -74,6 +94,14 @@
  {
   "name": "Kadence",
   "source": "praxis",
+  "places": [
+   "Stokes, San Jose, CA, USA",
+   "Mile End, London, UK",
+   "London, UK",
+   "Sant Francesc Xavier, Balearic Islands, Spain",
+   "Surrey, UK",
+   "England, UK"
+  ],
   "href": "https://kadence.co",
   "jobsHref": "https://jobs.praxis.co/companies/kadence-2-b800fc25-1ef6-4860-944c-26db4679dfa3",
   "openRoles": 5,
@@ -86,6 +114,9 @@
  {
   "name": "Sanctuary Mental Health Ministries",
   "source": "praxis",
+  "places": [
+   "Vancouver, BC, Canada"
+  ],
   "href": "https://sanctuarymentalhealth.org",
   "jobsHref": "https://jobs.praxis.co/companies/sanctuary-mental-health-ministries",
   "openRoles": 5,
@@ -98,6 +129,12 @@
  {
   "name": "Semilla Nueva",
   "source": "praxis",
+  "places": [
+   "United States Minor Outlying Islands",
+   "Guatemala City, Guatemala",
+   "Escuintla Department, Guatemala",
+   "Guatemala"
+  ],
   "href": "https://semillanueva.org",
   "jobsHref": "https://jobs.praxis.co/companies/semilla-nueva",
   "openRoles": 3,
@@ -110,6 +147,9 @@
  {
   "name": "Treetops Collective",
   "source": "praxis",
+  "places": [
+   "Grand Rapids, MI, USA"
+  ],
   "href": "https://treetopscollective.org",
   "jobsHref": "https://jobs.praxis.co/companies/treetops-collective-2",
   "openRoles": 3,
@@ -122,6 +162,10 @@
  {
   "name": "Liberty in North Korea",
   "source": "praxis",
+  "places": [
+   "California Heights, Long Beach, CA, USA",
+   "North Korea"
+  ],
   "href": "https://libertyinnorthkorea.org",
   "jobsHref": "https://jobs.praxis.co/companies/liberty-in-north-korea-2",
   "openRoles": 2,
@@ -134,6 +178,11 @@
  {
   "name": "Nomi Network",
   "source": "praxis",
+  "places": [
+   "Union Square, New York, NY, USA",
+   "Kolkata, West Bengal, India",
+   "Phnom Penh, Cambodia"
+  ],
   "href": "https://nominetwork.org",
   "jobsHref": "https://jobs.praxis.co/companies/nomi-network",
   "openRoles": 2,
@@ -146,6 +195,9 @@
  {
   "name": "Old Skool Cafe",
   "source": "praxis",
+  "places": [
+   "San Francisco, CA, USA"
+  ],
   "href": "https://oldskoolcafe.org",
   "jobsHref": "https://jobs.praxis.co/companies/old-skool-cafe-2",
   "openRoles": 2,
@@ -158,6 +210,10 @@
  {
   "name": "Purposity",
   "source": "praxis",
+  "places": [
+   "Atlanta, GA, USA",
+   "Occitanie, France"
+  ],
   "href": "https://purposity.com",
   "jobsHref": "https://jobs.praxis.co/companies/purposity",
   "openRoles": 2,
@@ -170,6 +226,9 @@
  {
   "name": "Rare Genomics Institute",
   "source": "praxis",
+  "places": [
+   "Outpost Estates, Los Angeles, CA, USA"
+  ],
   "href": "https://raregenomics.org",
   "jobsHref": "https://jobs.praxis.co/companies/rare-genomics-institute",
   "openRoles": 2,
@@ -182,6 +241,9 @@
  {
   "name": "Restore NYC",
   "source": "praxis",
+  "places": [
+   "Canal Street, New York, NY, USA"
+  ],
   "href": "https://restorenyc.org",
   "jobsHref": "https://jobs.praxis.co/companies/restore-nyc-2",
   "openRoles": 2,
@@ -194,6 +256,9 @@
  {
   "name": "The Veritas Forum",
   "source": "praxis",
+  "places": [
+   "Cambridge, MA, USA"
+  ],
   "href": "https://veritas.org",
   "jobsHref": "https://jobs.praxis.co/companies/the-veritas-forum",
   "openRoles": 2,
@@ -206,6 +271,7 @@
  {
   "name": "UNDIVIDED",
   "source": "praxis",
+  "places": [],
   "href": "https://undivided.us",
   "jobsHref": "https://jobs.praxis.co/companies/undivided-2",
   "openRoles": 2,
@@ -218,6 +284,10 @@
  {
   "name": "Aruna Project",
   "source": "praxis",
+  "places": [
+   "Cincinnati, OH, USA",
+   "Mumbai, Maharashtra, India"
+  ],
   "href": "https://arunaproject.com",
   "jobsHref": "https://jobs.praxis.co/companies/aruna-project",
   "openRoles": 1,
@@ -230,6 +300,10 @@
  {
   "name": "FaithTech",
   "source": "praxis",
+  "places": [
+   "Illinois City, IL, USA",
+   "Waterloo, ON, Canada"
+  ],
   "href": "https://faithtech.com",
   "jobsHref": "https://jobs.praxis.co/companies/faithtech",
   "openRoles": 1,
@@ -242,6 +316,9 @@
  {
   "name": "Human Trafficking Institute",
   "source": "praxis",
+  "places": [
+   "Connecticut Ave/ K Street, Washington, DC, USA"
+  ],
   "href": "https://traffickinginstitute.org",
   "jobsHref": "https://jobs.praxis.co/companies/human-trafficking-institute-2",
   "openRoles": 1,
@@ -254,6 +331,9 @@
  {
   "name": "New Story Charity",
   "source": "praxis",
+  "places": [
+   "San Francisco, CA, USA"
+  ],
   "href": "https://newstoryhomes.org",
   "jobsHref": "https://jobs.praxis.co/companies/new-story-charity",
   "openRoles": 1,
@@ -266,6 +346,9 @@
  {
   "name": "Open Door Legal",
   "source": "praxis",
+  "places": [
+   "San Francisco, CA, USA"
+  ],
   "href": "https://opendoorlegal.org",
   "jobsHref": "https://jobs.praxis.co/companies/open-door-legal",
   "openRoles": 1,
@@ -278,6 +361,10 @@
  {
   "name": "Simple Charity",
   "source": "praxis",
+  "places": [
+   "Duke University - Main Campus, Durham, NC, USA",
+   "durham, uk"
+  ],
   "href": "https://simplecharity.org",
   "jobsHref": "https://jobs.praxis.co/companies/simple-charity",
   "openRoles": 1,
@@ -288,8 +375,28 @@
   "logo": "/logos/simple-charity.webp"
  },
  {
+  "name": "A Rocha International",
+  "source": "global",
+  "places": [
+   "London, UK"
+  ],
+  "href": "https://arocha.org",
+  "jobsHref": "",
+  "openRoles": 0,
+  "description": "Christian conservation projects on six continents.",
+  "location": "London, UK",
+  "sector": "Science & industry",
+  "global": true,
+  "logo": "/logos/a-rocha-international.png"
+ },
+ {
   "name": "Akilah",
   "source": "praxis",
+  "places": [
+   "Brooklyn, NY, USA",
+   "kigali, rwanda",
+   "kibagabaga, kigali, rwanda"
+  ],
   "href": "https://akilahinstitute.org",
   "jobsHref": "https://jobs.praxis.co/companies/akilah",
   "openRoles": 0,
@@ -302,6 +409,9 @@
  {
   "name": "Amani Global Works",
   "source": "praxis",
+  "places": [
+   "Canal Street, New York, NY, USA"
+  ],
   "href": "https://amaniglobalworks.org",
   "jobsHref": "https://jobs.praxis.co/companies/amani-global-works",
   "openRoles": 0,
@@ -314,6 +424,9 @@
  {
   "name": "Aviation charity app",
   "source": "faithtech",
+  "places": [
+   "Waterloo"
+  ],
   "href": "https://faithtech.com/create",
   "jobsHref": "",
   "openRoles": 0,
@@ -326,6 +439,9 @@
  {
   "name": "B2THEWORLD",
   "source": "praxis",
+  "places": [
+   "Merrifield, VA, USA"
+  ],
   "href": "https://b2theworld.org",
   "jobsHref": "https://jobs.praxis.co/companies/b2theworld-2",
   "openRoles": 0,
@@ -338,6 +454,9 @@
  {
   "name": "Bean Path",
   "source": "praxis",
+  "places": [
+   "Jackson, WY, USA"
+  ],
   "href": "https://beanpath.org",
   "jobsHref": "https://jobs.praxis.co/companies/bean-path",
   "openRoles": 0,
@@ -348,8 +467,25 @@
   "logo": "/logos/bean-path.webp"
  },
  {
+  "name": "Christian Aid",
+  "source": "global",
+  "places": [
+   "London, UK"
+  ],
+  "href": "https://www.christianaid.org.uk",
+  "jobsHref": "",
+  "openRoles": 0,
+  "description": "Fights poverty and injustice with partners in dozens of countries.",
+  "location": "London, UK",
+  "sector": "Economic development & livelihoods",
+  "global": true
+ },
+ {
   "name": "Common Pictures",
   "source": "praxis",
+  "places": [
+   "Orlando, FL, USA"
+  ],
   "href": "https://commonpictures.org",
   "jobsHref": "https://jobs.praxis.co/companies/common-pictures",
   "openRoles": 0,
@@ -362,6 +498,9 @@
  {
   "name": "Ellescope",
   "source": "praxis",
+  "places": [
+   "London, UK"
+  ],
   "href": "https://ellescope.com",
   "jobsHref": "https://jobs.praxis.co/companies/ellescope",
   "openRoles": 0,
@@ -374,6 +513,9 @@
  {
   "name": "Ending Human Trafficking at the Point of Demand",
   "source": "faithtech",
+  "places": [
+   "Vancouver"
+  ],
   "href": "https://faithtech.com/create",
   "jobsHref": "",
   "openRoles": 0,
@@ -386,6 +528,9 @@
  {
   "name": "Every Shelter",
   "source": "praxis",
+  "places": [
+   "Houston, TX, USA"
+  ],
   "href": "https://everyshelter.org",
   "jobsHref": "https://jobs.praxis.co/companies/every-shelter",
   "openRoles": 0,
@@ -398,6 +543,9 @@
  {
   "name": "Exile International",
   "source": "praxis",
+  "places": [
+   "Nashville, TN, USA"
+  ],
   "href": "https://exileinternational.org",
   "jobsHref": "https://jobs.praxis.co/companies/exile-international-2",
   "openRoles": 0,
@@ -410,6 +558,9 @@
  {
   "name": "Ezra",
   "source": "praxis",
+  "places": [
+   "San Francisco, CA, USA"
+  ],
   "href": "https://tryezra.com",
   "jobsHref": "https://jobs.praxis.co/companies/ezra-2-faa20abb-a9f2-4ef6-8146-518c2b9a4b74",
   "openRoles": 0,
@@ -422,6 +573,9 @@
  {
   "name": "Faith Network app",
   "source": "faithtech",
+  "places": [
+   "Chennai"
+  ],
   "href": "https://faithtech.com/create",
   "jobsHref": "",
   "openRoles": 0,
@@ -434,6 +588,9 @@
  {
   "name": "Gifts for Good",
   "source": "praxis",
+  "places": [
+   "Los Angeles, CA, USA"
+  ],
   "href": "https://giftsforgood.com",
   "jobsHref": "https://jobs.praxis.co/companies/gifts-for-good",
   "openRoles": 0,
@@ -444,6 +601,20 @@
   "logo": "/logos/gifts-for-good.webp"
  },
  {
+  "name": "Glorify",
+  "source": "global",
+  "places": [
+   "London, UK"
+  ],
+  "href": "https://glorify-app.com",
+  "jobsHref": "",
+  "openRoles": 0,
+  "description": "A London startup building a daily prayer and worship app.",
+  "location": "London, UK",
+  "sector": "Consumer & marketplace",
+  "global": true
+ },
+ {
   "name": "GoLiveServe",
   "source": "bayarea",
   "href": "https://www.goliveserve.org",
@@ -451,12 +622,51 @@
   "openRoles": 0,
   "description": "We send long-term and short-term business & tech professionals to serve in emerging economies that are mostly unreached nations. We also promote \"work as globalocal mission\" among churches through conferences, webinars...",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": true
  },
  {
+  "name": "IFES",
+  "source": "global",
+  "places": [
+   "Oxford, UK"
+  ],
+  "href": "https://ifesworld.org",
+  "jobsHref": "",
+  "openRoles": 0,
+  "description": "A global movement of Christian university students in over 180 countries.",
+  "location": "Oxford, UK",
+  "sector": "Education",
+  "global": true
+ },
+ {
+  "name": "International Justice Mission",
+  "source": "global",
+  "places": [
+   "Accra, Ghana",
+   "Manila, Philippines",
+   "Chennai, India",
+   "Guatemala City, Guatemala",
+   "Jakarta, Indonesia",
+   "Dhaka, Bangladesh",
+   "Warsaw, Poland"
+  ],
+  "href": "https://www.ijm.org",
+  "jobsHref": "",
+  "openRoles": 0,
+  "description": "Partners with local justice systems to stop violence against people in poverty.",
+  "location": "7 field offices",
+  "sector": "Justice & anti-trafficking",
+  "global": true,
+  "logo": "/logos/international-justice-mission.png"
+ },
+ {
   "name": "Justice Defense Fund",
   "source": "praxis",
+  "places": [],
   "href": "https://justicedefensefund.org",
   "jobsHref": "https://jobs.praxis.co/companies/justice-defense-fund",
   "openRoles": 0,
@@ -469,6 +679,9 @@
  {
   "name": "Justice Rising",
   "source": "praxis",
+  "places": [
+   "Los Angeles, CA, USA"
+  ],
   "href": "https://justicerising.org",
   "jobsHref": "https://jobs.praxis.co/companies/justice-rising",
   "openRoles": 0,
@@ -481,6 +694,9 @@
  {
   "name": "Keseb",
   "source": "praxis",
+  "places": [
+   "Columbia Heights, Washington, DC, USA"
+  ],
   "href": "https://keseb.org",
   "jobsHref": "https://jobs.praxis.co/companies/keseb",
   "openRoles": 0,
@@ -493,6 +709,9 @@
  {
   "name": "Kuju Coffee",
   "source": "praxis",
+  "places": [
+   "San Francisco, CA, USA"
+  ],
   "href": "https://kujucoffee.com",
   "jobsHref": "https://jobs.praxis.co/companies/kuju-coffee",
   "openRoles": 0,
@@ -505,6 +724,7 @@
  {
   "name": "Kylix Bio",
   "source": "praxis",
+  "places": [],
   "href": "https://kylix.bio",
   "jobsHref": "https://jobs.praxis.co/companies/kylix-bio-2",
   "openRoles": 0,
@@ -515,8 +735,41 @@
   "logo": "/logos/kylix-bio.webp"
  },
  {
+  "name": "L'Abri Fellowship",
+  "source": "global",
+  "places": [
+   "Huémoz, Switzerland"
+  ],
+  "href": "https://labri.org",
+  "jobsHref": "",
+  "openRoles": 0,
+  "description": "A study community in the Swiss Alps where people bring their honest questions about faith.",
+  "location": "Huémoz, Switzerland",
+  "sector": "Education",
+  "global": true,
+  "logo": "/logos/l-abri-fellowship.png"
+ },
+ {
+  "name": "Langham Partnership",
+  "source": "global",
+  "places": [
+   "London, UK"
+  ],
+  "href": "https://langham.org",
+  "jobsHref": "",
+  "openRoles": 0,
+  "description": "Trains pastors and scholars across the Majority World.",
+  "location": "London, UK",
+  "sector": "Education",
+  "global": true,
+  "logo": "/logos/langham-partnership.png"
+ },
+ {
   "name": "Launch Property Management",
   "source": "praxis",
+  "places": [
+   "Louisville, KY, USA"
+  ],
   "href": "https://launch-intl.com",
   "jobsHref": "https://jobs.praxis.co/companies/launch-property-management",
   "openRoles": 0,
@@ -529,6 +782,11 @@
  {
   "name": "LivFul",
   "source": "praxis",
+  "places": [
+   "Alpharetta, GA, USA",
+   "England, UK",
+   "Birkenhead, UK"
+  ],
   "href": "https://livful.com",
   "jobsHref": "https://jobs.praxis.co/companies/livful",
   "openRoles": 0,
@@ -541,6 +799,9 @@
  {
   "name": "Many Hopes",
   "source": "praxis",
+  "places": [
+   "New York, USA"
+  ],
   "href": "https://manyhopes.org",
   "jobsHref": "https://jobs.praxis.co/companies/many-hopes",
   "openRoles": 0,
@@ -551,8 +812,27 @@
   "logo": "/logos/many-hopes.webp"
  },
  {
+  "name": "Medair",
+  "source": "global",
+  "places": [
+   "Ecublens, Switzerland"
+  ],
+  "href": "https://www.medair.org",
+  "jobsHref": "",
+  "openRoles": 0,
+  "description": "Christian humanitarian group bringing emergency relief to people in crisis zones.",
+  "location": "Ecublens, Switzerland",
+  "sector": "Health & clinical",
+  "global": true,
+  "logo": "/logos/medair.png"
+ },
+ {
   "name": "Missional Labs",
   "source": "praxis",
+  "places": [
+   "Brooklyn, NY, USA",
+   "Vancouver, BC, Canada"
+  ],
   "href": "https://missionallabs.co",
   "jobsHref": "https://jobs.praxis.co/companies/missional-labs",
   "openRoles": 0,
@@ -565,6 +845,11 @@
  {
   "name": "Niya",
   "source": "praxis",
+  "places": [
+   "England, UK",
+   "London, UK",
+   "Mile End, London, UK"
+  ],
   "href": "https://niya.ai",
   "jobsHref": "https://jobs.praxis.co/companies/niya-2-73732777-416c-4e54-9ba6-8e47502fb9c0",
   "openRoles": 0,
@@ -575,8 +860,25 @@
   "logo": "/logos/niya.webp"
  },
  {
+  "name": "Open Doors International",
+  "source": "global",
+  "places": [
+   "Ermelo, Netherlands"
+  ],
+  "href": "https://www.opendoors.org",
+  "jobsHref": "",
+  "openRoles": 0,
+  "description": "Supports Christians persecuted for their faith in more than 70 countries.",
+  "location": "Ermelo, Netherlands",
+  "sector": "Justice & anti-trafficking",
+  "global": true
+ },
+ {
   "name": "Pangea",
   "source": "praxis",
+  "places": [
+   "San Francisco, CA, USA"
+  ],
   "href": "https://pangea.io",
   "jobsHref": "https://jobs.praxis.co/companies/pangea-2",
   "openRoles": 0,
@@ -589,6 +891,9 @@
  {
   "name": "Prevention Now",
   "source": "praxis",
+  "places": [
+   "Portland, OR, USA"
+  ],
   "href": "https://prevention-now.org",
   "jobsHref": "https://jobs.praxis.co/companies/prevention-now",
   "openRoles": 0,
@@ -601,6 +906,9 @@
  {
   "name": "Proabled",
   "source": "praxis",
+  "places": [
+   "Lebanon"
+  ],
   "href": "https://proabled.com",
   "jobsHref": "https://jobs.praxis.co/companies/proabled-2",
   "openRoles": 0,
@@ -612,6 +920,9 @@
  {
   "name": "Radial Analytics",
   "source": "praxis",
+  "places": [
+   "Concord, MA, USA"
+  ],
   "href": "https://radialanalytics.com",
   "jobsHref": "https://jobs.praxis.co/companies/radial-analytics",
   "openRoles": 0,
@@ -624,6 +935,9 @@
  {
   "name": "Redeem International",
   "source": "praxis",
+  "places": [
+   "Merrifield, VA, USA"
+  ],
   "href": "https://redeeminternational.org",
   "jobsHref": "https://jobs.praxis.co/companies/redeem-international-2",
   "openRoles": 0,
@@ -636,6 +950,9 @@
  {
   "name": "Savok x FaithTech",
   "source": "faithtech",
+  "places": [
+   "Bangkok"
+  ],
   "href": "https://faithtech.com/create",
   "jobsHref": "",
   "openRoles": 0,
@@ -648,6 +965,9 @@
  {
   "name": "Scarlet Hope",
   "source": "praxis",
+  "places": [
+   "Louisville, KY, USA"
+  ],
   "href": "https://scarlethope.org",
   "jobsHref": "https://jobs.praxis.co/companies/scarlet-hope",
   "openRoles": 0,
@@ -660,6 +980,9 @@
  {
   "name": "ShareBibles",
   "source": "faithtech",
+  "places": [
+   "Waterloo"
+  ],
   "href": "https://faithtech.com/create",
   "jobsHref": "",
   "openRoles": 0,
@@ -672,6 +995,14 @@
  {
   "name": "SoapBox Soaps",
   "source": "praxis",
+  "places": [
+   "Connecticut Ave/ K Street, Washington, DC, USA",
+   "Uganda",
+   "Kenya",
+   "Haiti",
+   "Thailand",
+   "Ecuador"
+  ],
   "href": "https://soapboxsoaps.com",
   "jobsHref": "https://jobs.praxis.co/companies/soapbox-soaps-2",
   "openRoles": 0,
@@ -682,6 +1013,20 @@
   "logo": "/logos/soapbox-soaps.webp"
  },
  {
+  "name": "Tearfund",
+  "source": "global",
+  "places": [
+   "Teddington, UK"
+  ],
+  "href": "https://www.tearfund.org",
+  "jobsHref": "",
+  "openRoles": 0,
+  "description": "Christian relief and development agency working through local churches in poor communities.",
+  "location": "Teddington, UK",
+  "sector": "Economic development & livelihoods",
+  "global": true
+ },
+ {
   "name": "Tech of Eden",
   "source": "bayarea",
   "href": "https://www.techofeden.com/",
@@ -689,12 +1034,16 @@
   "openRoles": 0,
   "description": "At Tech of Eden, we nurture a community of the most influential AI stakeholders, thought-leaders, and innovators who have hearts open to Christ for a setting where iron sharpens iron. The forum is diverse and...",
   "location": "National",
+  "places": [],
   "sector": "Faith and work",
   "global": true
  },
  {
   "name": "Tether",
   "source": "praxis",
+  "places": [
+   "Nashville, TN, USA"
+  ],
   "href": "https://withtether.com",
   "jobsHref": "https://jobs.praxis.co/companies/tether",
   "openRoles": 0,
@@ -707,6 +1056,9 @@
  {
   "name": "The Bridge International",
   "source": "praxis",
+  "places": [
+   "Seoul, South Korea"
+  ],
   "href": "https://thebridgeint.com",
   "jobsHref": "https://jobs.praxis.co/companies/the-bridge-international-2-414de9ed-cce6-4e3a-8f1e-43e8e01af0d5",
   "openRoles": 0,
@@ -718,6 +1070,9 @@
  {
   "name": "The Center for Christianity and Public Life",
   "source": "praxis",
+  "places": [
+   "Gay Street, Baltimore, MD, USA"
+  ],
   "href": "https://ccpubliclife.org",
   "jobsHref": "https://jobs.praxis.co/companies/the-center-for-christianity-and-public-life-2",
   "openRoles": 0,
@@ -730,6 +1085,9 @@
  {
   "name": "The Forgotten Initiative",
   "source": "praxis",
+  "places": [
+   "Bloomington, IL, USA"
+  ],
   "href": "https://theforgotteninitiative.org",
   "jobsHref": "https://jobs.praxis.co/companies/the-forgotten-initiative-2",
   "openRoles": 0,
@@ -742,6 +1100,9 @@
  {
   "name": "THRIVEfunds",
   "source": "praxis",
+  "places": [
+   "Indianapolis, IN, USA"
+  ],
   "href": "https://thrivefunds.org",
   "jobsHref": "https://jobs.praxis.co/companies/thrivefunds-2",
   "openRoles": 0,
@@ -754,6 +1115,10 @@
  {
   "name": "Ubuntu Life",
   "source": "praxis",
+  "places": [
+   "Austin, TX, USA",
+   "Kenya"
+  ],
   "href": "https://ubuntu.life",
   "jobsHref": "https://jobs.praxis.co/companies/ubuntu-life-2",
   "openRoles": 0,
@@ -766,6 +1131,9 @@
  {
   "name": "Unless U",
   "source": "praxis",
+  "places": [
+   "Birmingham, AL, USA"
+  ],
   "href": "https://unlessu.org",
   "jobsHref": "https://jobs.praxis.co/companies/unless-u",
   "openRoles": 0,
@@ -778,6 +1146,9 @@
  {
   "name": "Grayscale Labs",
   "source": "praxis",
+  "places": [
+   "Atlantic Station, Atlanta, GA, USA"
+  ],
   "href": "https://grayscaleapp.com",
   "jobsHref": "https://jobs.praxis.co/companies/grayscale-labs",
   "openRoles": 229,
@@ -790,6 +1161,9 @@
  {
   "name": "Axis",
   "source": "praxis",
+  "places": [
+   "Colorado Springs, CO, USA"
+  ],
   "href": "https://axis.org",
   "jobsHref": "https://jobs.praxis.co/companies/axis-2",
   "openRoles": 21,
@@ -802,6 +1176,9 @@
  {
   "name": "City Link Center",
   "source": "praxis",
+  "places": [
+   "Cincinnati, OH, USA"
+  ],
   "href": "https://citylinkcenter.org",
   "jobsHref": "https://jobs.praxis.co/companies/city-link-center-2",
   "openRoles": 15,
@@ -814,6 +1191,9 @@
  {
   "name": "Virtuous Management",
   "source": "praxis",
+  "places": [
+   "Plaza Del Sol Estates, Phoenix, AZ, USA"
+  ],
   "href": "https://virtuouscrm.com",
   "jobsHref": "https://jobs.praxis.co/companies/virtuous-management",
   "openRoles": 7,
@@ -826,6 +1206,9 @@
  {
   "name": "Everclean",
   "source": "praxis",
+  "places": [
+   "Illinois Medical District, Chicago, IL, USA"
+  ],
   "href": "https://evercleancw.com",
   "jobsHref": "https://jobs.praxis.co/companies/everclean",
   "openRoles": 5,
@@ -838,6 +1221,9 @@
  {
   "name": "Immerse Arkansas",
   "source": "praxis",
+  "places": [
+   "Little Rock, AR, USA"
+  ],
   "href": "https://immersearkansas.org",
   "jobsHref": "https://jobs.praxis.co/companies/immerse-arkansas",
   "openRoles": 5,
@@ -850,6 +1236,9 @@
  {
   "name": "Please Assist Me",
   "source": "praxis",
+  "places": [
+   "Nashville, TN, USA"
+  ],
   "href": "https://pleaseassistme.com",
   "jobsHref": "https://jobs.praxis.co/companies/please-assist-me",
   "openRoles": 5,
@@ -862,6 +1251,9 @@
  {
   "name": "Design Outreach",
   "source": "praxis",
+  "places": [
+   "Gahanna, OH, USA"
+  ],
   "href": "https://doutreach.org",
   "jobsHref": "https://jobs.praxis.co/companies/design-outreach",
   "openRoles": 4,
@@ -874,6 +1266,9 @@
  {
   "name": "Goalbook",
   "source": "praxis",
+  "places": [
+   "San Mateo, CA, USA"
+  ],
   "href": "https://goalbookapp.com",
   "jobsHref": "https://jobs.praxis.co/companies/goalbook",
   "openRoles": 4,
@@ -886,6 +1281,9 @@
  {
   "name": "Immerse",
   "source": "praxis",
+  "places": [
+   "Irvine, CA, USA"
+  ],
   "href": "https://immerse.online",
   "jobsHref": "https://jobs.praxis.co/companies/immerse",
   "openRoles": 4,
@@ -898,6 +1296,9 @@
  {
   "name": "Orb Aerospace",
   "source": "praxis",
+  "places": [
+   "Lowell, MI, USA"
+  ],
   "href": "https://orb.aero",
   "jobsHref": "https://jobs.praxis.co/companies/orb-aerospace-2",
   "openRoles": 4,
@@ -910,6 +1311,9 @@
  {
   "name": "Reserve Squad",
   "source": "praxis",
+  "places": [
+   "Cincinnati, OH, USA"
+  ],
   "href": "https://reservesquad.com",
   "jobsHref": "https://jobs.praxis.co/companies/reserve-squad-2",
   "openRoles": 4,
@@ -922,6 +1326,9 @@
  {
   "name": "Act (Advocates for Community Transformation)",
   "source": "praxis",
+  "places": [
+   "Riverway Estates/Bruton Terrace, Dallas, TX, USA"
+  ],
   "href": "https://actforjustice.org",
   "jobsHref": "https://jobs.praxis.co/companies/act-advocates-for-community-transformation-2",
   "openRoles": 3,
@@ -934,6 +1341,9 @@
  {
   "name": "Take Command Health",
   "source": "praxis",
+  "places": [
+   "Riverway Estates/Bruton Terrace, Dallas, TX, USA"
+  ],
   "href": "https://takecommandhealth.com",
   "jobsHref": "https://jobs.praxis.co/companies/take-command-health",
   "openRoles": 3,
@@ -946,6 +1356,9 @@
  {
   "name": "AsOne Ministries",
   "source": "praxis",
+  "places": [
+   "Sioux Falls, SD, USA"
+  ],
   "href": "https://asoneafrica.org",
   "jobsHref": "https://jobs.praxis.co/companies/asone-ministries",
   "openRoles": 2,
@@ -958,6 +1371,9 @@
  {
   "name": "Brookwood in Georgetown",
   "source": "praxis",
+  "places": [
+   "Georgetown, TX, USA"
+  ],
   "href": "https://brookwoodingeorgetown.org",
   "jobsHref": "https://jobs.praxis.co/companies/brookwood-in-georgetown",
   "openRoles": 2,
@@ -970,6 +1386,9 @@
  {
   "name": "FluxWorks",
   "source": "praxis",
+  "places": [
+   "College Station, TX, USA"
+  ],
   "href": "https://fluxworks.co",
   "jobsHref": "https://jobs.praxis.co/companies/fluxworks",
   "openRoles": 2,
@@ -982,6 +1401,9 @@
  {
   "name": "Greenline Housing Foundation",
   "source": "praxis",
+  "places": [
+   "Sierra Madre, CA, USA"
+  ],
   "href": "https://greenlinehousing.org",
   "jobsHref": "https://jobs.praxis.co/companies/greenline-housing-foundation",
   "openRoles": 2,
@@ -994,6 +1416,9 @@
  {
   "name": "Patient Sortal",
   "source": "praxis",
+  "places": [
+   "West University, Austin, TX, USA"
+  ],
   "href": "https://patientsortal.com",
   "jobsHref": "https://jobs.praxis.co/companies/patient-sortal-2",
   "openRoles": 2,
@@ -1006,6 +1431,9 @@
  {
   "name": "PortX",
   "source": "praxis",
+  "places": [
+   "Mercer Island, WA, USA"
+  ],
   "href": "https://portx.io",
   "jobsHref": "https://jobs.praxis.co/companies/portx",
   "openRoles": 2,
@@ -1018,6 +1446,9 @@
  {
   "name": "Canopy Lawn Care",
   "source": "praxis",
+  "places": [
+   "North Raleigh, Raleigh, NC, USA"
+  ],
   "href": "https://canopylawncare.com",
   "jobsHref": "https://jobs.praxis.co/companies/canopy-lawn-care",
   "openRoles": 1,
@@ -1030,6 +1461,9 @@
  {
   "name": "Every Mother's Advocate",
   "source": "praxis",
+  "places": [
+   "Pompano Beach, FL, USA"
+  ],
   "href": "https://everymothersadvocate.org",
   "jobsHref": "https://jobs.praxis.co/companies/every-mother-s-advocate",
   "openRoles": 1,
@@ -1042,6 +1476,9 @@
  {
   "name": "GirlTrek",
   "source": "praxis",
+  "places": [
+   "Connecticut Ave/ K Street, Washington, DC, USA"
+  ],
   "href": "https://girltrek.org",
   "jobsHref": "https://jobs.praxis.co/companies/girltrek",
   "openRoles": 1,
@@ -1054,6 +1491,9 @@
  {
   "name": "ianacare",
   "source": "praxis",
+  "places": [
+   "West Street / River Street, Boston, MA, USA"
+  ],
   "href": "https://ianacare.com",
   "jobsHref": "https://jobs.praxis.co/companies/ianacare",
   "openRoles": 1,
@@ -1066,6 +1506,9 @@
  {
   "name": "Impact Atlas",
   "source": "praxis",
+  "places": [
+   "San Francisco, CA, USA"
+  ],
   "href": "https://impactatlas.com",
   "jobsHref": "https://jobs.praxis.co/companies/impact-atlas",
   "openRoles": 1,
@@ -1078,6 +1521,9 @@
  {
   "name": "Martin Bionics Innovations",
   "source": "praxis",
+  "places": [
+   "Oklahoma City, OK, USA"
+  ],
   "href": "https://martinbionics.com",
   "jobsHref": "https://jobs.praxis.co/companies/martin-bionics-innovations",
   "openRoles": 1,
@@ -1090,6 +1536,9 @@
  {
   "name": "Ozone Story Tech",
   "source": "praxis",
+  "places": [
+   "Corona, CA, USA"
+  ],
   "href": "https://ozone3d.com",
   "jobsHref": "https://jobs.praxis.co/companies/ozone-story-tech",
   "openRoles": 1,
@@ -1102,6 +1551,9 @@
  {
   "name": "Soma Games",
   "source": "praxis",
+  "places": [
+   "Newberg, OR, USA"
+  ],
   "href": "https://somagames.com",
   "jobsHref": "https://jobs.praxis.co/companies/soma-games-2",
   "openRoles": 1,
@@ -1114,6 +1566,9 @@
  {
   "name": "Sprout AI Studio",
   "source": "praxis",
+  "places": [
+   "Duke University - Main Campus, Durham, NC, USA"
+  ],
   "href": "https://sproutai.com",
   "jobsHref": "https://jobs.praxis.co/companies/sprout-ai-studio",
   "openRoles": 1,
@@ -1126,6 +1581,9 @@
  {
   "name": "Uprooted Academy",
   "source": "praxis",
+  "places": [
+   "Fort Worth, TX, USA"
+  ],
   "href": "https://uprootedacademy.org",
   "jobsHref": "https://jobs.praxis.co/companies/uprooted-academy",
   "openRoles": 1,
@@ -1138,6 +1596,9 @@
  {
   "name": "Webconnex",
   "source": "praxis",
+  "places": [
+   "Sacramento, CA, USA"
+  ],
   "href": "https://webconnex.com",
   "jobsHref": "https://jobs.praxis.co/companies/webconnex-2",
   "openRoles": 1,
@@ -1150,6 +1611,9 @@
  {
   "name": "Whiteboard",
   "source": "praxis",
+  "places": [
+   "Curtis Street, Chattanooga, TN, USA"
+  ],
   "href": "https://whiteboard.is",
   "jobsHref": "https://jobs.praxis.co/companies/whiteboard",
   "openRoles": 1,
@@ -1162,6 +1626,9 @@
  {
   "name": "100 Fold Studio",
   "source": "praxis",
+  "places": [
+   "Lakeside, MT, USA"
+  ],
   "href": "https://100foldstudio.org",
   "jobsHref": "https://jobs.praxis.co/companies/100-fold-studio",
   "openRoles": 0,
@@ -1174,6 +1641,9 @@
  {
   "name": "Abara",
   "source": "praxis",
+  "places": [
+   "El Paso, TX, USA"
+  ],
   "href": "https://abara.org",
   "jobsHref": "https://jobs.praxis.co/companies/abara",
   "openRoles": 0,
@@ -1191,6 +1661,7 @@
   "openRoles": 0,
   "description": "Our mission is to make a case for Christ to leaders in technology and entertainment. We provide a relaxed and welcoming environment where leaders can explore the idea of faith and its relevance, regardless of their...",
   "location": "National",
+  "places": [],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/acts-17-collective.png"
@@ -1198,6 +1669,9 @@
  {
   "name": "Adaptic Health",
   "source": "praxis",
+  "places": [
+   "San Francisco, CA, USA"
+  ],
   "href": "https://adaptichealth.io",
   "jobsHref": "https://jobs.praxis.co/companies/adaptic-health",
   "openRoles": 0,
@@ -1210,6 +1684,9 @@
  {
   "name": "Allies",
   "source": "praxis",
+  "places": [
+   "New York, USA"
+  ],
   "href": "https://theallies.co",
   "jobsHref": "https://jobs.praxis.co/companies/allies-2-e5311da5-5c27-476c-896f-ac1ef97c7bf9",
   "openRoles": 0,
@@ -1222,6 +1699,9 @@
  {
   "name": "Ambition Angels",
   "source": "praxis",
+  "places": [
+   "Palo Alto, CA, USA"
+  ],
   "href": "https://ambitionangels.org",
   "jobsHref": "https://jobs.praxis.co/companies/ambition-angels",
   "openRoles": 0,
@@ -1234,6 +1714,9 @@
  {
   "name": "Ampd",
   "source": "praxis",
+  "places": [
+   "Seattle, WA, USA"
+  ],
   "href": "https://ampd.io",
   "jobsHref": "https://jobs.praxis.co/companies/ampd",
   "openRoles": 0,
@@ -1246,6 +1729,9 @@
  {
   "name": "AND Campaign",
   "source": "praxis",
+  "places": [
+   "Washington, DC, USA"
+  ],
   "href": "https://andcampaign.org",
   "jobsHref": "https://jobs.praxis.co/companies/and-campaign",
   "openRoles": 0,
@@ -1258,6 +1744,9 @@
  {
   "name": "Aura Health",
   "source": "praxis",
+  "places": [
+   "San Francisco, CA, USA"
+  ],
   "href": "https://aurahealth.io",
   "jobsHref": "https://jobs.praxis.co/companies/aura-health",
   "openRoles": 0,
@@ -1270,6 +1759,9 @@
  {
   "name": "Avail NYC",
   "source": "praxis",
+  "places": [
+   "New York, NY, USA"
+  ],
   "href": "https://availnyc.org",
   "jobsHref": "https://jobs.praxis.co/companies/avail-nyc",
   "openRoles": 0,
@@ -1287,6 +1779,7 @@
   "openRoles": 0,
   "description": "Basil Tech exists to serve Jesus through technology. We do this in 3 ways: 1) We provide technology consulting to ministries and churches 2) We build innovative technologies to serve the church 3) We invest in...",
   "location": "National",
+  "places": [],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/basil-tech.png"
@@ -1299,6 +1792,9 @@
   "openRoles": 0,
   "description": "We exist to cultivate faith and work integration in the Bay Area to transform people who are transforming the world.",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/bay-area-center-for-faith-work-tech.png"
@@ -1306,6 +1802,9 @@
  {
   "name": "Be Amazing Online",
   "source": "praxis",
+  "places": [
+   "Albany, NY, USA"
+  ],
   "href": "https://beamazingonline.com",
   "jobsHref": "https://jobs.praxis.co/companies/be-amazing-online",
   "openRoles": 0,
@@ -1318,6 +1817,9 @@
  {
   "name": "Be Strong",
   "source": "praxis",
+  "places": [
+   "Deerfield Beach, FL, USA"
+  ],
   "href": "https://bestrong.global",
   "jobsHref": "https://jobs.praxis.co/companies/be-strong",
   "openRoles": 0,
@@ -1330,6 +1832,9 @@
  {
   "name": "Be the Bridge",
   "source": "praxis",
+  "places": [
+   "Atlanta, GA, USA"
+  ],
   "href": "https://bethebridge.com",
   "jobsHref": "https://jobs.praxis.co/companies/be-the-bridge",
   "openRoles": 0,
@@ -1347,6 +1852,7 @@
   "openRoles": 0,
   "description": "BioLogos explores God’s Word and God’s World to inspire authentic faith for today. Our vision is faith and science working hand in hand.",
   "location": "National",
+  "places": [],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/biologos.png"
@@ -1354,6 +1860,9 @@
  {
   "name": "Blockit",
   "source": "praxis",
+  "places": [
+   "McKinney, TX, USA"
+  ],
   "href": "https://blockitnow.com",
   "jobsHref": "https://jobs.praxis.co/companies/blockit",
   "openRoles": 0,
@@ -1366,6 +1875,9 @@
  {
   "name": "Brazen Animation",
   "source": "praxis",
+  "places": [
+   "Riverway Estates/Bruton Terrace, Dallas, TX, USA"
+  ],
   "href": "https://brazenanimation.com",
   "jobsHref": "https://jobs.praxis.co/companies/brazen-animation",
   "openRoles": 0,
@@ -1378,6 +1890,9 @@
  {
   "name": "Christian Youth Theater",
   "source": "praxis",
+  "places": [
+   "Jacksonville, FL, USA"
+  ],
   "href": "https://cyt.org",
   "jobsHref": "https://jobs.praxis.co/companies/christian-youth-theater",
   "openRoles": 0,
@@ -1390,6 +1905,9 @@
  {
   "name": "Church Space",
   "source": "praxis",
+  "places": [
+   "Houston, TX, USA"
+  ],
   "href": "https://bookchurchspace.com",
   "jobsHref": "https://jobs.praxis.co/companies/church-space",
   "openRoles": 0,
@@ -1402,6 +1920,9 @@
  {
   "name": "Cloverleaf",
   "source": "praxis",
+  "places": [
+   "Covington, GA, USA"
+  ],
   "href": "https://cloverleaf.me",
   "jobsHref": "https://jobs.praxis.co/companies/cloverleaf-2",
   "openRoles": 0,
@@ -1414,6 +1935,9 @@
  {
   "name": "Common Good Marketplace",
   "source": "praxis",
+  "places": [
+   "East Market Street B, Greensboro, NC, USA"
+  ],
   "href": "https://commongoodmarketplace.com",
   "jobsHref": "https://jobs.praxis.co/companies/common-good-marketplace-2",
   "openRoles": 0,
@@ -1431,6 +1955,9 @@
   "openRoles": 0,
   "description": "Our vision is to see Silicon Valley known not only as an epicenter of technological innovation and entrepreneurship, but also as a place transformed by the love of Jesus. Our mission is to catalyze the Great Commission...",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/connect-silicon-valley.png"
@@ -1438,6 +1965,9 @@
  {
   "name": "Connection Homes",
   "source": "praxis",
+  "places": [
+   "Lawrenceville, GA, USA"
+  ],
   "href": "https://connectionshomes.org",
   "jobsHref": "https://jobs.praxis.co/companies/connection-homes",
   "openRoles": 0,
@@ -1450,6 +1980,9 @@
  {
   "name": "Corner to Corner",
   "source": "praxis",
+  "places": [
+   "Nashville, TN, USA"
+  ],
   "href": "https://cornertocorner.org",
   "jobsHref": "https://jobs.praxis.co/companies/corner-to-corner-2",
   "openRoles": 0,
@@ -1462,6 +1995,9 @@
  {
   "name": "Croft",
   "source": "praxis",
+  "places": [
+   "Atlanta, GA, USA"
+  ],
   "href": "https://croft.eco",
   "jobsHref": "https://jobs.praxis.co/companies/croft-2-30bdcaba-84f8-4881-b789-a2dac8047a56",
   "openRoles": 0,
@@ -1474,6 +2010,9 @@
  {
   "name": "CrossPurpose",
   "source": "praxis",
+  "places": [
+   "Denver, CO, USA"
+  ],
   "href": "https://crosspurpose.org",
   "jobsHref": "https://jobs.praxis.co/companies/crosspurpose-2",
   "openRoles": 0,
@@ -1486,6 +2025,9 @@
  {
   "name": "Cubit Capital",
   "source": "praxis",
+  "places": [
+   "Dallas, TX, USA"
+  ],
   "href": "https://cubit.capital",
   "jobsHref": "https://jobs.praxis.co/companies/cubit-capital-2",
   "openRoles": 0,
@@ -1503,6 +2045,9 @@
   "openRoles": 0,
   "description": "At Christians in Web3, we're a private, vetted, highly educated faith community on a quest to equip all generations with AI, Crypto, Blockchain, and Metaverse technologies to love our neighbors and build a better world...",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/cw3.png"
@@ -1510,6 +2055,9 @@
  {
   "name": "Delegate CX",
   "source": "praxis",
+  "places": [
+   "Riverway Estates/Bruton Terrace, Dallas, TX, USA"
+  ],
   "href": "https://delegatecx.com",
   "jobsHref": "https://jobs.praxis.co/companies/delegate-cx-2",
   "openRoles": 0,
@@ -1522,6 +2070,9 @@
  {
   "name": "Dollar For",
   "source": "praxis",
+  "places": [
+   "Bennington, Vancouver, WA, USA"
+  ],
   "href": "https://dollarfor.org",
   "jobsHref": "https://jobs.praxis.co/companies/dollar-for",
   "openRoles": 0,
@@ -1534,6 +2085,9 @@
  {
   "name": "Eden Equities",
   "source": "praxis",
+  "places": [
+   "Dallas, TX, USA"
+  ],
   "href": "https://edenequities.com",
   "jobsHref": "https://jobs.praxis.co/companies/eden-equities-2",
   "openRoles": 0,
@@ -1546,6 +2100,7 @@
  {
   "name": "EdMission AI",
   "source": "praxis",
+  "places": [],
   "href": "https://edmission.ai",
   "jobsHref": "https://jobs.praxis.co/companies/edmission-ai-2",
   "openRoles": 0,
@@ -1558,6 +2113,9 @@
  {
   "name": "EverFree",
   "source": "praxis",
+  "places": [
+   "San Juan Capistrano, CA, USA"
+  ],
   "href": "https://everfree.org",
   "jobsHref": "https://jobs.praxis.co/companies/everfree-2",
   "openRoles": 0,
@@ -1575,6 +2133,9 @@
   "openRoles": 0,
   "description": "We help Christians faithfully represent Christ in their workplace together with other followers of Jesus who work in the same company. Together they can positively impact companies that impact the world.",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false
  },
@@ -1586,6 +2147,9 @@
   "openRoles": 0,
   "description": "As entrepreneurs, we follow in the footsteps of the Original Entrepreneur. From the very beginning, God created us to share in His entrepreneurial process with purpose, passion, and pursuit. He gives us ideas, dreams...",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/faith-driven-entrepreneur.png"
@@ -1598,6 +2162,9 @@
   "openRoles": 0,
   "description": "FaithTech exists to see a Jesus revival awakened in and through tech by practicing redemptive technology design.",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/faithtech.png"
@@ -1605,6 +2172,9 @@
  {
   "name": "Faros Health",
   "source": "praxis",
+  "places": [
+   "Addison, TX, USA"
+  ],
   "href": "https://faroshealth.com",
   "jobsHref": "https://jobs.praxis.co/companies/faros-health",
   "openRoles": 0,
@@ -1617,6 +2187,9 @@
  {
   "name": "Father’s Uplift",
   "source": "praxis",
+  "places": [
+   "West Street / River Street, Boston, MA, USA"
+  ],
   "href": "https://fathersuplift.org",
   "jobsHref": "https://jobs.praxis.co/companies/father-s-uplift",
   "openRoles": 0,
@@ -1629,6 +2202,9 @@
  {
   "name": "Flaire",
   "source": "praxis",
+  "places": [
+   "Atlanta, GA, USA"
+  ],
   "href": "https://flaire.co",
   "jobsHref": "https://jobs.praxis.co/companies/flaire",
   "openRoles": 0,
@@ -1641,6 +2217,9 @@
  {
   "name": "Flourish Fund",
   "source": "praxis",
+  "places": [
+   "Alexandria, VA, USA"
+  ],
   "href": "https://flourishfund.org",
   "jobsHref": "https://jobs.praxis.co/companies/flourish-fund-2",
   "openRoles": 0,
@@ -1658,12 +2237,18 @@
   "openRoles": 0,
   "description": "Generosity Bay Area inspires a culture of radical giving in the Bay Area— catalyzing a faithful community to joyfully imitate the generosity of Christ.",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false
  },
  {
   "name": "Healing Hands of Joy",
   "source": "praxis",
+  "places": [
+   "Charlotte, NC, USA"
+  ],
   "href": "https://healinghandsofjoy.com",
   "jobsHref": "https://jobs.praxis.co/companies/healing-hands-of-joy",
   "openRoles": 0,
@@ -1676,6 +2261,9 @@
  {
   "name": "Healthy Hip Hop",
   "source": "praxis",
+  "places": [
+   "United States"
+  ],
   "href": "https://healthy.hiphop",
   "jobsHref": "https://jobs.praxis.co/companies/healthy-hip-hop",
   "openRoles": 0,
@@ -1688,6 +2276,9 @@
  {
   "name": "Higher",
   "source": "praxis",
+  "places": [
+   "Birmingham, AL, USA"
+  ],
   "href": "https://higher-inc.com",
   "jobsHref": "https://jobs.praxis.co/companies/higher",
   "openRoles": 0,
@@ -1700,6 +2291,9 @@
  {
   "name": "Hildegard College",
   "source": "praxis",
+  "places": [
+   "Costa Mesa, CA, USA"
+  ],
   "href": "https://hildegard.college",
   "jobsHref": "https://jobs.praxis.co/companies/hildegard-college-2",
   "openRoles": 0,
@@ -1712,6 +2306,9 @@
  {
   "name": "HomeStart",
   "source": "praxis",
+  "places": [
+   "West Street / River Street, Boston, MA, USA"
+  ],
   "href": "https://homestart.org",
   "jobsHref": "https://jobs.praxis.co/companies/homestart",
   "openRoles": 0,
@@ -1724,6 +2321,9 @@
  {
   "name": "Hope",
   "source": "praxis",
+  "places": [
+   "Lawrenceville, GA, USA"
+  ],
   "href": "https://hopestrong.org",
   "jobsHref": "https://jobs.praxis.co/companies/hope-2",
   "openRoles": 0,
@@ -1736,6 +2336,9 @@
  {
   "name": "Hope is Alive Ministries",
   "source": "praxis",
+  "places": [
+   "Oklahoma City, OK, USA"
+  ],
   "href": "https://hopeisalive.net",
   "jobsHref": "https://jobs.praxis.co/companies/hope-is-alive-ministries",
   "openRoles": 0,
@@ -1748,6 +2351,9 @@
  {
   "name": "Hoving Home",
   "source": "praxis",
+  "places": [
+   "Las Vegas, NV, USA"
+  ],
   "href": "https://hovinghome.org",
   "jobsHref": "https://jobs.praxis.co/companies/hoving-home",
   "openRoles": 0,
@@ -1760,6 +2366,9 @@
  {
   "name": "Hydrostasis",
   "source": "praxis",
+  "places": [
+   "Liberty Station, San Diego, CA, USA"
+  ],
   "href": "https://hydrostasis.com",
   "jobsHref": "https://jobs.praxis.co/companies/hydrostasis",
   "openRoles": 0,
@@ -1772,6 +2381,9 @@
  {
   "name": "Impact Foundation",
   "source": "praxis",
+  "places": [
+   "Overland Park, KS, USA"
+  ],
   "href": "https://impactfoundation.org",
   "jobsHref": "https://jobs.praxis.co/companies/impact-foundation",
   "openRoles": 0,
@@ -1784,6 +2396,9 @@
  {
   "name": "Infinite Giving",
   "source": "praxis",
+  "places": [
+   "Atlanta, GA, USA"
+  ],
   "href": "https://infinitegiving.com",
   "jobsHref": "https://jobs.praxis.co/companies/infinite-giving-2",
   "openRoles": 0,
@@ -1796,6 +2411,9 @@
  {
   "name": "Inspire More",
   "source": "praxis",
+  "places": [
+   "Dallas, TX, USA"
+  ],
   "href": "https://inspiremore.com",
   "jobsHref": "https://jobs.praxis.co/companies/inspire-more",
   "openRoles": 0,
@@ -1813,12 +2431,18 @@
   "openRoles": 0,
   "description": "A place to reimagine all of life in reference to Christ Iona House is a 71 acre center for contemplation and Christian formation located in Placerville, CA. It is currently under development and operational. Iona House...",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false
  },
  {
   "name": "Jonas Paul Eyewear",
   "source": "praxis",
+  "places": [
+   "Grand Rapids, MI, USA"
+  ],
   "href": "https://jonaspauleyewear.com",
   "jobsHref": "https://jobs.praxis.co/companies/jonas-paul-eyewear-2",
   "openRoles": 0,
@@ -1831,6 +2455,9 @@
  {
   "name": "Kammok",
   "source": "praxis",
+  "places": [
+   "Austin, TX, USA"
+  ],
   "href": "https://kammok.com",
   "jobsHref": "https://jobs.praxis.co/companies/kammok",
   "openRoles": 0,
@@ -1843,6 +2470,9 @@
  {
   "name": "Kicky",
   "source": "praxis",
+  "places": [
+   "Atlantic Station, Atlanta, GA, USA"
+  ],
   "href": "https://kicky.com",
   "jobsHref": "https://jobs.praxis.co/companies/kicky",
   "openRoles": 0,
@@ -1860,12 +2490,18 @@
   "openRoles": 0,
   "description": "Through place and hospitality, KingdomHaus enables human flourishing by immersing and equipping people in Kingdom living. We cultivate deeply formed leaders, practicing God-powered living and imagination, and converging...",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false
  },
  {
   "name": "KNOWN SUPPLY",
   "source": "praxis",
+  "places": [
+   "Costa Mesa, CA, USA"
+  ],
   "href": "https://knownsupply.com",
   "jobsHref": "https://jobs.praxis.co/companies/known-supply",
   "openRoles": 0,
@@ -1878,6 +2514,9 @@
  {
   "name": "LoanWell",
   "source": "praxis",
+  "places": [
+   "Durham, NC, USA"
+  ],
   "href": "https://loanwell.com",
   "jobsHref": "https://jobs.praxis.co/companies/loanwell",
   "openRoles": 0,
@@ -1890,6 +2529,9 @@
  {
   "name": "More Media",
   "source": "praxis",
+  "places": [
+   "Los Angeles, CA, USA"
+  ],
   "href": "https://moremedia.tv",
   "jobsHref": "https://jobs.praxis.co/companies/moremedia-tv",
   "openRoles": 0,
@@ -1902,6 +2544,7 @@
  {
   "name": "Neurokids",
   "source": "praxis",
+  "places": [],
   "href": "https://neurokids.org",
   "jobsHref": "https://jobs.praxis.co/companies/neurokids",
   "openRoles": 0,
@@ -1919,6 +2562,9 @@
   "openRoles": 0,
   "description": "NCB is about discerning gospel-faithfulness together in the San Francisco Bay Area. We help the Church discern and contextualize the way of Christ, cultivating gospel imagination and spiritual friendship for our time.",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false
  },
@@ -1930,6 +2576,9 @@
   "openRoles": 0,
   "description": "Our Mission: Mentor people to discover their life design to flourish and make an impact in their communities. Our Purpose: Mentor young adults to discover their life design and activate their future.",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/nexus-mentoring.png"
@@ -1937,6 +2586,9 @@
  {
   "name": "PairUp",
   "source": "praxis",
+  "places": [
+   "Sausalito, CA, USA"
+  ],
   "href": "https://pairupapp.com",
   "jobsHref": "https://jobs.praxis.co/companies/pairup",
   "openRoles": 0,
@@ -1949,6 +2601,9 @@
  {
   "name": "Path United",
   "source": "praxis",
+  "places": [
+   "Lawrenceville, GA, USA"
+  ],
   "href": "https://pathunited.org",
   "jobsHref": "https://jobs.praxis.co/companies/path-united",
   "openRoles": 0,
@@ -1961,6 +2616,9 @@
  {
   "name": "Petite Studio",
   "source": "praxis",
+  "places": [
+   "Canal Street, New York, NY, USA"
+  ],
   "href": "https://petitestudionyc.com",
   "jobsHref": "https://jobs.praxis.co/companies/petite-studio",
   "openRoles": 0,
@@ -1978,6 +2636,9 @@
   "openRoles": 0,
   "description": "Pray the Bay is a unifying prayer & worship movement for and through the local Church of the San Francisco Bay Area. We are believing for revival in the Church, renewal in our cities, and an awakening to the presence of...",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/pray-the-bay.png"
@@ -1985,6 +2646,9 @@
  {
   "name": "Procure Impact",
   "source": "praxis",
+  "places": [
+   "Falls Church, VA, USA"
+  ],
   "href": "https://procureimpact.us",
   "jobsHref": "https://jobs.praxis.co/companies/procure-impact-2",
   "openRoles": 0,
@@ -1997,6 +2661,9 @@
  {
   "name": "ProGrace",
   "source": "praxis",
+  "places": [
+   "North Chicago, IL, USA"
+  ],
   "href": "https://prograce.org",
   "jobsHref": "https://jobs.praxis.co/companies/prograce",
   "openRoles": 0,
@@ -2014,6 +2681,7 @@
   "openRoles": 0,
   "description": "The MA in Leadership, Theology & Society is a program designed to enable participants to remain in their current workplace while developing their leadership abilities through which they can bring transformation to their...",
   "location": "National",
+  "places": [],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/regent-college-malts.png"
@@ -2021,6 +2689,9 @@
  {
   "name": "Resolve",
   "source": "praxis",
+  "places": [
+   "San Francisco, CA, USA"
+  ],
   "href": "https://resolvepay.com",
   "jobsHref": "https://jobs.praxis.co/companies/resolve",
   "openRoles": 0,
@@ -2033,6 +2704,7 @@
  {
   "name": "RhizeBio",
   "source": "praxis",
+  "places": [],
   "href": "https://rhizebio.com",
   "jobsHref": "https://jobs.praxis.co/companies/rhizebio",
   "openRoles": 0,
@@ -2045,6 +2717,9 @@
  {
   "name": "Scholars of Finance",
   "source": "praxis",
+  "places": [
+   "Canal Street, New York, NY, USA"
+  ],
   "href": "https://scholarsoffinance.org",
   "jobsHref": "https://jobs.praxis.co/companies/scholars-of-finance-2",
   "openRoles": 0,
@@ -2057,6 +2732,9 @@
  {
   "name": "Screen Sanity",
   "source": "praxis",
+  "places": [
+   "Indian Creek Park Estates, Overland Park, KS, USA"
+  ],
   "href": "https://screensanity.org",
   "jobsHref": "https://jobs.praxis.co/companies/screen-sanity-2",
   "openRoles": 0,
@@ -2069,6 +2747,9 @@
  {
   "name": "Sharpen Recovery",
   "source": "praxis",
+  "places": [
+   "Houston, TX, USA"
+  ],
   "href": "https://sharpenrecovery.org",
   "jobsHref": "https://jobs.praxis.co/companies/sharpen-recovery",
   "openRoles": 0,
@@ -2080,6 +2761,9 @@
  {
   "name": "Sky Harvest",
   "source": "praxis",
+  "places": [
+   "Dallas, TX, USA"
+  ],
   "href": "https://skyharvestcarbon.com",
   "jobsHref": "https://jobs.praxis.co/companies/sky-harvest-2",
   "openRoles": 0,
@@ -2092,6 +2776,9 @@
  {
   "name": "Spotless Materials",
   "source": "praxis",
+  "places": [
+   "State College, PA, USA"
+  ],
   "href": "https://spotlessmaterials.com",
   "jobsHref": "https://jobs.praxis.co/companies/spotless-materials-2",
   "openRoles": 0,
@@ -2104,6 +2791,9 @@
  {
   "name": "Starfish Project",
   "source": "praxis",
+  "places": [
+   "Goshen, IN, USA"
+  ],
   "href": "https://starfishproject.com",
   "jobsHref": "https://jobs.praxis.co/companies/starfish-project",
   "openRoles": 0,
@@ -2116,6 +2806,9 @@
  {
   "name": "StreetCode Academy",
   "source": "praxis",
+  "places": [
+   "Menlo Park, CA, USA"
+  ],
   "href": "https://streetcode.us",
   "jobsHref": "https://jobs.praxis.co/companies/streetcode-academy",
   "openRoles": 0,
@@ -2128,6 +2821,9 @@
  {
   "name": "Sycamore Equity",
   "source": "praxis",
+  "places": [
+   "Boulder, CO, USA"
+  ],
   "href": "https://sycamoreequity.com",
   "jobsHref": "https://jobs.praxis.co/companies/sycamore-equity",
   "openRoles": 0,
@@ -2140,6 +2836,9 @@
  {
   "name": "Sycamore Studios",
   "source": "praxis",
+  "places": [
+   "West University, Austin, TX, USA"
+  ],
   "href": "https://sycamorestudios.com",
   "jobsHref": "https://jobs.praxis.co/companies/sycamore-studios",
   "openRoles": 0,
@@ -2152,6 +2851,9 @@
  {
   "name": "Telos",
   "source": "praxis",
+  "places": [
+   "Washington, DC, USA"
+  ],
   "href": "https://telosgroup.org",
   "jobsHref": "https://jobs.praxis.co/companies/telos",
   "openRoles": 0,
@@ -2164,6 +2866,9 @@
  {
   "name": "TenYour",
   "source": "praxis",
+  "places": [
+   "Sacramento, CA, USA"
+  ],
   "href": "https://tenyour.com",
   "jobsHref": "https://jobs.praxis.co/companies/tenyour-2",
   "openRoles": 0,
@@ -2176,6 +2881,9 @@
  {
   "name": "The Birthday Party Project",
   "source": "praxis",
+  "places": [
+   "Dallas, TX, USA"
+  ],
   "href": "https://thebirthdaypartyproject.org",
   "jobsHref": "https://jobs.praxis.co/companies/the-birthday-party-project",
   "openRoles": 0,
@@ -2193,12 +2901,16 @@
   "openRoles": 0,
   "description": "Repurposing Business--Transforming Society",
   "location": "National",
+  "places": [],
   "sector": "Faith and work",
   "global": false
  },
  {
   "name": "The Looma Project",
   "source": "praxis",
+  "places": [
+   "Duke University - Main Campus, Durham, NC, USA"
+  ],
   "href": "https://theloomaproject.com",
   "jobsHref": "https://jobs.praxis.co/companies/the-looma-project",
   "openRoles": 0,
@@ -2211,6 +2923,9 @@
  {
   "name": "The Order of the Common Life",
   "source": "praxis",
+  "places": [
+   "Ohio, USA"
+  ],
   "href": "https://orderofthecommonlife.org",
   "jobsHref": "https://jobs.praxis.co/companies/the-order-of-the-common-life",
   "openRoles": 0,
@@ -2223,6 +2938,9 @@
  {
   "name": "The Root Cause",
   "source": "praxis",
+  "places": [
+   "Plano, TX, USA"
+  ],
   "href": "https://therootcause.org",
   "jobsHref": "https://jobs.praxis.co/companies/the-root-cause",
   "openRoles": 0,
@@ -2235,6 +2953,9 @@
  {
   "name": "Threadloom (Primary.org)",
   "source": "praxis",
+  "places": [
+   "Mountain View, CA, USA"
+  ],
   "href": "https://threadloom.com",
   "jobsHref": "https://jobs.praxis.co/companies/threadloom-primary-org",
   "openRoles": 0,
@@ -2247,6 +2968,9 @@
  {
   "name": "Thriving Cities Group",
   "source": "praxis",
+  "places": [
+   "Durham, NC, USA"
+  ],
   "href": "https://thrivingcitiesgroup.com",
   "jobsHref": "https://jobs.praxis.co/companies/thriving-cities-group",
   "openRoles": 0,
@@ -2259,6 +2983,9 @@
  {
   "name": "TO THE MARKET",
   "source": "praxis",
+  "places": [
+   "Lexington, KY, USA"
+  ],
   "href": "https://tothemarket.com",
   "jobsHref": "https://jobs.praxis.co/companies/tothemarket-com",
   "openRoles": 0,
@@ -2276,6 +3003,9 @@
   "openRoles": 0,
   "description": "Connecting and Equipping Leaders to help Ignite a Gospel Movement in the Bay Area",
   "location": "Bay Area",
+  "places": [
+   "Bay Area"
+  ],
   "sector": "Faith and work",
   "global": false,
   "logo": "/logos/transforming-the-bay-with-christ.png"
@@ -2283,6 +3013,9 @@
  {
   "name": "Trelus",
   "source": "praxis",
+  "places": [
+   "St. Louis, MO, USA"
+  ],
   "href": "https://trelus.net",
   "jobsHref": "https://jobs.praxis.co/companies/trelus",
   "openRoles": 0,
@@ -2295,6 +3028,9 @@
  {
   "name": "Unshattered",
   "source": "praxis",
+  "places": [
+   "Sheffield, AL, USA"
+  ],
   "href": "https://unshattered.org",
   "jobsHref": "https://jobs.praxis.co/companies/unshattered",
   "openRoles": 0,
@@ -2307,6 +3043,9 @@
  {
   "name": "UpSmith",
   "source": "praxis",
+  "places": [
+   "Riverway Estates/Bruton Terrace, Dallas, TX, USA"
+  ],
   "href": "https://upsmith.com",
   "jobsHref": "https://jobs.praxis.co/companies/upsmith",
   "openRoles": 0,
@@ -2319,6 +3058,9 @@
  {
   "name": "Verdant Frontiers",
   "source": "praxis",
+  "places": [
+   "West University, Austin, TX, USA"
+  ],
   "href": "https://verdantfrontiers.com",
   "jobsHref": "https://jobs.praxis.co/companies/verdant-frontiers",
   "openRoles": 0,
@@ -2331,6 +3073,9 @@
  {
   "name": "VeroSkills",
   "source": "praxis",
+  "places": [
+   "Birmingham, AL, USA"
+  ],
   "href": "https://veroskills.com",
   "jobsHref": "https://jobs.praxis.co/companies/veroskills-2",
   "openRoles": 0,
@@ -2343,6 +3088,9 @@
  {
   "name": "Wilderness Collective",
   "source": "praxis",
+  "places": [
+   "Los Angeles, CA, USA"
+  ],
   "href": "https://wildernesscollective.com",
   "jobsHref": "https://jobs.praxis.co/companies/wilderness-collective",
   "openRoles": 0,
@@ -2355,6 +3103,9 @@
  {
   "name": "Wildsam Field Guides",
   "source": "praxis",
+  "places": [
+   "Austin, TX, USA"
+  ],
   "href": "https://wildsam.com",
   "jobsHref": "https://jobs.praxis.co/companies/wildsam-field-guides",
   "openRoles": 0,
@@ -2367,6 +3118,9 @@
  {
   "name": "Will Reed",
   "source": "praxis",
+  "places": [
+   "Dallas, TX, USA"
+  ],
   "href": "https://willreedjobs.com",
   "jobsHref": "https://jobs.praxis.co/companies/will-reed",
   "openRoles": 0,
@@ -2379,6 +3133,9 @@
  {
   "name": "Wise Rock",
   "source": "praxis",
+  "places": [
+   "Houston, TX, USA"
+  ],
   "href": "https://wiserocksoftware.com",
   "jobsHref": "https://jobs.praxis.co/companies/wise-rock",
   "openRoles": 0,
@@ -2391,6 +3148,9 @@
  {
   "name": "World Hope Ministries International",
   "source": "praxis",
+  "places": [
+   "Houston, TX, USA"
+  ],
   "href": "https://whmi.org",
   "jobsHref": "https://jobs.praxis.co/companies/world-hope-ministries-international",
   "openRoles": 0,
@@ -2403,6 +3163,9 @@
  {
   "name": "World Impact",
   "source": "praxis",
+  "places": [
+   "Los Angeles, CA, USA"
+  ],
   "href": "https://worldimpact.org",
   "jobsHref": "https://jobs.praxis.co/companies/world-impact",
   "openRoles": 0,
@@ -2415,6 +3178,9 @@
  {
   "name": "Yonder",
   "source": "praxis",
+  "places": [
+   "Burnsville, MN, USA"
+  ],
   "href": "https://insureyonder.com",
   "jobsHref": "https://jobs.praxis.co/companies/yonder-3",
   "openRoles": 0,

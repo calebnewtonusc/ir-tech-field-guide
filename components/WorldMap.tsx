@@ -48,10 +48,8 @@ export default function WorldMap({ tone = "light" }: { tone?: "light" | "dark" }
     () => map.dots.map(([x, y]) => `M${x} ${y}h0`).join(""),
     [],
   );
-  const placed = useMemo(
-    () => map.pins.reduce((n, p) => n + p.orgs.length, 0),
-    [],
-  );
+  // An org can sit on several pins (every place it works), so count each org once.
+  const placed = useMemo(() => new Set(map.pins.flatMap((p) => p.orgs)).size, []);
 
   function seeInDirectory(pin: Pin) {
     window.dispatchEvent(
@@ -197,14 +195,14 @@ export default function WorldMap({ tone = "light" }: { tone?: "light" | "dark" }
       <figcaption className={`mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 font-mono text-xs ${tone === "dark" ? "text-on-ink-muted" : "text-muted"}`}>
         <span className="inline-flex items-center gap-2">
           <span aria-hidden className="h-2.5 w-2.5 rounded-full bg-primary" />
-          {placed} faith-driven orgs, where each is based
+          {placed} faith-driven orgs, pinned where they work
         </span>
         <span className="inline-flex items-center gap-2">
           <span
             aria-hidden
             className="h-2.5 w-2.5 rounded-full border border-primary"
           />
-          pulsing: based outside the US
+          pulsing: outside the US
         </span>
         <span>Tap a dot</span>
       </figcaption>

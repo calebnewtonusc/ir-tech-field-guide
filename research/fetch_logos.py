@@ -26,7 +26,7 @@ for o in orgs:
                 print("miss", o["name"], e)
                 continue
         o["logo"] = f"/logos/{s}.webp"
-    elif o["source"] == "bayarea" and o["href"]:
+    elif o["source"] in ("bayarea", "global") and o["href"]:
         dom = re.sub(r"^https?://(www\.)?", "", o["href"]).split("/")[0]
         fetch_domains[s] = dom
         o["logo"] = f"/logos/{s}.png"

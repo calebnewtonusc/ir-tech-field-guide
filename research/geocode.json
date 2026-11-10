@@ -446,5 +446,141 @@
  "West University, Austin, TX, USA": [
   30.265,
   -97.747
+ ],
+ "Accra, Ghana": [
+  5.557,
+  -0.201
+ ],
+ "Birkenhead, UK": [
+  53.39,
+  -3.025
+ ],
+ "Chennai, India": [
+  13.08,
+  80.281
+ ],
+ "Dhaka, Bangladesh": [
+  23.764,
+  90.389
+ ],
+ "Ecuador": [
+  -1.34,
+  -79.367
+ ],
+ "Ecublens, Switzerland": [
+  46.526,
+  6.562
+ ],
+ "Ermelo, Netherlands": [
+  52.286,
+  5.655
+ ],
+ "Escuintla Department, Guatemala": [
+  14.686,
+  -90.487
+ ],
+ "Guatemala": [
+  15.586,
+  -90.346
+ ],
+ "Haiti": [
+  19.14,
+  -72.357
+ ],
+ "Hu\u00e9moz, Switzerland": [
+  46.291,
+  7.025
+ ],
+ "Illinois City, IL, USA": [
+  41.398,
+  -90.9
+ ],
+ "Jakarta, Indonesia": [
+  -6.175,
+  106.827
+ ],
+ "Kenya": [
+  0.279,
+  37.516
+ ],
+ "Kolkata, West Bengal, India": [
+  22.573,
+  88.364
+ ],
+ "Lebanon": [
+  33.875,
+  35.843
+ ],
+ "Manila, Philippines": [
+  14.59,
+  120.98
+ ],
+ "Mile End, London, UK": [
+  51.525,
+  -0.033
+ ],
+ "North Korea": [
+  40.374,
+  127.087
+ ],
+ "Oakland, CA, USA": [
+  37.804,
+  -122.271
+ ],
+ "Occitanie, France": [
+  43.649,
+  2.344
+ ],
+ "Oxford, UK": [
+  51.752,
+  -1.258
+ ],
+ "Phnom Penh, Cambodia": [
+  11.573,
+  104.858
+ ],
+ "Sant Francesc Xavier, Balearic Islands, Spain": [
+  38.705,
+  1.428
+ ],
+ "Surrey, UK": [
+  51.272,
+  -0.341
+ ],
+ "Teddington, UK": [
+  51.428,
+  -0.334
+ ],
+ "Thailand": [
+  14.897,
+  100.833
+ ],
+ "Uganda": [
+  1.533,
+  32.217
+ ],
+ "Ukraine": [
+  49.487,
+  31.272
+ ],
+ "United States Minor Outlying Islands": [
+  28.236,
+  -177.369
+ ],
+ "Warsaw, Poland": [
+  52.233,
+  21.071
+ ],
+ "durham, uk": [
+  54.667,
+  -1.75
+ ],
+ "kibagabaga, kigali, rwanda": [
+  -1.934,
+  30.118
+ ],
+ "kigali, rwanda": [
+  -1.953,
+  30.114
  ]
 }

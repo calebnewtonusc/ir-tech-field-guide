@@ -6,7 +6,7 @@ R = pathlib.Path(__file__).parent
 cache_path = R / "geocode.json"
 cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
 orgs = json.load(open(R.parent / "lib" / "orgs.json"))
-locs = sorted({o["location"] for o in orgs if o["location"] and o["location"] != "National"})
+locs = sorted({pl for o in orgs for pl in o.get("places", [])})
 
 def query_for(loc):
     if loc == "Bay Area":

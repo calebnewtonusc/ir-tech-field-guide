@@ -6,7 +6,8 @@ import orgsData from "@/lib/orgs.json";
 
 type Org = {
   name: string;
-  source: "praxis" | "bayarea" | "faithtech";
+  source: "praxis" | "bayarea" | "faithtech" | "global";
+  places?: string[];
   href: string;
   jobsHref: string;
   openRoles: number;
@@ -24,12 +25,14 @@ const sources = [
   { id: "praxis", label: "Praxis portfolio" },
   { id: "bayarea", label: "Bay Area Center network" },
   { id: "faithtech", label: "FaithTech projects" },
+  { id: "global", label: "Based abroad" },
 ] as const;
 
 const sourceLabel: Record<Org["source"], string> = {
   praxis: "Praxis",
   bayarea: "Bay Area Center",
   faithtech: "FaithTech",
+  global: "Global",
 };
 
 const focusRing =
@@ -81,7 +84,7 @@ export default function Directory() {
     const q = query.trim().toLowerCase();
     return orgs.filter(
       (o) =>
-        (!place || place.locations.includes(o.location)) &&
+        (!place || place.locations.some((l) => (o.places ?? [o.location]).includes(l))) &&
         (source === "all" || o.source === source) &&
         (!globalOnly || o.global) &&
         (!hiringOnly || o.openRoles > 0) &&
@@ -98,6 +101,7 @@ export default function Directory() {
       praxis: orgs.filter((o) => o.source === "praxis").length,
       bayarea: orgs.filter((o) => o.source === "bayarea").length,
       faithtech: orgs.filter((o) => o.source === "faithtech").length,
+      global: orgs.filter((o) => o.source === "global").length,
     }),
     [],
   );
@@ -133,7 +137,7 @@ export default function Directory() {
           <a href="https://faithtech.com/create" target="_blank" rel="noopener" className={`underline decoration-hairline-strong underline-offset-4 hover:text-primary-active ${focusRing}`}>
             FaithTech
           </a>
-          .
+          , plus {counts.global} faith groups based outside the US, pinned everywhere they work.
         </p>
 
         <div className="mt-10 rounded-2xl bg-night p-4 sm:p-8">

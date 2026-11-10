@@ -1,4 +1,5 @@
 import Directory from "@/components/Directory";
+import Doors from "@/components/Doors";
 import Guide from "@/components/Guide";
 import Route from "@/components/Route";
 import { SmoothScroll } from "@/components/SmoothScroll";
@@ -15,6 +16,7 @@ const focusRing =
 const nav = [
   { href: "#quiz", label: "Passport" },
   { href: "#visas", label: "Visas" },
+  { href: "#doors", label: "Doors" },
   { href: "#orgs", label: "Orgs" },
   { href: "#route", label: "Route" },
 ];
@@ -81,6 +83,9 @@ export default function Home() {
 
         {/* 3 + 4. Passport and visas */}
         <Guide />
+
+        {/* Open doors */}
+        <Doors />
 
         {/* 5. Where they are */}
         <Directory />
