@@ -94,8 +94,7 @@ export default function Courses() {
           Classes at USC worth taking.
         </h2>
         <p className="mt-4 max-w-xl text-body">
-          Real classes from the Fall 2026 and Spring 2027 schedules. Five per
-          path, plus the fun ones.
+          Real classes from the Fall 2026 and Spring 2027 schedules, the minors that fit, and the fun 1 to 2 unit ones.
         </p>
 
         <div
@@ -128,7 +127,7 @@ export default function Courses() {
                   )}
                   {t.label}
                   {matched === t.id && (
-                    <span className="font-mono text-[10px] tracking-[0.1em] text-primary">
+                    <span className="font-mono text-[11px] tracking-[0.1em] text-primary">
                       YOURS
                     </span>
                   )}
@@ -230,7 +229,7 @@ function FunCard({ c }: { c: Course }) {
           {c.title}
         </span>
         {c.why.replace(/\.$/, "").toLowerCase() !== c.title.toLowerCase() && <span className="mt-1 block text-xs text-body">{c.why}</span>}
-        <span className="mt-auto pt-3 font-mono text-[10px] text-muted">
+        <span className="mt-auto pt-3 font-mono text-[11px] text-muted">
           <Seats c={c} />
         </span>
       </a>
@@ -253,7 +252,7 @@ function MinorCard({ m, fits }: { m: Minor; fits: boolean }) {
               <span key={p} className={`size-2.5 rounded-full ${dot[p]}`} />
             ))}
           </span>
-          {fits && <span className="font-mono text-[10px] tracking-[0.12em] text-primary">FITS YOUR PATH</span>}
+          {fits && <span className="font-mono text-[11px] tracking-[0.12em] text-primary">FITS YOUR PATH</span>}
         </span>
         <span className="mt-3 block text-lg leading-snug text-ink group-hover:text-primary-active">{m.name}</span>
         <span className="mt-2 block text-sm leading-relaxed text-body">{m.why}</span>

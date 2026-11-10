@@ -1,10 +1,19 @@
 """Build lib/courses.json: hand-picked USC classes for an IR major, from the live schedule of classes.
 
+
 Data: classes.usc.edu/api/Courses/CoursesByTermSchoolProgram for Fall 2026 (20263) and Spring 2027 (20271),
 saved in research/soc/. Every title, unit count, term, day, time and seat count below is read from that data;
 only the picks and the one-line "why" are ours.
 """
 import glob, json, pathlib, re
+
+# USC's schedule moved to /term/<code>/catalogue/school/<school>/program/<prefix>; the old
+# /term-<code>/classes/<prefix>/ links landed on the "pick a semester" home page (checked 2026-11-10).
+SCHOOL = {"ACAD": "ACAD", "MUSC": "MUS", "MPGU": "MUS", "THTR": "THTR"}
+def href(code, terms):
+    pre = code.split()[0]
+    term = "20271" if "Spring" in terms else "20263"
+    return f"https://classes.usc.edu/term/{term}/catalogue/school/{SCHOOL.get(pre, 'DRNS')}/program/{pre}"
 
 R = pathlib.Path(__file__).parent
 SEASON = {"20263": "Fall", "20271": "Spring"}
@@ -111,7 +120,7 @@ def pick(code, why):
         print("MISSING", code)
         return None
     return {**c, "desc": short(c["desc"]), "why": why, "units": c["units"] or None,
-            "href": f"https://classes.usc.edu/term-{'20271' if 'Spring' in c['terms'] else '20263'}/classes/{code.split()[0].lower()}/"}
+            "href": href(code, c['terms'])}
 
 out = {
     "paths": {k: [p for p in (pick(*x) for x in v) if p] for k, v in PICKS.items()},

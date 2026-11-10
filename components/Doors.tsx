@@ -95,6 +95,8 @@ export default function Doors() {
   const [faithOnly, setFaithOnly] = useState(false);
   const [savedOnly, setSavedOnly] = useState(false);
   const [saved, setSaved] = useState<string[]>([]);
+  // Six cards first: all 31 at once ran 12 phone screens (measured 2026-11-10).
+  const [all, setAll] = useState(false);
   // Saved doors live in her browser only. Wrapped: storage can be blocked (private mode), and the page
   // must work the same without it.
   useEffect(() => {
@@ -192,7 +194,7 @@ export default function Doors() {
                         >
                           {left}
                         </span>
-                        <span className="mt-1 font-mono text-[10px] tracking-[0.15em] text-on-ink-muted">
+                        <span className="mt-1 font-mono text-[11px] tracking-[0.15em] text-on-ink-muted">
                           {left === 1 ? "DAY LEFT" : "DAYS LEFT"}
                         </span>
                       </span>
@@ -328,7 +330,7 @@ export default function Doors() {
             className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
           >
             <AnimatePresence initial={false}>
-              {shown.map((d) => (
+              {(all ? shown : shown.slice(0, 6)).map((d) => (
                 <motion.li
                   layout={!reduce}
                   key={d.name}
@@ -383,6 +385,15 @@ export default function Doors() {
               ))}
             </AnimatePresence>
           </motion.ul>
+        )}
+        {shown.length > 6 && (
+          <button
+            type="button"
+            onClick={() => setAll((v) => !v)}
+            className={`mt-6 inline-flex min-h-11 items-center rounded-full border border-ink px-5 text-sm text-ink transition-colors duration-100 hover:bg-ink hover:text-canvas ${focusRing}`}
+          >
+            {all ? "Show fewer" : `Show all ${shown.length} doors`}
+          </button>
         )}
         <p className="mt-8 max-w-2xl text-sm text-muted">
           Deadlines checked November 2026. Campus deadlines often come weeks

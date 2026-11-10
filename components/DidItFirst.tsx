@@ -116,7 +116,7 @@ export default function DidItFirst() {
                   {p.name}
                 </span>
                 {match === p.path && (
-                  <span className="mt-2 font-mono text-[10px] tracking-[0.15em] text-primary">
+                  <span className="mt-2 font-mono text-[11px] tracking-[0.15em] text-primary">
                     WALKED YOUR PATH FIRST
                   </span>
                 )}
