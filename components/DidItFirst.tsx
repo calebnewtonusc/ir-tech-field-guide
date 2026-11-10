@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import type { PathId } from "@/lib/data";
 
@@ -63,6 +64,13 @@ const focusRing =
 
 export default function DidItFirst() {
   const reduce = useReducedMotion();
+  // After the passport quiz, the person who walked her path first gets lit up.
+  const [match, setMatch] = useState<PathId | null>(null);
+  useEffect(() => {
+    const on = (e: Event) => setMatch((e as CustomEvent<PathId>).detail);
+    window.addEventListener("path:match", on);
+    return () => window.removeEventListener("path:match", on);
+  }, []);
   return (
     <section
       id="faith"
@@ -96,7 +104,7 @@ export default function DidItFirst() {
             >
               <a
                 href="#visas"
-                className={`group flex h-full flex-col rounded-xl border border-white/10 bg-night-2 p-5 transition duration-150 hover:-translate-y-0.5 hover:border-white/30 ${focusRing}`}
+                className={`group flex h-full flex-col rounded-xl border ${match === p.path ? "border-primary" : "border-white/10"} bg-night-2 p-5 transition duration-150 hover:-translate-y-0.5 hover:border-white/30 ${focusRing}`}
               >
                 <span
                   className={`grid size-14 place-items-center rounded-full border-2 font-mono text-[9px] font-semibold tracking-[0.12em] uppercase ${ring[p.path]}`}
@@ -107,6 +115,11 @@ export default function DidItFirst() {
                 <span className="mt-6 text-3xl tracking-[-0.02em]">
                   {p.name}
                 </span>
+                {match === p.path && (
+                  <span className="mt-2 font-mono text-[10px] tracking-[0.15em] text-primary">
+                    WALKED YOUR PATH FIRST
+                  </span>
+                )}
                 <span className="mt-1 font-mono text-[11px] tracking-[0.12em] text-on-ink-muted uppercase">
                   {p.label}
                 </span>

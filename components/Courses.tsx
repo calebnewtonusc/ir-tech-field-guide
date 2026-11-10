@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import data from "@/lib/courses.json";
+import minorsData from "@/lib/minors.json";
 import { paths, type PathId } from "@/lib/data";
 
 // Classes at USC: five picks per path, an IYA and tech toolkit, and a row of fun 1-2 unit classes.
@@ -37,7 +38,9 @@ const dot: Record<PathId, string> = {
 const focusRing =
   "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary";
 
-type Tab = PathId | "toolkit" | "fun";
+type Tab = PathId | "toolkit" | "fun" | "minors";
+type Minor = { name: string; paths: PathId[]; why: string; courses: string[]; href: string };
+const minors = minorsData as Minor[];
 
 const to12 = (t: string) => {
   const [h, m] = t.split(":").map(Number);
@@ -70,11 +73,12 @@ export default function Courses() {
 
   const tabs: { id: Tab; label: string }[] = [
     { id: "fun", label: "Fun 1 to 2 units" },
+    { id: "minors", label: `Minors that fit (${minors.length})` },
     ...paths.map((p) => ({ id: p.id as Tab, label: p.name })),
     { id: "toolkit", label: "IYA and tech toolkit" },
   ];
   const list =
-    tab === "fun"
+    tab === "minors" || tab === "fun"
       ? courses.fun
       : tab === "toolkit"
         ? courses.toolkit
@@ -144,7 +148,11 @@ export default function Courses() {
             transition={{ duration: 0.2 }}
             className={`mt-8 grid gap-4 ${tab === "fun" ? "grid-cols-2 sm:grid-cols-3 lg:grid-cols-6" : "sm:grid-cols-2 lg:grid-cols-3"}`}
           >
-            {list.map((c) =>
+            {tab === "minors" &&
+              [...minors]
+                .sort((a, b) => Number(matched ? b.paths.includes(matched) : 0) - Number(matched ? a.paths.includes(matched) : 0))
+                .map((m) => <MinorCard key={m.name} m={m} fits={!!matched && m.paths.includes(matched)} />)}
+            {tab !== "minors" && list.map((c) =>
               tab === "fun" ? (
                 <FunCard key={c.code} c={c} />
               ) : (
@@ -224,6 +232,37 @@ function FunCard({ c }: { c: Course }) {
         {c.why.replace(/\.$/, "").toLowerCase() !== c.title.toLowerCase() && <span className="mt-1 block text-xs text-body">{c.why}</span>}
         <span className="mt-auto pt-3 font-mono text-[10px] text-muted">
           <Seats c={c} />
+        </span>
+      </a>
+    </li>
+  );
+}
+
+function MinorCard({ m, fits }: { m: Minor; fits: boolean }) {
+  return (
+    <li>
+      <a
+        href={m.href}
+        target="_blank"
+        rel="noopener"
+        className={`group flex h-full flex-col rounded-xl border bg-card p-5 transition duration-150 hover:-translate-y-0.5 hover:border-ink hover:shadow-[0_14px_30px_-18px_rgba(38,37,30,0.35)] ${fits ? "border-ink" : "border-hairline"} ${focusRing}`}
+      >
+        <span className="flex items-center justify-between gap-3">
+          <span className="flex gap-1.5" aria-label={`Fits: ${m.paths.join(", ")}`}>
+            {m.paths.map((p) => (
+              <span key={p} className={`size-2.5 rounded-full ${dot[p]}`} />
+            ))}
+          </span>
+          {fits && <span className="font-mono text-[10px] tracking-[0.12em] text-primary">FITS YOUR PATH</span>}
+        </span>
+        <span className="mt-3 block text-lg leading-snug text-ink group-hover:text-primary-active">{m.name}</span>
+        <span className="mt-2 block text-sm leading-relaxed text-body">{m.why}</span>
+        <span className="mt-auto flex flex-wrap gap-1.5 border-t border-dashed border-hairline pt-4">
+          {m.courses.map((c) => (
+            <span key={c} className="rounded-full bg-canvas px-2 py-0.5 font-mono text-[11px] text-body">
+              {c}
+            </span>
+          ))}
         </span>
       </a>
     </li>

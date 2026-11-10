@@ -1,0 +1,219 @@
+[
+ {
+  "name": "Law and Regulation of Artificial Intelligence",
+  "paths": [
+   "policy",
+   "trust"
+  ],
+  "why": "How the law is catching up to AI, from privacy to regulation.",
+  "courses": [
+   "LAW 306",
+   "LAW 206",
+   "LAW 207"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32878&returnto=9396"
+ },
+ {
+  "name": "Cyber Governance",
+  "paths": [
+   "defense",
+   "policy"
+  ],
+  "why": "Cyber law, risk and security strategy, with some hands-on hacking.",
+  "courses": [
+   "LAW 401",
+   "TAC 479",
+   "RISK 380"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32910&returnto=9396"
+ },
+ {
+  "name": "Cultural Diplomacy",
+  "paths": [
+   "policy",
+   "expansion"
+  ],
+  "why": "How culture moves foreign affairs, built on USC's public diplomacy program.",
+  "courses": [
+   "PUBD 369",
+   "PUBD 417",
+   "COMM 324"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32534&returnto=9396"
+ },
+ {
+  "name": "Human Security and Geospatial Intelligence",
+  "paths": [
+   "risk",
+   "defense"
+  ],
+  "why": "Use maps and location data to spot and answer real human crises.",
+  "courses": [
+   "SSCI 202",
+   "SSCI 420",
+   "IR 210"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32459&returnto=9396"
+ },
+ {
+  "name": "Communication Policy and Law",
+  "paths": [
+   "trust",
+   "policy"
+  ],
+  "why": "Censorship, platforms and media law, the rules trust and safety lives by.",
+  "courses": [
+   "COMM 371",
+   "COMM 422",
+   "JOUR 462"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32416&returnto=9396"
+ },
+ {
+  "name": "Human Rights",
+  "paths": [
+   "trust"
+  ],
+  "why": "Deep knowledge of the abuses platforms, NGOs and governments fight.",
+  "courses": [
+   "POSC 248",
+   "IR 310",
+   "POSC 366"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31899&returnto=9396"
+ },
+ {
+  "name": "Law and Migration Studies",
+  "paths": [
+   "policy",
+   "trust"
+  ],
+  "why": "Immigration law and what borders do to people, here and globally.",
+  "courses": [
+   "LAW 212",
+   "LAW 310",
+   "AMST 140"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32703&returnto=9396"
+ },
+ {
+  "name": "Global Communication",
+  "paths": [
+   "expansion"
+  ],
+  "why": "Built for people heading into global firms, mixing IR with communication.",
+  "courses": [
+   "IR 303",
+   "IR 330",
+   "IR 333"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31834&returnto=9396"
+ },
+ {
+  "name": "Political Organizing in the Digital Age",
+  "paths": [
+   "trust",
+   "policy"
+  ],
+  "why": "How the internet changed campaigns and movements around the world.",
+  "courses": [
+   "POSC 437",
+   "IR 371",
+   "COMM 321"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31902&returnto=9396"
+ },
+ {
+  "name": "Disruptive Innovation",
+  "paths": [
+   "expansion"
+  ],
+  "why": "IYA's minor for launching ventures, from idea to fundraising.",
+  "courses": [
+   "ACAD 181",
+   "ACAD 222",
+   "ACAD 406"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32567&returnto=9396"
+ },
+ {
+  "name": "Social Entrepreneurship",
+  "paths": [
+   "expansion"
+  ],
+  "why": "Start ventures that do good, at home and abroad.",
+  "courses": [
+   "BAEP 491",
+   "BAEP 471",
+   "PPD 371"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31611&returnto=9396"
+ },
+ {
+  "name": "Nonprofits, Philanthropy and Volunteerism",
+  "paths": [
+   "trust"
+  ],
+  "why": "How mission-driven orgs like IJM actually run.",
+  "courses": [
+   "PPD 371",
+   "PPD 353",
+   "IR 371"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32310&returnto=9396"
+ },
+ {
+  "name": "Middle East Studies",
+  "paths": [
+   "risk",
+   "defense"
+  ],
+  "why": "Morocco to Iran, with Arabic as an option.",
+  "courses": [
+   "MDES 201",
+   "MDES 301",
+   "ARAB 334"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31868&returnto=9396"
+ },
+ {
+  "name": "East Asian Area Studies",
+  "paths": [
+   "risk",
+   "expansion"
+  ],
+  "why": "No language required, and the region every tech company watches.",
+  "courses": [
+   "EALC 110",
+   "EASC 150"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31766&returnto=9396"
+ },
+ {
+  "name": "Latin American Studies",
+  "paths": [
+   "expansion",
+   "risk"
+  ],
+  "why": "US-Latin American relations, plus area and language study.",
+  "courses": [
+   "IR 364",
+   "IR 365",
+   "POSC 350"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=31938&returnto=9396"
+ },
+ {
+  "name": "Applied AI in Business",
+  "paths": [
+   "expansion"
+  ],
+  "why": "Practical AI skills for any career, from Marshall.",
+  "courses": [
+   "DSO 461",
+   "DSO 463",
+   "MOR 458"
+  ],
+  "href": "https://catalogue.usc.edu/preview_program.php?catoid=22&poid=32945&returnto=9396"
+ }
+]

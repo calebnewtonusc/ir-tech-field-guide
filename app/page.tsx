@@ -18,6 +18,7 @@ const focusRing =
 const nav = [
   { href: "#quiz", label: "Passport" },
   { href: "#visas", label: "Visas" },
+  { href: "#faith", label: "Faith" },
   { href: "#classes", label: "Classes" },
   { href: "#doors", label: "Doors" },
   { href: "#orgs", label: "Orgs" },
@@ -81,23 +82,23 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 2. The case */}
-        <TheCase />
-
         {/* 3 + 4. Passport and visas */}
         <Guide />
 
+        {/* 6. They did it first */}
+        <DidItFirst />
+
         {/* Classes at USC */}
         <Courses />
+
+        {/* 2. The case */}
+        <TheCase />
 
         {/* Open doors */}
         <Doors />
 
         {/* 5. Where they are */}
         <Directory />
-
-        {/* 6. They did it first */}
-        <DidItFirst />
 
         {/* 7. The route */}
         <Route />
