@@ -6,3 +6,4 @@ out
 tsconfig.tsbuildinfo
 research/*.html
 research/fwt-directory.json
+.design-gate-url
