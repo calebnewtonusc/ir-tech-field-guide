@@ -388,7 +388,7 @@ export default function Doors() {
                     <span className="text-ink">{d.money}</span>
                     <span>{d.who}</span>
                     {d.closes ? (
-                      <span className={daysUntil(d.closes) >= 0 && daysUntil(d.closes) <= 30 ? "text-primary-active" : "text-ink"}>Confirmed deadline: {d.when.replace(/^Closes /, "")}</span>
+                      <span className={daysUntil(d.closes) >= 0 && daysUntil(d.closes) <= 30 ? "text-primary-active" : "text-ink"}>Deadline: {d.when.replace(/^Closes /, "")}</span>
                     ) : (
                       <span>Typical timing: {d.when}. Confirm on their site.</span>
                     )}

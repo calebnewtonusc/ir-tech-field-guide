@@ -1,6 +1,7 @@
 "use client";
 
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { paths, type PathId } from "@/lib/data";
 import {
   motion,
   useReducedMotion,
@@ -54,6 +55,17 @@ export default function Route() {
     offset: ["start 75%", "end 55%"],
   });
   const draw = useTransform(scrollYProgress, [0, 1], [0, 1]);
+  // After the quiz the route opens with her path's own first moves (lib/data.ts firstMoves).
+  const [path, setPath] = useState<PathId | null>(null);
+  useEffect(() => {
+    const on = (e: Event) => setPath((e as CustomEvent<PathId>).detail);
+    window.addEventListener("path:match", on);
+    return () => window.removeEventListener("path:match", on);
+  }, []);
+  const mine = path ? paths.find((p) => p.id === path) : null;
+  const stops = mine
+    ? [{ when: "This week", title: `Start on ${mine.name.toLowerCase()}`, body: `${mine.firstMoves.join(". ")}.` }, ...STOPS]
+    : STOPS;
 
   return (
     <section
@@ -70,7 +82,7 @@ export default function Route() {
               non-scaling stroke drew in broken chunks (seen at 390px, 2026-11-09). */}
           <span aria-hidden className="absolute top-3 bottom-3 left-[13px] w-[2px] bg-hairline sm:left-[14px]" />
           <motion.span aria-hidden className="absolute top-3 bottom-3 left-[13px] w-[2px] origin-top bg-ink sm:left-[14px]" style={{ scaleY: reduce ? 1 : draw }} />
-          {STOPS.map((s, i) => (
+          {stops.map((s, i) => (
             <Stop
               key={s.title}
               s={s}

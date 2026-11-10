@@ -128,7 +128,7 @@ export default function Directory() {
     <section id="orgs" className="scroll-mt-14 border-t border-hairline bg-canvas">
       <div className="mx-auto max-w-5xl px-4 py-20 sm:px-6 sm:py-28">
         <h2 className="max-w-3xl text-[clamp(2.4rem,6vw,4.5rem)] leading-[1.02] font-normal tracking-[-0.03em]">
-          {orgs.length} faith-driven orgs already doing this.
+          {orgs.length} companies and nonprofits started by people of faith.
         </h2>
         <p className="mt-4 max-w-2xl text-body">
           Every venture on the{" "}

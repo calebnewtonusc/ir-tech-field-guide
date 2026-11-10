@@ -89,7 +89,7 @@ export default function DidItFirst() {
           They did it first.
         </h2>
         <p className="mt-3 max-w-lg text-on-ink-soft">
-          Five people in Scripture who served foreign governments, one for every
+          Five people in Scripture who worked across borders and inside empires, one for every
           path above.
         </p>
 
