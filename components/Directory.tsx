@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import WorldMap, { PLACE_EVENT } from "@/components/WorldMap";
 import orgsData from "@/lib/orgs.json";
+import type { PathId } from "@/lib/data";
 
 type Org = {
   name: string;
@@ -16,6 +17,7 @@ type Org = {
   sector: string;
   global: boolean;
   logo?: string;
+  paths?: PathId[]; // research/tag_paths.py
 };
 
 const orgs = orgsData as Org[];
@@ -69,6 +71,19 @@ export default function Directory() {
   const [source, setSource] = useState<(typeof sources)[number]["id"]>("all");
   const [globalOnly, setGlobalOnly] = useState(false);
   const [hiringOnly, setHiringOnly] = useState(false);
+  // After the quiz, a "fits your path" filter, but only for paths with at least 4 honest matches.
+  const [mine, setMine] = useState<PathId | null>(null);
+  const [pathOnly, setPathOnly] = useState(false);
+  const mineCount = mine ? orgs.filter((o) => o.paths?.includes(mine)).length : 0;
+  useEffect(() => {
+    const on = (e: Event) => {
+      const id = (e as CustomEvent<PathId>).detail;
+      setMine(id);
+      setPathOnly(orgs.filter((o) => o.paths?.includes(id)).length >= 4);
+    };
+    window.addEventListener("path:match", on);
+    return () => window.removeEventListener("path:match", on);
+  }, []);
   const [shown, setShown] = useState(PAGE);
   const [place, setPlace] = useState<{ locations: string[]; label: string } | null>(null);
 
@@ -80,6 +95,7 @@ export default function Directory() {
       setSource("all");
       setGlobalOnly(false);
       setHiringOnly(false);
+      setPathOnly(false);
       setShown(PAGE);
     }
     window.addEventListener(PLACE_EVENT, onPlace);
@@ -93,13 +109,14 @@ export default function Directory() {
         (!place || place.locations.some((l) => (o.places ?? [o.location]).includes(l))) &&
         (source === "all" || o.source === source) &&
         (!globalOnly || o.global) &&
+        (!pathOnly || (!!mine && !!o.paths?.includes(mine))) &&
         (!hiringOnly || o.openRoles > 0) &&
         (!q ||
           `${o.name} ${o.description} ${o.sector} ${o.location}`
             .toLowerCase()
             .includes(q)),
     ).sort((a, b) => fit(b) - fit(a));
-  }, [query, source, globalOnly, hiringOnly, place]);
+  }, [query, source, globalOnly, hiringOnly, place, pathOnly, mine]);
 
   const counts = useMemo(
     () => ({
@@ -194,6 +211,13 @@ export default function Directory() {
             ))}
           </div>
           <div className="flex flex-wrap gap-2">
+            {mine && mineCount >= 4 && (
+              <Toggle
+                on={pathOnly}
+                onClick={() => reset(setPathOnly)(!pathOnly)}
+                label={`Fits your path (${mineCount})`}
+              />
+            )}
             <Toggle
               on={globalOnly}
               onClick={() => reset(setGlobalOnly)(!globalOnly)}
@@ -230,6 +254,7 @@ export default function Directory() {
                 setQuery("");
                 setSource("all");
                 setGlobalOnly(false);
+                setPathOnly(false);
                 setHiringOnly(false);
                 setPlace(null);
                 setShown(PAGE);

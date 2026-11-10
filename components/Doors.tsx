@@ -273,8 +273,9 @@ export default function Doors() {
           </div>
         </div>
 
-        {/* Filters */}
-        <div className="mt-12 flex flex-wrap gap-2">
+        {/* Filters: one sideways row on a phone. Wrapped, the 11 chips filled most of a phone screen
+            before the first card (seen 2026-11-10). */}
+        <div className="-mx-4 mt-12 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 [&>*]:shrink-0 [&>*]:whitespace-nowrap">
           {(["All", ...KINDS] as const).map((k) => (
             <button
               key={k}

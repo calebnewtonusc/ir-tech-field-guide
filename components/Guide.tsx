@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { paths, questions, type PathId } from "@/lib/data";
+import { shareVisa } from "@/lib/visaCard";
 
 // Parts 3 and 4: the passport and the visas. One object carries the quiz: a passport that
 // opens, takes a stamp per answer, and ends on a visa page. The visa list below is the same
@@ -293,6 +294,15 @@ export default function Guide() {
                       >
                         See what it opens &darr;
                       </a>
+                      {matchPath && (
+                        <button
+                          type="button"
+                          onClick={() => shareVisa(matchPath)}
+                          className={`inline-flex min-h-12 items-center rounded-full border border-ink px-6 text-ink transition duration-100 hover:bg-ink hover:text-canvas active:scale-[0.97] ${focusRing}`}
+                        >
+                          Save my visa
+                        </button>
+                      )}
                       <button
                         type="button"
                         onClick={restart}

@@ -13,7 +13,8 @@
   "location": "Manchester, UK",
   "sector": "Autism & disability",
   "global": true,
-  "logo": "/logos/neuronav.webp"
+  "logo": "/logos/neuronav.webp",
+  "paths": []
  },
  {
   "name": "Venus Aerospace",
@@ -28,7 +29,10 @@
   "location": "Houston, TX, USA",
   "sector": "Science & industry",
   "global": true,
-  "logo": "/logos/venus-aerospace.webp"
+  "logo": "/logos/venus-aerospace.webp",
+  "paths": [
+   "defense"
+  ]
  },
  {
   "name": "Refined Technologies",
@@ -43,7 +47,8 @@
   "location": "The Woodlands, TX, USA",
   "sector": "Economic development & livelihoods",
   "global": true,
-  "logo": "/logos/refined-technologies.webp"
+  "logo": "/logos/refined-technologies.webp",
+  "paths": []
  },
  {
   "name": "Pronoia",
@@ -58,7 +63,8 @@
   "location": "Los Angeles, CA, USA",
   "sector": "Science & industry",
   "global": true,
-  "logo": "/logos/pronoia.webp"
+  "logo": "/logos/pronoia.webp",
+  "paths": []
  },
  {
   "name": "Settled",
@@ -74,7 +80,10 @@
   "location": "Newport, UK",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/settled.webp"
+  "logo": "/logos/settled.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "HOPE International",
@@ -89,7 +98,10 @@
   "location": "Lancaster, PA, USA",
   "sector": "Economic development & livelihoods",
   "global": true,
-  "logo": "/logos/hope-international.webp"
+  "logo": "/logos/hope-international.webp",
+  "paths": [
+   "expansion"
+  ]
  },
  {
   "name": "Kadence",
@@ -109,7 +121,8 @@
   "location": "Stokes, San Jose, CA, USA",
   "sector": "Economic development & livelihoods",
   "global": true,
-  "logo": "/logos/kadence.webp"
+  "logo": "/logos/kadence.webp",
+  "paths": []
  },
  {
   "name": "Sanctuary Mental Health Ministries",
@@ -124,7 +137,8 @@
   "location": "Vancouver, BC, Canada",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/sanctuary-mental-health-ministries.webp"
+  "logo": "/logos/sanctuary-mental-health-ministries.webp",
+  "paths": []
  },
  {
   "name": "Semilla Nueva",
@@ -142,7 +156,8 @@
   "location": "Guatemala City, Guatemala",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/semilla-nueva.webp"
+  "logo": "/logos/semilla-nueva.webp",
+  "paths": []
  },
  {
   "name": "Treetops Collective",
@@ -157,7 +172,10 @@
   "location": "Grand Rapids, MI, USA",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/treetops-collective.webp"
+  "logo": "/logos/treetops-collective.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Liberty in North Korea",
@@ -173,7 +191,8 @@
   "location": "California Heights, Long Beach, CA, USA",
   "sector": "Media & culture",
   "global": true,
-  "logo": "/logos/liberty-in-north-korea.webp"
+  "logo": "/logos/liberty-in-north-korea.webp",
+  "paths": []
  },
  {
   "name": "Nomi Network",
@@ -190,7 +209,10 @@
   "location": "Union Square, New York, NY, USA",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/nomi-network.webp"
+  "logo": "/logos/nomi-network.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Old Skool Cafe",
@@ -205,7 +227,10 @@
   "location": "San Francisco, CA, USA",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/old-skool-cafe.webp"
+  "logo": "/logos/old-skool-cafe.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Purposity",
@@ -221,7 +246,8 @@
   "location": "Atlanta, GA, USA",
   "sector": "Other",
   "global": true,
-  "logo": "/logos/purposity.webp"
+  "logo": "/logos/purposity.webp",
+  "paths": []
  },
  {
   "name": "Rare Genomics Institute",
@@ -236,7 +262,8 @@
   "location": "Outpost Estates, Los Angeles, CA, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/rare-genomics-institute.webp"
+  "logo": "/logos/rare-genomics-institute.webp",
+  "paths": []
  },
  {
   "name": "Restore NYC",
@@ -251,7 +278,10 @@
   "location": "Canal Street, New York, NY, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/restore-nyc.webp"
+  "logo": "/logos/restore-nyc.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "The Veritas Forum",
@@ -266,7 +296,8 @@
   "location": "Cambridge, MA, USA",
   "sector": "Education",
   "global": true,
-  "logo": "/logos/the-veritas-forum.webp"
+  "logo": "/logos/the-veritas-forum.webp",
+  "paths": []
  },
  {
   "name": "UNDIVIDED",
@@ -279,7 +310,10 @@
   "location": "",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/undivided.webp"
+  "logo": "/logos/undivided.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Aruna Project",
@@ -295,7 +329,10 @@
   "location": "Mumbai, Maharashtra, India",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/aruna-project.webp"
+  "logo": "/logos/aruna-project.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "FaithTech",
@@ -311,7 +348,10 @@
   "location": "Waterloo, ON, Canada",
   "sector": "Other",
   "global": true,
-  "logo": "/logos/faithtech.webp"
+  "logo": "/logos/faithtech.webp",
+  "paths": [
+   "expansion"
+  ]
  },
  {
   "name": "Human Trafficking Institute",
@@ -326,7 +366,10 @@
   "location": "Connecticut Ave/ K Street, Washington, DC, USA",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/human-trafficking-institute.webp"
+  "logo": "/logos/human-trafficking-institute.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "New Story Charity",
@@ -341,7 +384,10 @@
   "location": "San Francisco, CA, USA",
   "sector": "Education",
   "global": true,
-  "logo": "/logos/new-story-charity.webp"
+  "logo": "/logos/new-story-charity.webp",
+  "paths": [
+   "expansion"
+  ]
  },
  {
   "name": "Open Door Legal",
@@ -356,7 +402,10 @@
   "location": "San Francisco, CA, USA",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/open-door-legal.webp"
+  "logo": "/logos/open-door-legal.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Simple Charity",
@@ -372,7 +421,8 @@
   "location": "Duke University - Main Campus, Durham, NC, USA",
   "sector": "Education",
   "global": true,
-  "logo": "/logos/simple-charity.webp"
+  "logo": "/logos/simple-charity.webp",
+  "paths": []
  },
  {
   "name": "A Rocha International",
@@ -387,7 +437,8 @@
   "location": "London, UK",
   "sector": "Science & industry",
   "global": true,
-  "logo": "/logos/a-rocha-international.png"
+  "logo": "/logos/a-rocha-international.png",
+  "paths": []
  },
  {
   "name": "Akilah",
@@ -404,7 +455,10 @@
   "location": "Brooklyn, NY, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/akilah.webp"
+  "logo": "/logos/akilah.webp",
+  "paths": [
+   "policy"
+  ]
  },
  {
   "name": "Amani Global Works",
@@ -419,7 +473,10 @@
   "location": "Canal Street, New York, NY, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/amani-global-works.webp"
+  "logo": "/logos/amani-global-works.webp",
+  "paths": [
+   "expansion"
+  ]
  },
  {
   "name": "Aviation charity app",
@@ -434,7 +491,8 @@
   "location": "Waterloo",
   "sector": "FaithTech Create project",
   "global": true,
-  "logo": "/logos/faithtech.png"
+  "logo": "/logos/faithtech.png",
+  "paths": []
  },
  {
   "name": "B2THEWORLD",
@@ -449,7 +507,8 @@
   "location": "Merrifield, VA, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/b2theworld.webp"
+  "logo": "/logos/b2theworld.webp",
+  "paths": []
  },
  {
   "name": "Bean Path",
@@ -464,7 +523,8 @@
   "location": "Jackson, WY, USA",
   "sector": "Economic development & livelihoods",
   "global": true,
-  "logo": "/logos/bean-path.webp"
+  "logo": "/logos/bean-path.webp",
+  "paths": []
  },
  {
   "name": "Christian Aid",
@@ -478,7 +538,8 @@
   "description": "Fights poverty and injustice with partners in dozens of countries.",
   "location": "London, UK",
   "sector": "Economic development & livelihoods",
-  "global": true
+  "global": true,
+  "paths": []
  },
  {
   "name": "Common Pictures",
@@ -493,7 +554,11 @@
   "location": "Orlando, FL, USA",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/common-pictures.webp"
+  "logo": "/logos/common-pictures.webp",
+  "paths": [
+   "trust",
+   "expansion"
+  ]
  },
  {
   "name": "Ellescope",
@@ -508,7 +573,8 @@
   "location": "London, UK",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/ellescope.webp"
+  "logo": "/logos/ellescope.webp",
+  "paths": []
  },
  {
   "name": "Ending Human Trafficking at the Point of Demand",
@@ -523,7 +589,10 @@
   "location": "Vancouver",
   "sector": "FaithTech Create project",
   "global": true,
-  "logo": "/logos/faithtech.png"
+  "logo": "/logos/faithtech.png",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Every Shelter",
@@ -538,7 +607,10 @@
   "location": "Houston, TX, USA",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/every-shelter.webp"
+  "logo": "/logos/every-shelter.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Exile International",
@@ -553,7 +625,10 @@
   "location": "Nashville, TN, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/exile-international.webp"
+  "logo": "/logos/exile-international.webp",
+  "paths": [
+   "expansion"
+  ]
  },
  {
   "name": "Ezra",
@@ -568,7 +643,8 @@
   "location": "San Francisco, CA, USA",
   "sector": "Economic development & livelihoods",
   "global": true,
-  "logo": "/logos/ezra.webp"
+  "logo": "/logos/ezra.webp",
+  "paths": []
  },
  {
   "name": "Faith Network app",
@@ -583,7 +659,8 @@
   "location": "Chennai",
   "sector": "FaithTech Create project",
   "global": true,
-  "logo": "/logos/faithtech.png"
+  "logo": "/logos/faithtech.png",
+  "paths": []
  },
  {
   "name": "Gifts for Good",
@@ -598,7 +675,8 @@
   "location": "Los Angeles, CA, USA",
   "sector": "Consumer & marketplace",
   "global": true,
-  "logo": "/logos/gifts-for-good.webp"
+  "logo": "/logos/gifts-for-good.webp",
+  "paths": []
  },
  {
   "name": "Glorify",
@@ -612,7 +690,8 @@
   "description": "A London startup building a daily prayer and worship app.",
   "location": "London, UK",
   "sector": "Consumer & marketplace",
-  "global": true
+  "global": true,
+  "paths": []
  },
  {
   "name": "GoLiveServe",
@@ -626,7 +705,8 @@
    "Bay Area"
   ],
   "sector": "Faith and work",
-  "global": true
+  "global": true,
+  "paths": []
  },
  {
   "name": "IFES",
@@ -640,7 +720,10 @@
   "description": "A global movement of Christian university students in over 180 countries.",
   "location": "Oxford, UK",
   "sector": "Education",
-  "global": true
+  "global": true,
+  "paths": [
+   "expansion"
+  ]
  },
  {
   "name": "International Justice Mission",
@@ -661,7 +744,10 @@
   "location": "7 field offices",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/international-justice-mission.png"
+  "logo": "/logos/international-justice-mission.png",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Justice Defense Fund",
@@ -674,7 +760,10 @@
   "location": "",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/justice-defense-fund.webp"
+  "logo": "/logos/justice-defense-fund.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Justice Rising",
@@ -689,7 +778,10 @@
   "location": "Los Angeles, CA, USA",
   "sector": "Education",
   "global": true,
-  "logo": "/logos/justice-rising.webp"
+  "logo": "/logos/justice-rising.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Keseb",
@@ -704,7 +796,10 @@
   "location": "Columbia Heights, Washington, DC, USA",
   "sector": "Economic development & livelihoods",
   "global": true,
-  "logo": "/logos/keseb.webp"
+  "logo": "/logos/keseb.webp",
+  "paths": [
+   "policy"
+  ]
  },
  {
   "name": "Kuju Coffee",
@@ -719,7 +814,10 @@
   "location": "San Francisco, CA, USA",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/kuju-coffee.webp"
+  "logo": "/logos/kuju-coffee.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Kylix Bio",
@@ -732,7 +830,8 @@
   "location": "",
   "sector": "Consumer & marketplace",
   "global": true,
-  "logo": "/logos/kylix-bio.webp"
+  "logo": "/logos/kylix-bio.webp",
+  "paths": []
  },
  {
   "name": "L'Abri Fellowship",
@@ -747,7 +846,8 @@
   "location": "Huémoz, Switzerland",
   "sector": "Education",
   "global": true,
-  "logo": "/logos/l-abri-fellowship.png"
+  "logo": "/logos/l-abri-fellowship.png",
+  "paths": []
  },
  {
   "name": "Langham Partnership",
@@ -762,7 +862,8 @@
   "location": "London, UK",
   "sector": "Education",
   "global": true,
-  "logo": "/logos/langham-partnership.png"
+  "logo": "/logos/langham-partnership.png",
+  "paths": []
  },
  {
   "name": "Launch Property Management",
@@ -777,7 +878,10 @@
   "location": "Louisville, KY, USA",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/launch-property-management.webp"
+  "logo": "/logos/launch-property-management.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "LivFul",
@@ -794,7 +898,8 @@
   "location": "Alpharetta, GA, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/livful.webp"
+  "logo": "/logos/livful.webp",
+  "paths": []
  },
  {
   "name": "Many Hopes",
@@ -809,7 +914,10 @@
   "location": "New York, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/many-hopes.webp"
+  "logo": "/logos/many-hopes.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Medair",
@@ -824,7 +932,8 @@
   "location": "Ecublens, Switzerland",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/medair.png"
+  "logo": "/logos/medair.png",
+  "paths": []
  },
  {
   "name": "Missional Labs",
@@ -840,7 +949,8 @@
   "location": "Brooklyn, NY, USA",
   "sector": "Capital & venture",
   "global": true,
-  "logo": "/logos/missional-labs.webp"
+  "logo": "/logos/missional-labs.webp",
+  "paths": []
  },
  {
   "name": "Niya",
@@ -857,7 +967,8 @@
   "location": "England, UK",
   "sector": "Education",
   "global": true,
-  "logo": "/logos/niya.webp"
+  "logo": "/logos/niya.webp",
+  "paths": []
  },
  {
   "name": "Open Doors International",
@@ -871,7 +982,10 @@
   "description": "Supports Christians persecuted for their faith in more than 70 countries.",
   "location": "Ermelo, Netherlands",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Pangea",
@@ -886,7 +1000,11 @@
   "location": "San Francisco, CA, USA",
   "sector": "Science & industry",
   "global": true,
-  "logo": "/logos/pangea.webp"
+  "logo": "/logos/pangea.webp",
+  "paths": [
+   "expansion",
+   "risk"
+  ]
  },
  {
   "name": "Prevention Now",
@@ -901,7 +1019,10 @@
   "location": "Portland, OR, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/prevention-now.webp"
+  "logo": "/logos/prevention-now.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Proabled",
@@ -915,7 +1036,8 @@
   "description": "As we believe that every person, no matter the challenges he/she is facing, has the right to be productive, have a decent job, and earn a living, ProAbled was launched to boost a shift in society’s mindset from limiting...",
   "location": "",
   "sector": "Autism & disability",
-  "global": true
+  "global": true,
+  "paths": []
  },
  {
   "name": "Radial Analytics",
@@ -930,7 +1052,8 @@
   "location": "Concord, MA, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/radial-analytics.webp"
+  "logo": "/logos/radial-analytics.webp",
+  "paths": []
  },
  {
   "name": "Redeem International",
@@ -945,7 +1068,11 @@
   "location": "Merrifield, VA, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/redeem-international.webp"
+  "logo": "/logos/redeem-international.webp",
+  "paths": [
+   "trust",
+   "expansion"
+  ]
  },
  {
   "name": "Savok x FaithTech",
@@ -960,7 +1087,8 @@
   "location": "Bangkok",
   "sector": "FaithTech Create project",
   "global": true,
-  "logo": "/logos/faithtech.png"
+  "logo": "/logos/faithtech.png",
+  "paths": []
  },
  {
   "name": "Scarlet Hope",
@@ -975,7 +1103,10 @@
   "location": "Louisville, KY, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/scarlet-hope.webp"
+  "logo": "/logos/scarlet-hope.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "ShareBibles",
@@ -990,7 +1121,10 @@
   "location": "Waterloo",
   "sector": "FaithTech Create project",
   "global": true,
-  "logo": "/logos/faithtech.png"
+  "logo": "/logos/faithtech.png",
+  "paths": [
+   "expansion"
+  ]
  },
  {
   "name": "SoapBox Soaps",
@@ -1010,7 +1144,8 @@
   "location": "Connecticut Ave/ K Street, Washington, DC, USA",
   "sector": "Health & clinical",
   "global": true,
-  "logo": "/logos/soapbox-soaps.webp"
+  "logo": "/logos/soapbox-soaps.webp",
+  "paths": []
  },
  {
   "name": "Tearfund",
@@ -1024,7 +1159,8 @@
   "description": "Christian relief and development agency working through local churches in poor communities.",
   "location": "Teddington, UK",
   "sector": "Economic development & livelihoods",
-  "global": true
+  "global": true,
+  "paths": []
  },
  {
   "name": "Tech of Eden",
@@ -1036,7 +1172,8 @@
   "location": "National",
   "places": [],
   "sector": "Faith and work",
-  "global": true
+  "global": true,
+  "paths": []
  },
  {
   "name": "Tether",
@@ -1051,7 +1188,8 @@
   "location": "Nashville, TN, USA",
   "sector": "Education",
   "global": true,
-  "logo": "/logos/tether.webp"
+  "logo": "/logos/tether.webp",
+  "paths": []
  },
  {
   "name": "The Bridge International",
@@ -1065,7 +1203,8 @@
   "description": "The Bridge is a non-profit organization that supports impact donation for co-existence and inclusive growth.",
   "location": "Seoul, South Korea",
   "sector": "Other",
-  "global": true
+  "global": true,
+  "paths": []
  },
  {
   "name": "The Center for Christianity and Public Life",
@@ -1080,7 +1219,8 @@
   "location": "Gay Street, Baltimore, MD, USA",
   "sector": "Economic development & livelihoods",
   "global": true,
-  "logo": "/logos/the-center-for-christianity-and-public-life.webp"
+  "logo": "/logos/the-center-for-christianity-and-public-life.webp",
+  "paths": []
  },
  {
   "name": "The Forgotten Initiative",
@@ -1095,7 +1235,10 @@
   "location": "Bloomington, IL, USA",
   "sector": "Justice & anti-trafficking",
   "global": true,
-  "logo": "/logos/the-forgotten-initiative.webp"
+  "logo": "/logos/the-forgotten-initiative.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "THRIVEfunds",
@@ -1110,7 +1253,8 @@
   "location": "Indianapolis, IN, USA",
   "sector": "Economic development & livelihoods",
   "global": true,
-  "logo": "/logos/thrivefunds.webp"
+  "logo": "/logos/thrivefunds.webp",
+  "paths": []
  },
  {
   "name": "Ubuntu Life",
@@ -1126,7 +1270,8 @@
   "location": "Austin, TX, USA",
   "sector": "Autism & disability",
   "global": true,
-  "logo": "/logos/ubuntu-life.webp"
+  "logo": "/logos/ubuntu-life.webp",
+  "paths": []
  },
  {
   "name": "Unless U",
@@ -1141,7 +1286,8 @@
   "location": "Birmingham, AL, USA",
   "sector": "Autism & disability",
   "global": true,
-  "logo": "/logos/unless-u.webp"
+  "logo": "/logos/unless-u.webp",
+  "paths": []
  },
  {
   "name": "Grayscale Labs",
@@ -1156,7 +1302,8 @@
   "location": "Atlantic Station, Atlanta, GA, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/grayscale-labs.webp"
+  "logo": "/logos/grayscale-labs.webp",
+  "paths": []
  },
  {
   "name": "Axis",
@@ -1171,7 +1318,8 @@
   "location": "Colorado Springs, CO, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/axis.webp"
+  "logo": "/logos/axis.webp",
+  "paths": []
  },
  {
   "name": "City Link Center",
@@ -1186,7 +1334,8 @@
   "location": "Cincinnati, OH, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/city-link-center.webp"
+  "logo": "/logos/city-link-center.webp",
+  "paths": []
  },
  {
   "name": "Virtuous Management",
@@ -1201,7 +1350,8 @@
   "location": "Plaza Del Sol Estates, Phoenix, AZ, USA",
   "sector": "Media & culture",
   "global": false,
-  "logo": "/logos/virtuous-management.webp"
+  "logo": "/logos/virtuous-management.webp",
+  "paths": []
  },
  {
   "name": "Everclean",
@@ -1216,7 +1366,8 @@
   "location": "Illinois Medical District, Chicago, IL, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/everclean.webp"
+  "logo": "/logos/everclean.webp",
+  "paths": []
  },
  {
   "name": "Immerse Arkansas",
@@ -1231,7 +1382,8 @@
   "location": "Little Rock, AR, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/immerse-arkansas.webp"
+  "logo": "/logos/immerse-arkansas.webp",
+  "paths": []
  },
  {
   "name": "Please Assist Me",
@@ -1246,7 +1398,8 @@
   "location": "Nashville, TN, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/please-assist-me.webp"
+  "logo": "/logos/please-assist-me.webp",
+  "paths": []
  },
  {
   "name": "Design Outreach",
@@ -1261,7 +1414,8 @@
   "location": "Gahanna, OH, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/design-outreach.webp"
+  "logo": "/logos/design-outreach.webp",
+  "paths": []
  },
  {
   "name": "Goalbook",
@@ -1276,7 +1430,8 @@
   "location": "San Mateo, CA, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/goalbook.webp"
+  "logo": "/logos/goalbook.webp",
+  "paths": []
  },
  {
   "name": "Immerse",
@@ -1291,7 +1446,8 @@
   "location": "Irvine, CA, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/immerse.webp"
+  "logo": "/logos/immerse.webp",
+  "paths": []
  },
  {
   "name": "Orb Aerospace",
@@ -1306,7 +1462,10 @@
   "location": "Lowell, MI, USA",
   "sector": "Science & industry",
   "global": false,
-  "logo": "/logos/orb-aerospace.webp"
+  "logo": "/logos/orb-aerospace.webp",
+  "paths": [
+   "defense"
+  ]
  },
  {
   "name": "Reserve Squad",
@@ -1321,7 +1480,8 @@
   "location": "Cincinnati, OH, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/reserve-squad.webp"
+  "logo": "/logos/reserve-squad.webp",
+  "paths": []
  },
  {
   "name": "Act (Advocates for Community Transformation)",
@@ -1336,7 +1496,8 @@
   "location": "Riverway Estates/Bruton Terrace, Dallas, TX, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/act-advocates-for-community-transformation.webp"
+  "logo": "/logos/act-advocates-for-community-transformation.webp",
+  "paths": []
  },
  {
   "name": "Take Command Health",
@@ -1351,7 +1512,8 @@
   "location": "Riverway Estates/Bruton Terrace, Dallas, TX, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/take-command-health.webp"
+  "logo": "/logos/take-command-health.webp",
+  "paths": []
  },
  {
   "name": "AsOne Ministries",
@@ -1366,7 +1528,8 @@
   "location": "Sioux Falls, SD, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/asone-ministries.webp"
+  "logo": "/logos/asone-ministries.webp",
+  "paths": []
  },
  {
   "name": "Brookwood in Georgetown",
@@ -1381,7 +1544,8 @@
   "location": "Georgetown, TX, USA",
   "sector": "Autism & disability",
   "global": false,
-  "logo": "/logos/brookwood-in-georgetown.webp"
+  "logo": "/logos/brookwood-in-georgetown.webp",
+  "paths": []
  },
  {
   "name": "FluxWorks",
@@ -1396,7 +1560,8 @@
   "location": "College Station, TX, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/fluxworks.webp"
+  "logo": "/logos/fluxworks.webp",
+  "paths": []
  },
  {
   "name": "Greenline Housing Foundation",
@@ -1411,7 +1576,8 @@
   "location": "Sierra Madre, CA, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/greenline-housing-foundation.webp"
+  "logo": "/logos/greenline-housing-foundation.webp",
+  "paths": []
  },
  {
   "name": "Patient Sortal",
@@ -1426,7 +1592,8 @@
   "location": "West University, Austin, TX, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/patient-sortal.webp"
+  "logo": "/logos/patient-sortal.webp",
+  "paths": []
  },
  {
   "name": "PortX",
@@ -1441,7 +1608,8 @@
   "location": "Mercer Island, WA, USA",
   "sector": "Software & B2B",
   "global": false,
-  "logo": "/logos/portx.webp"
+  "logo": "/logos/portx.webp",
+  "paths": []
  },
  {
   "name": "Canopy Lawn Care",
@@ -1456,7 +1624,8 @@
   "location": "North Raleigh, Raleigh, NC, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/canopy-lawn-care.webp"
+  "logo": "/logos/canopy-lawn-care.webp",
+  "paths": []
  },
  {
   "name": "Every Mother's Advocate",
@@ -1471,7 +1640,8 @@
   "location": "Pompano Beach, FL, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/every-mother-s-advocate.webp"
+  "logo": "/logos/every-mother-s-advocate.webp",
+  "paths": []
  },
  {
   "name": "GirlTrek",
@@ -1486,7 +1656,8 @@
   "location": "Connecticut Ave/ K Street, Washington, DC, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/girltrek.webp"
+  "logo": "/logos/girltrek.webp",
+  "paths": []
  },
  {
   "name": "ianacare",
@@ -1501,7 +1672,8 @@
   "location": "West Street / River Street, Boston, MA, USA",
   "sector": "Autism & disability",
   "global": false,
-  "logo": "/logos/ianacare.webp"
+  "logo": "/logos/ianacare.webp",
+  "paths": []
  },
  {
   "name": "Impact Atlas",
@@ -1516,7 +1688,8 @@
   "location": "San Francisco, CA, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/impact-atlas.webp"
+  "logo": "/logos/impact-atlas.webp",
+  "paths": []
  },
  {
   "name": "Martin Bionics Innovations",
@@ -1531,7 +1704,8 @@
   "location": "Oklahoma City, OK, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/martin-bionics-innovations.webp"
+  "logo": "/logos/martin-bionics-innovations.webp",
+  "paths": []
  },
  {
   "name": "Ozone Story Tech",
@@ -1546,7 +1720,8 @@
   "location": "Corona, CA, USA",
   "sector": "Media & culture",
   "global": false,
-  "logo": "/logos/ozone-story-tech.webp"
+  "logo": "/logos/ozone-story-tech.webp",
+  "paths": []
  },
  {
   "name": "Soma Games",
@@ -1561,7 +1736,8 @@
   "location": "Newberg, OR, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/soma-games.webp"
+  "logo": "/logos/soma-games.webp",
+  "paths": []
  },
  {
   "name": "Sprout AI Studio",
@@ -1576,7 +1752,8 @@
   "location": "Duke University - Main Campus, Durham, NC, USA",
   "sector": "Science & industry",
   "global": false,
-  "logo": "/logos/sprout-ai-studio.webp"
+  "logo": "/logos/sprout-ai-studio.webp",
+  "paths": []
  },
  {
   "name": "Uprooted Academy",
@@ -1591,7 +1768,8 @@
   "location": "Fort Worth, TX, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/uprooted-academy.webp"
+  "logo": "/logos/uprooted-academy.webp",
+  "paths": []
  },
  {
   "name": "Webconnex",
@@ -1606,7 +1784,8 @@
   "location": "Sacramento, CA, USA",
   "sector": "Media & culture",
   "global": false,
-  "logo": "/logos/webconnex.webp"
+  "logo": "/logos/webconnex.webp",
+  "paths": []
  },
  {
   "name": "Whiteboard",
@@ -1621,7 +1800,8 @@
   "location": "Curtis Street, Chattanooga, TN, USA",
   "sector": "Media & culture",
   "global": false,
-  "logo": "/logos/whiteboard.webp"
+  "logo": "/logos/whiteboard.webp",
+  "paths": []
  },
  {
   "name": "100 Fold Studio",
@@ -1636,7 +1816,8 @@
   "location": "Lakeside, MT, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/100-fold-studio.webp"
+  "logo": "/logos/100-fold-studio.webp",
+  "paths": []
  },
  {
   "name": "Abara",
@@ -1651,7 +1832,8 @@
   "location": "El Paso, TX, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/abara.webp"
+  "logo": "/logos/abara.webp",
+  "paths": []
  },
  {
   "name": "ACTS 17 Collective",
@@ -1664,7 +1846,8 @@
   "places": [],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/acts-17-collective.png"
+  "logo": "/logos/acts-17-collective.png",
+  "paths": []
  },
  {
   "name": "Adaptic Health",
@@ -1679,7 +1862,8 @@
   "location": "San Francisco, CA, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/adaptic-health.webp"
+  "logo": "/logos/adaptic-health.webp",
+  "paths": []
  },
  {
   "name": "Allies",
@@ -1694,7 +1878,8 @@
   "location": "New York, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/allies.webp"
+  "logo": "/logos/allies.webp",
+  "paths": []
  },
  {
   "name": "Ambition Angels",
@@ -1709,7 +1894,8 @@
   "location": "Palo Alto, CA, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/ambition-angels.webp"
+  "logo": "/logos/ambition-angels.webp",
+  "paths": []
  },
  {
   "name": "Ampd",
@@ -1724,7 +1910,8 @@
   "location": "Seattle, WA, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/ampd.webp"
+  "logo": "/logos/ampd.webp",
+  "paths": []
  },
  {
   "name": "AND Campaign",
@@ -1739,7 +1926,8 @@
   "location": "Washington, DC, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/and-campaign.webp"
+  "logo": "/logos/and-campaign.webp",
+  "paths": []
  },
  {
   "name": "Aura Health",
@@ -1754,7 +1942,8 @@
   "location": "San Francisco, CA, USA",
   "sector": "Attention & digital health",
   "global": false,
-  "logo": "/logos/aura-health.webp"
+  "logo": "/logos/aura-health.webp",
+  "paths": []
  },
  {
   "name": "Avail NYC",
@@ -1769,7 +1958,8 @@
   "location": "New York, NY, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/avail-nyc.webp"
+  "logo": "/logos/avail-nyc.webp",
+  "paths": []
  },
  {
   "name": "Basil Tech",
@@ -1782,7 +1972,8 @@
   "places": [],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/basil-tech.png"
+  "logo": "/logos/basil-tech.png",
+  "paths": []
  },
  {
   "name": "Bay Area Center for Faith, Work & Tech",
@@ -1797,7 +1988,8 @@
   ],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/bay-area-center-for-faith-work-tech.png"
+  "logo": "/logos/bay-area-center-for-faith-work-tech.png",
+  "paths": []
  },
  {
   "name": "Be Amazing Online",
@@ -1812,7 +2004,8 @@
   "location": "Albany, NY, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/be-amazing-online.webp"
+  "logo": "/logos/be-amazing-online.webp",
+  "paths": []
  },
  {
   "name": "Be Strong",
@@ -1827,7 +2020,8 @@
   "location": "Deerfield Beach, FL, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/be-strong.webp"
+  "logo": "/logos/be-strong.webp",
+  "paths": []
  },
  {
   "name": "Be the Bridge",
@@ -1842,7 +2036,8 @@
   "location": "Atlanta, GA, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/be-the-bridge.webp"
+  "logo": "/logos/be-the-bridge.webp",
+  "paths": []
  },
  {
   "name": "BioLogos",
@@ -1855,7 +2050,8 @@
   "places": [],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/biologos.png"
+  "logo": "/logos/biologos.png",
+  "paths": []
  },
  {
   "name": "Blockit",
@@ -1870,7 +2066,8 @@
   "location": "McKinney, TX, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/blockit.webp"
+  "logo": "/logos/blockit.webp",
+  "paths": []
  },
  {
   "name": "Brazen Animation",
@@ -1885,7 +2082,8 @@
   "location": "Riverway Estates/Bruton Terrace, Dallas, TX, USA",
   "sector": "Media & culture",
   "global": false,
-  "logo": "/logos/brazen-animation.webp"
+  "logo": "/logos/brazen-animation.webp",
+  "paths": []
  },
  {
   "name": "Christian Youth Theater",
@@ -1900,7 +2098,8 @@
   "location": "Jacksonville, FL, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/christian-youth-theater.webp"
+  "logo": "/logos/christian-youth-theater.webp",
+  "paths": []
  },
  {
   "name": "Church Space",
@@ -1915,7 +2114,8 @@
   "location": "Houston, TX, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/church-space.webp"
+  "logo": "/logos/church-space.webp",
+  "paths": []
  },
  {
   "name": "Cloverleaf",
@@ -1930,7 +2130,8 @@
   "location": "Covington, GA, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/cloverleaf.webp"
+  "logo": "/logos/cloverleaf.webp",
+  "paths": []
  },
  {
   "name": "Common Good Marketplace",
@@ -1945,7 +2146,8 @@
   "location": "East Market Street B, Greensboro, NC, USA",
   "sector": "Capital & venture",
   "global": false,
-  "logo": "/logos/common-good-marketplace.webp"
+  "logo": "/logos/common-good-marketplace.webp",
+  "paths": []
  },
  {
   "name": "Connect Silicon Valley",
@@ -1960,7 +2162,8 @@
   ],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/connect-silicon-valley.png"
+  "logo": "/logos/connect-silicon-valley.png",
+  "paths": []
  },
  {
   "name": "Connection Homes",
@@ -1975,7 +2178,8 @@
   "location": "Lawrenceville, GA, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/connection-homes.webp"
+  "logo": "/logos/connection-homes.webp",
+  "paths": []
  },
  {
   "name": "Corner to Corner",
@@ -1990,7 +2194,8 @@
   "location": "Nashville, TN, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/corner-to-corner.webp"
+  "logo": "/logos/corner-to-corner.webp",
+  "paths": []
  },
  {
   "name": "Croft",
@@ -2005,7 +2210,8 @@
   "location": "Atlanta, GA, USA",
   "sector": "Science & industry",
   "global": false,
-  "logo": "/logos/croft.webp"
+  "logo": "/logos/croft.webp",
+  "paths": []
  },
  {
   "name": "CrossPurpose",
@@ -2020,7 +2226,8 @@
   "location": "Denver, CO, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/crosspurpose.webp"
+  "logo": "/logos/crosspurpose.webp",
+  "paths": []
  },
  {
   "name": "Cubit Capital",
@@ -2035,7 +2242,8 @@
   "location": "Dallas, TX, USA",
   "sector": "Capital & venture",
   "global": false,
-  "logo": "/logos/cubit-capital.webp"
+  "logo": "/logos/cubit-capital.webp",
+  "paths": []
  },
  {
   "name": "CW3",
@@ -2050,7 +2258,8 @@
   ],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/cw3.png"
+  "logo": "/logos/cw3.png",
+  "paths": []
  },
  {
   "name": "Delegate CX",
@@ -2065,7 +2274,8 @@
   "location": "Riverway Estates/Bruton Terrace, Dallas, TX, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/delegate-cx.webp"
+  "logo": "/logos/delegate-cx.webp",
+  "paths": []
  },
  {
   "name": "Dollar For",
@@ -2080,7 +2290,8 @@
   "location": "Bennington, Vancouver, WA, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/dollar-for.webp"
+  "logo": "/logos/dollar-for.webp",
+  "paths": []
  },
  {
   "name": "Eden Equities",
@@ -2095,7 +2306,8 @@
   "location": "Dallas, TX, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/eden-equities.webp"
+  "logo": "/logos/eden-equities.webp",
+  "paths": []
  },
  {
   "name": "EdMission AI",
@@ -2108,7 +2320,8 @@
   "location": "",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/edmission-ai.webp"
+  "logo": "/logos/edmission-ai.webp",
+  "paths": []
  },
  {
   "name": "EverFree",
@@ -2123,7 +2336,10 @@
   "location": "San Juan Capistrano, CA, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/everfree.webp"
+  "logo": "/logos/everfree.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Faith & Work Movement Global",
@@ -2137,7 +2353,8 @@
    "Bay Area"
   ],
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "paths": []
  },
  {
   "name": "Faith Driven Entrepreneur",
@@ -2152,7 +2369,8 @@
   ],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/faith-driven-entrepreneur.png"
+  "logo": "/logos/faith-driven-entrepreneur.png",
+  "paths": []
  },
  {
   "name": "FaithTech",
@@ -2167,7 +2385,8 @@
   ],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/faithtech.png"
+  "logo": "/logos/faithtech.png",
+  "paths": []
  },
  {
   "name": "Faros Health",
@@ -2182,7 +2401,8 @@
   "location": "Addison, TX, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/faros-health.webp"
+  "logo": "/logos/faros-health.webp",
+  "paths": []
  },
  {
   "name": "Father’s Uplift",
@@ -2197,7 +2417,8 @@
   "location": "West Street / River Street, Boston, MA, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/father-s-uplift.webp"
+  "logo": "/logos/father-s-uplift.webp",
+  "paths": []
  },
  {
   "name": "Flaire",
@@ -2212,7 +2433,8 @@
   "location": "Atlanta, GA, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/flaire.webp"
+  "logo": "/logos/flaire.webp",
+  "paths": []
  },
  {
   "name": "Flourish Fund",
@@ -2227,7 +2449,8 @@
   "location": "Alexandria, VA, USA",
   "sector": "Faith & church",
   "global": false,
-  "logo": "/logos/flourish-fund.webp"
+  "logo": "/logos/flourish-fund.webp",
+  "paths": []
  },
  {
   "name": "Generosity Bay Area",
@@ -2241,7 +2464,8 @@
    "Bay Area"
   ],
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "paths": []
  },
  {
   "name": "Healing Hands of Joy",
@@ -2256,7 +2480,8 @@
   "location": "Charlotte, NC, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/healing-hands-of-joy.webp"
+  "logo": "/logos/healing-hands-of-joy.webp",
+  "paths": []
  },
  {
   "name": "Healthy Hip Hop",
@@ -2271,7 +2496,8 @@
   "location": "United States",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/healthy-hip-hop.webp"
+  "logo": "/logos/healthy-hip-hop.webp",
+  "paths": []
  },
  {
   "name": "Higher",
@@ -2286,7 +2512,8 @@
   "location": "Birmingham, AL, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/higher.webp"
+  "logo": "/logos/higher.webp",
+  "paths": []
  },
  {
   "name": "Hildegard College",
@@ -2301,7 +2528,8 @@
   "location": "Costa Mesa, CA, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/hildegard-college.webp"
+  "logo": "/logos/hildegard-college.webp",
+  "paths": []
  },
  {
   "name": "HomeStart",
@@ -2316,7 +2544,8 @@
   "location": "West Street / River Street, Boston, MA, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/homestart.webp"
+  "logo": "/logos/homestart.webp",
+  "paths": []
  },
  {
   "name": "Hope",
@@ -2331,7 +2560,8 @@
   "location": "Lawrenceville, GA, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/hope.webp"
+  "logo": "/logos/hope.webp",
+  "paths": []
  },
  {
   "name": "Hope is Alive Ministries",
@@ -2346,7 +2576,8 @@
   "location": "Oklahoma City, OK, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/hope-is-alive-ministries.webp"
+  "logo": "/logos/hope-is-alive-ministries.webp",
+  "paths": []
  },
  {
   "name": "Hoving Home",
@@ -2361,7 +2592,8 @@
   "location": "Las Vegas, NV, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/hoving-home.webp"
+  "logo": "/logos/hoving-home.webp",
+  "paths": []
  },
  {
   "name": "Hydrostasis",
@@ -2376,7 +2608,8 @@
   "location": "Liberty Station, San Diego, CA, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/hydrostasis.webp"
+  "logo": "/logos/hydrostasis.webp",
+  "paths": []
  },
  {
   "name": "Impact Foundation",
@@ -2391,7 +2624,8 @@
   "location": "Overland Park, KS, USA",
   "sector": "Capital & venture",
   "global": false,
-  "logo": "/logos/impact-foundation.webp"
+  "logo": "/logos/impact-foundation.webp",
+  "paths": []
  },
  {
   "name": "Infinite Giving",
@@ -2406,7 +2640,8 @@
   "location": "Atlanta, GA, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/infinite-giving.webp"
+  "logo": "/logos/infinite-giving.webp",
+  "paths": []
  },
  {
   "name": "Inspire More",
@@ -2421,7 +2656,8 @@
   "location": "Dallas, TX, USA",
   "sector": "Media & culture",
   "global": false,
-  "logo": "/logos/inspire-more.webp"
+  "logo": "/logos/inspire-more.webp",
+  "paths": []
  },
  {
   "name": "Iona House",
@@ -2435,7 +2671,8 @@
    "Bay Area"
   ],
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "paths": []
  },
  {
   "name": "Jonas Paul Eyewear",
@@ -2450,7 +2687,8 @@
   "location": "Grand Rapids, MI, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/jonas-paul-eyewear.webp"
+  "logo": "/logos/jonas-paul-eyewear.webp",
+  "paths": []
  },
  {
   "name": "Kammok",
@@ -2465,7 +2703,8 @@
   "location": "Austin, TX, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/kammok.webp"
+  "logo": "/logos/kammok.webp",
+  "paths": []
  },
  {
   "name": "Kicky",
@@ -2480,7 +2719,8 @@
   "location": "Atlantic Station, Atlanta, GA, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/kicky.webp"
+  "logo": "/logos/kicky.webp",
+  "paths": []
  },
  {
   "name": "Kingdom Haus",
@@ -2494,7 +2734,8 @@
    "Bay Area"
   ],
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "paths": []
  },
  {
   "name": "KNOWN SUPPLY",
@@ -2509,7 +2750,8 @@
   "location": "Costa Mesa, CA, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/known-supply.webp"
+  "logo": "/logos/known-supply.webp",
+  "paths": []
  },
  {
   "name": "LoanWell",
@@ -2524,7 +2766,8 @@
   "location": "Durham, NC, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/loanwell.webp"
+  "logo": "/logos/loanwell.webp",
+  "paths": []
  },
  {
   "name": "More Media",
@@ -2539,7 +2782,8 @@
   "location": "Los Angeles, CA, USA",
   "sector": "Media & culture",
   "global": false,
-  "logo": "/logos/more-media.webp"
+  "logo": "/logos/more-media.webp",
+  "paths": []
  },
  {
   "name": "Neurokids",
@@ -2552,7 +2796,8 @@
   "location": "",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/neurokids.webp"
+  "logo": "/logos/neurokids.webp",
+  "paths": []
  },
  {
   "name": "New College Berkeley",
@@ -2566,7 +2811,8 @@
    "Bay Area"
   ],
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "paths": []
  },
  {
   "name": "Nexus Mentoring",
@@ -2581,7 +2827,8 @@
   ],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/nexus-mentoring.png"
+  "logo": "/logos/nexus-mentoring.png",
+  "paths": []
  },
  {
   "name": "PairUp",
@@ -2596,7 +2843,8 @@
   "location": "Sausalito, CA, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/pairup.webp"
+  "logo": "/logos/pairup.webp",
+  "paths": []
  },
  {
   "name": "Path United",
@@ -2611,7 +2859,8 @@
   "location": "Lawrenceville, GA, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/path-united.webp"
+  "logo": "/logos/path-united.webp",
+  "paths": []
  },
  {
   "name": "Petite Studio",
@@ -2626,7 +2875,8 @@
   "location": "Canal Street, New York, NY, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/petite-studio.webp"
+  "logo": "/logos/petite-studio.webp",
+  "paths": []
  },
  {
   "name": "Pray the Bay",
@@ -2641,7 +2891,8 @@
   ],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/pray-the-bay.png"
+  "logo": "/logos/pray-the-bay.png",
+  "paths": []
  },
  {
   "name": "Procure Impact",
@@ -2656,7 +2907,8 @@
   "location": "Falls Church, VA, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/procure-impact.webp"
+  "logo": "/logos/procure-impact.webp",
+  "paths": []
  },
  {
   "name": "ProGrace",
@@ -2671,7 +2923,8 @@
   "location": "North Chicago, IL, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/prograce.webp"
+  "logo": "/logos/prograce.webp",
+  "paths": []
  },
  {
   "name": "Regent College - MALTS",
@@ -2684,7 +2937,8 @@
   "places": [],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/regent-college-malts.png"
+  "logo": "/logos/regent-college-malts.png",
+  "paths": []
  },
  {
   "name": "Resolve",
@@ -2699,7 +2953,8 @@
   "location": "San Francisco, CA, USA",
   "sector": "Capital & venture",
   "global": false,
-  "logo": "/logos/resolve.webp"
+  "logo": "/logos/resolve.webp",
+  "paths": []
  },
  {
   "name": "RhizeBio",
@@ -2712,7 +2967,8 @@
   "location": "",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/rhizebio.webp"
+  "logo": "/logos/rhizebio.webp",
+  "paths": []
  },
  {
   "name": "Scholars of Finance",
@@ -2727,7 +2983,8 @@
   "location": "Canal Street, New York, NY, USA",
   "sector": "Capital & venture",
   "global": false,
-  "logo": "/logos/scholars-of-finance.webp"
+  "logo": "/logos/scholars-of-finance.webp",
+  "paths": []
  },
  {
   "name": "Screen Sanity",
@@ -2742,7 +2999,8 @@
   "location": "Indian Creek Park Estates, Overland Park, KS, USA",
   "sector": "Attention & digital health",
   "global": false,
-  "logo": "/logos/screen-sanity.webp"
+  "logo": "/logos/screen-sanity.webp",
+  "paths": []
  },
  {
   "name": "Sharpen Recovery",
@@ -2756,7 +3014,8 @@
   "description": "Sharpen Recovery is a Texas-based nonprofit providing structured, Christ-centered recovery housing for men and women overcoming substance use disorders. Through peer support, accountability, and a 12-step foundation, it...",
   "location": "Houston, TX, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "paths": []
  },
  {
   "name": "Sky Harvest",
@@ -2771,7 +3030,8 @@
   "location": "Dallas, TX, USA",
   "sector": "Science & industry",
   "global": false,
-  "logo": "/logos/sky-harvest.webp"
+  "logo": "/logos/sky-harvest.webp",
+  "paths": []
  },
  {
   "name": "Spotless Materials",
@@ -2786,7 +3046,8 @@
   "location": "State College, PA, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/spotless-materials.webp"
+  "logo": "/logos/spotless-materials.webp",
+  "paths": []
  },
  {
   "name": "Starfish Project",
@@ -2801,7 +3062,8 @@
   "location": "Goshen, IN, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/starfish-project.webp"
+  "logo": "/logos/starfish-project.webp",
+  "paths": []
  },
  {
   "name": "StreetCode Academy",
@@ -2816,7 +3078,8 @@
   "location": "Menlo Park, CA, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/streetcode-academy.webp"
+  "logo": "/logos/streetcode-academy.webp",
+  "paths": []
  },
  {
   "name": "Sycamore Equity",
@@ -2831,7 +3094,8 @@
   "location": "Boulder, CO, USA",
   "sector": "Capital & venture",
   "global": false,
-  "logo": "/logos/sycamore-equity.webp"
+  "logo": "/logos/sycamore-equity.webp",
+  "paths": []
  },
  {
   "name": "Sycamore Studios",
@@ -2846,7 +3110,8 @@
   "location": "West University, Austin, TX, USA",
   "sector": "Media & culture",
   "global": false,
-  "logo": "/logos/sycamore-studios.webp"
+  "logo": "/logos/sycamore-studios.webp",
+  "paths": []
  },
  {
   "name": "Telos",
@@ -2861,7 +3126,8 @@
   "location": "Washington, DC, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/telos.webp"
+  "logo": "/logos/telos.webp",
+  "paths": []
  },
  {
   "name": "TenYour",
@@ -2876,7 +3142,8 @@
   "location": "Sacramento, CA, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/tenyour.webp"
+  "logo": "/logos/tenyour.webp",
+  "paths": []
  },
  {
   "name": "The Birthday Party Project",
@@ -2891,7 +3158,8 @@
   "location": "Dallas, TX, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/the-birthday-party-project.webp"
+  "logo": "/logos/the-birthday-party-project.webp",
+  "paths": []
  },
  {
   "name": "The Institute for Innovation, Integration & Impact",
@@ -2903,7 +3171,8 @@
   "location": "National",
   "places": [],
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "paths": []
  },
  {
   "name": "The Looma Project",
@@ -2918,7 +3187,8 @@
   "location": "Duke University - Main Campus, Durham, NC, USA",
   "sector": "Attention & digital health",
   "global": false,
-  "logo": "/logos/the-looma-project.webp"
+  "logo": "/logos/the-looma-project.webp",
+  "paths": []
  },
  {
   "name": "The Order of the Common Life",
@@ -2933,7 +3203,8 @@
   "location": "Ohio, USA",
   "sector": "Faith & church",
   "global": false,
-  "logo": "/logos/the-order-of-the-common-life.webp"
+  "logo": "/logos/the-order-of-the-common-life.webp",
+  "paths": []
  },
  {
   "name": "The Root Cause",
@@ -2948,7 +3219,8 @@
   "location": "Plano, TX, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/the-root-cause.webp"
+  "logo": "/logos/the-root-cause.webp",
+  "paths": []
  },
  {
   "name": "Threadloom (Primary.org)",
@@ -2963,7 +3235,8 @@
   "location": "Mountain View, CA, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/threadloom-primary-org.webp"
+  "logo": "/logos/threadloom-primary-org.webp",
+  "paths": []
  },
  {
   "name": "Thriving Cities Group",
@@ -2978,7 +3251,10 @@
   "location": "Durham, NC, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/thriving-cities-group.webp"
+  "logo": "/logos/thriving-cities-group.webp",
+  "paths": [
+   "policy"
+  ]
  },
  {
   "name": "TO THE MARKET",
@@ -2993,7 +3269,10 @@
   "location": "Lexington, KY, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/to-the-market.webp"
+  "logo": "/logos/to-the-market.webp",
+  "paths": [
+   "risk"
+  ]
  },
  {
   "name": "Transforming the Bay with Christ",
@@ -3008,7 +3287,8 @@
   ],
   "sector": "Faith and work",
   "global": false,
-  "logo": "/logos/transforming-the-bay-with-christ.png"
+  "logo": "/logos/transforming-the-bay-with-christ.png",
+  "paths": []
  },
  {
   "name": "Trelus",
@@ -3023,7 +3303,8 @@
   "location": "St. Louis, MO, USA",
   "sector": "Media & culture",
   "global": false,
-  "logo": "/logos/trelus.webp"
+  "logo": "/logos/trelus.webp",
+  "paths": []
  },
  {
   "name": "Unshattered",
@@ -3038,7 +3319,8 @@
   "location": "Sheffield, AL, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/unshattered.webp"
+  "logo": "/logos/unshattered.webp",
+  "paths": []
  },
  {
   "name": "UpSmith",
@@ -3053,7 +3335,8 @@
   "location": "Riverway Estates/Bruton Terrace, Dallas, TX, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/upsmith.webp"
+  "logo": "/logos/upsmith.webp",
+  "paths": []
  },
  {
   "name": "Verdant Frontiers",
@@ -3068,7 +3351,8 @@
   "location": "West University, Austin, TX, USA",
   "sector": "Capital & venture",
   "global": false,
-  "logo": "/logos/verdant-frontiers.webp"
+  "logo": "/logos/verdant-frontiers.webp",
+  "paths": []
  },
  {
   "name": "VeroSkills",
@@ -3083,7 +3367,10 @@
   "location": "Birmingham, AL, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/veroskills.webp"
+  "logo": "/logos/veroskills.webp",
+  "paths": [
+   "trust"
+  ]
  },
  {
   "name": "Wilderness Collective",
@@ -3098,7 +3385,8 @@
   "location": "Los Angeles, CA, USA",
   "sector": "Consumer & marketplace",
   "global": false,
-  "logo": "/logos/wilderness-collective.webp"
+  "logo": "/logos/wilderness-collective.webp",
+  "paths": []
  },
  {
   "name": "Wildsam Field Guides",
@@ -3113,7 +3401,8 @@
   "location": "Austin, TX, USA",
   "sector": "Health & clinical",
   "global": false,
-  "logo": "/logos/wildsam-field-guides.webp"
+  "logo": "/logos/wildsam-field-guides.webp",
+  "paths": []
  },
  {
   "name": "Will Reed",
@@ -3128,7 +3417,8 @@
   "location": "Dallas, TX, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/will-reed.webp"
+  "logo": "/logos/will-reed.webp",
+  "paths": []
  },
  {
   "name": "Wise Rock",
@@ -3143,7 +3433,8 @@
   "location": "Houston, TX, USA",
   "sector": "Science & industry",
   "global": false,
-  "logo": "/logos/wise-rock.webp"
+  "logo": "/logos/wise-rock.webp",
+  "paths": []
  },
  {
   "name": "World Hope Ministries International",
@@ -3158,7 +3449,8 @@
   "location": "Houston, TX, USA",
   "sector": "Education",
   "global": false,
-  "logo": "/logos/world-hope-ministries-international.webp"
+  "logo": "/logos/world-hope-ministries-international.webp",
+  "paths": []
  },
  {
   "name": "World Impact",
@@ -3173,7 +3465,8 @@
   "location": "Los Angeles, CA, USA",
   "sector": "Media & culture",
   "global": false,
-  "logo": "/logos/world-impact.webp"
+  "logo": "/logos/world-impact.webp",
+  "paths": []
  },
  {
   "name": "Yonder",
@@ -3188,6 +3481,7 @@
   "location": "Burnsville, MN, USA",
   "sector": "Other",
   "global": false,
-  "logo": "/logos/yonder.webp"
+  "logo": "/logos/yonder.webp",
+  "paths": []
  }
 ]
