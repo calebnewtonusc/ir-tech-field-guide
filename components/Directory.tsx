@@ -58,6 +58,12 @@ const SECTOR_TINT: Record<string, string> = {
 };
 const tintFor = (sector: string) => SECTOR_TINT[sector] ?? "bg-canvas text-body";
 
+// The first cards she sees should look like IR work: global and justice orgs first, then faith and work.
+// Plain file order put a UK disability nonprofit and a hypersonics company on top (seen 2026-11-10).
+const FIT_SECTORS = ["Justice & anti-trafficking", "Economic development & livelihoods", "Faith and work", "Media & culture"];
+const fit = (o: { global?: boolean; sector: string }) =>
+  (o.global ? 4 : 0) + (FIT_SECTORS.includes(o.sector) ? 4 - FIT_SECTORS.indexOf(o.sector) * 0.5 : 0);
+
 export default function Directory() {
   const [query, setQuery] = useState("");
   const [source, setSource] = useState<(typeof sources)[number]["id"]>("all");
@@ -92,7 +98,7 @@ export default function Directory() {
           `${o.name} ${o.description} ${o.sector} ${o.location}`
             .toLowerCase()
             .includes(q)),
-    );
+    ).sort((a, b) => fit(b) - fit(a));
   }, [query, source, globalOnly, hiringOnly, place]);
 
   const counts = useMemo(

@@ -7,6 +7,7 @@ import Route from "@/components/Route";
 import { SmoothScroll } from "@/components/SmoothScroll";
 import StoryMap from "@/components/StoryMap";
 import Pack from "@/components/Pack";
+import HeaderCta from "@/components/HeaderCta";
 import { postings } from "@/lib/data";
 
 // One story in eight parts (SPEC.md): departure, the case, the passport, the visas,
@@ -50,12 +51,9 @@ export default function Home() {
               </a>
             ))}
           </div>
-          <a
-            href="#quiz"
+          <HeaderCta
             className={`inline-flex min-h-10 items-center rounded-full bg-primary px-4 text-sm font-medium text-white transition duration-100 hover:bg-primary-active active:scale-[0.97] sm:hidden ${focusRing}`}
-          >
-            Get stamped
-          </a>
+          />
         </nav>
       </header>
 

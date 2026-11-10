@@ -66,6 +66,12 @@ export default function Courses() {
       const id = (e as CustomEvent<PathId>).detail;
       setMatched(id);
       setTab(id);
+      // Her tab can sit off screen in the sideways chip row on a phone: slide the row, never the page.
+      requestAnimationFrame(() => {
+        const el = document.querySelector<HTMLElement>(`[data-tab="${id}"]`);
+        const row = el?.closest<HTMLElement>("[role=tablist]");
+        if (el && row) row.scrollLeft += el.getBoundingClientRect().left - row.getBoundingClientRect().left - 16;
+      });
     };
     window.addEventListener(MATCH_EVENT, on);
     return () => window.removeEventListener(MATCH_EVENT, on);
@@ -111,6 +117,7 @@ export default function Courses() {
                   key={t.id}
                   type="button"
                   role="tab"
+                  data-tab={t.id}
                   aria-selected={on}
                   onClick={() => setTab(t.id)}
                   className={`inline-flex min-h-10 shrink-0 items-center gap-2 rounded-full border px-4 text-sm transition-colors duration-100 ${focusRing} ${
@@ -206,7 +213,7 @@ function CourseCard({ c }: { c: Course }) {
           {c.spring && when(c.spring.when) && (
             <span>{when(c.spring.when)}</span>
           )}
-          <Seats c={c} />
+          {c.spring && <Seats c={c} />}
         </span>
       </a>
     </li>

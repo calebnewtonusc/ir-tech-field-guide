@@ -163,7 +163,8 @@ function draw(
         const label = bd.rule.toUpperCase();
         // Flip the label to the left of its dot when it would run off the right edge (phone width).
         const tw = ctx.measureText(label).width;
-        ctx.fillText(label, bx + 7 + tw > w - 6 ? bx - 7 - tw : bx + 7, by - 6);
+        // Washington sits just left of the YOU dot, so its label always goes left or it lands on YOU (seen 2026-11-10).
+        ctx.fillText(label, bd.city === "Washington" || bx + 7 + tw > w - 6 ? bx - 7 - tw : bx + 7, by - 6);
         ctx.globalAlpha = 1;
       }
     }

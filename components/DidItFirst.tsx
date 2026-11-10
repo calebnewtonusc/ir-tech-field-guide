@@ -94,9 +94,10 @@ export default function DidItFirst() {
         </p>
 
         <ul className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-          {PEOPLE.map((p, i) => (
+          {[...PEOPLE].sort((a, b) => Number(b.path === match) - Number(a.path === match)).map((p, i) => (
             <motion.li
               key={p.name}
+              layout={!reduce}
               initial={reduce ? false : { opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-10% 0px" }}
