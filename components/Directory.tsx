@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { PLACE_EVENT } from "@/components/WorldMap";
 import orgsData from "@/lib/orgs.json";
 
 type Org = {
@@ -40,11 +41,27 @@ export default function Directory() {
   const [globalOnly, setGlobalOnly] = useState(false);
   const [hiringOnly, setHiringOnly] = useState(false);
   const [shown, setShown] = useState(PAGE);
+  const [place, setPlace] = useState<{ locations: string[]; label: string } | null>(null);
+
+  useEffect(() => {
+    function onPlace(e: Event) {
+      const detail = (e as CustomEvent<{ locations: string[]; label: string }>).detail;
+      setPlace(detail);
+      setQuery("");
+      setSource("all");
+      setGlobalOnly(false);
+      setHiringOnly(false);
+      setShown(PAGE);
+    }
+    window.addEventListener(PLACE_EVENT, onPlace);
+    return () => window.removeEventListener(PLACE_EVENT, onPlace);
+  }, []);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return orgs.filter(
       (o) =>
+        (!place || place.locations.includes(o.location)) &&
         (source === "all" || o.source === source) &&
         (!globalOnly || o.global) &&
         (!hiringOnly || o.openRoles > 0) &&
@@ -53,7 +70,7 @@ export default function Directory() {
             .toLowerCase()
             .includes(q)),
     );
-  }, [query, source, globalOnly, hiringOnly]);
+  }, [query, source, globalOnly, hiringOnly, place]);
 
   const counts = useMemo(
     () => ({
@@ -168,6 +185,16 @@ export default function Directory() {
               onClick={() => reset(setHiringOnly)(!hiringOnly)}
               label="Hiring now"
             />
+            {place && (
+              <button
+                type="button"
+                onClick={() => setPlace(null)}
+                className={`inline-flex min-h-10 items-center gap-2 rounded-full border border-ink bg-ink px-4 text-sm text-canvas transition-colors hover:bg-body ${focusRing}`}
+              >
+                Based in {place.label} <span aria-hidden>&times;</span>
+                <span className="sr-only">Remove place filter</span>
+              </button>
+            )}
           </div>
         </div>
 
@@ -185,6 +212,7 @@ export default function Directory() {
                 setSource("all");
                 setGlobalOnly(false);
                 setHiringOnly(false);
+                setPlace(null);
                 setShown(PAGE);
               }}
               className={`mt-3 min-h-10 text-sm text-primary-active underline underline-offset-4 hover:text-ink ${focusRing}`}

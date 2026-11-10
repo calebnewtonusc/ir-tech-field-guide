@@ -1,0 +1,450 @@
+{
+ "Addison, TX, USA": [
+  32.96,
+  -96.83
+ ],
+ "Albany, NY, USA": [
+  42.651,
+  -73.755
+ ],
+ "Alexandria, VA, USA": [
+  38.805,
+  -77.047
+ ],
+ "Alpharetta, GA, USA": [
+  34.076,
+  -84.295
+ ],
+ "Atlanta, GA, USA": [
+  33.754,
+  -84.39
+ ],
+ "Atlantic Station, Atlanta, GA, USA": [
+  33.754,
+  -84.39
+ ],
+ "Austin, TX, USA": [
+  30.265,
+  -97.747
+ ],
+ "Bangkok": [
+  13.752,
+  100.494
+ ],
+ "Bay Area": [
+  37.444,
+  -122.16
+ ],
+ "Bennington, Vancouver, WA, USA": [
+  45.631,
+  -122.674
+ ],
+ "Birmingham, AL, USA": [
+  33.521,
+  -86.802
+ ],
+ "Bloomington, IL, USA": [
+  40.48,
+  -88.994
+ ],
+ "Boulder, CO, USA": [
+  40.015,
+  -105.271
+ ],
+ "Brooklyn, NY, USA": [
+  40.653,
+  -73.95
+ ],
+ "Burnsville, MN, USA": [
+  44.767,
+  -93.277
+ ],
+ "California Heights, Long Beach, CA, USA": [
+  33.769,
+  -118.192
+ ],
+ "Cambridge, MA, USA": [
+  42.366,
+  -71.104
+ ],
+ "Canal Street, New York, NY, USA": [
+  40.713,
+  -74.006
+ ],
+ "Charlotte, NC, USA": [
+  35.227,
+  -80.843
+ ],
+ "Chennai": [
+  13.08,
+  80.281
+ ],
+ "Cincinnati, OH, USA": [
+  39.101,
+  -84.513
+ ],
+ "College Station, TX, USA": [
+  30.618,
+  -96.346
+ ],
+ "Colorado Springs, CO, USA": [
+  38.834,
+  -104.825
+ ],
+ "Columbia Heights, Washington, DC, USA": [
+  38.895,
+  -77.036
+ ],
+ "Concord, MA, USA": [
+  42.461,
+  -71.349
+ ],
+ "Connecticut Ave/ K Street, Washington, DC, USA": [
+  38.895,
+  -77.036
+ ],
+ "Corona, CA, USA": [
+  33.875,
+  -117.566
+ ],
+ "Costa Mesa, CA, USA": [
+  33.663,
+  -117.903
+ ],
+ "Covington, GA, USA": [
+  33.597,
+  -83.86
+ ],
+ "Curtis Street, Chattanooga, TN, USA": [
+  35.046,
+  -85.309
+ ],
+ "Dallas, TX, USA": [
+  32.776,
+  -96.797
+ ],
+ "Deerfield Beach, FL, USA": [
+  26.318,
+  -80.1
+ ],
+ "Denver, CO, USA": [
+  39.739,
+  -104.985
+ ],
+ "Duke University - Main Campus, Durham, NC, USA": [
+  35.997,
+  -78.902
+ ],
+ "Durham, NC, USA": [
+  35.997,
+  -78.902
+ ],
+ "East Market Street B, Greensboro, NC, USA": [
+  36.073,
+  -79.792
+ ],
+ "El Paso, TX, USA": [
+  31.76,
+  -106.487
+ ],
+ "England, UK": [
+  52.531,
+  -1.265
+ ],
+ "Falls Church, VA, USA": [
+  38.882,
+  -77.171
+ ],
+ "Fort Worth, TX, USA": [
+  32.753,
+  -97.333
+ ],
+ "Gahanna, OH, USA": [
+  40.02,
+  -82.879
+ ],
+ "Gay Street, Baltimore, MD, USA": [
+  39.291,
+  -76.611
+ ],
+ "Georgetown, TX, USA": [
+  30.637,
+  -97.678
+ ],
+ "Goshen, IN, USA": [
+  41.585,
+  -85.834
+ ],
+ "Grand Rapids, MI, USA": [
+  42.963,
+  -85.668
+ ],
+ "Guatemala City, Guatemala": [
+  14.642,
+  -90.513
+ ],
+ "Houston, TX, USA": [
+  29.759,
+  -95.368
+ ],
+ "Illinois Medical District, Chicago, IL, USA": [
+  41.876,
+  -87.624
+ ],
+ "Indian Creek Park Estates, Overland Park, KS, USA": [
+  38.974,
+  -94.685
+ ],
+ "Indianapolis, IN, USA": [
+  39.768,
+  -86.158
+ ],
+ "Irvine, CA, USA": [
+  33.686,
+  -117.826
+ ],
+ "Jackson, WY, USA": [
+  43.48,
+  -110.762
+ ],
+ "Jacksonville, FL, USA": [
+  30.326,
+  -81.658
+ ],
+ "Lakeside, MT, USA": [
+  48.021,
+  -114.226
+ ],
+ "Lancaster, PA, USA": [
+  40.038,
+  -76.306
+ ],
+ "Las Vegas, NV, USA": [
+  36.167,
+  -115.148
+ ],
+ "Lawrenceville, GA, USA": [
+  33.957,
+  -83.989
+ ],
+ "Lexington, KY, USA": [
+  38.046,
+  -84.497
+ ],
+ "Liberty Station, San Diego, CA, USA": [
+  32.716,
+  -117.164
+ ],
+ "Little Rock, AR, USA": [
+  34.747,
+  -92.29
+ ],
+ "London, UK": [
+  51.507,
+  -0.128
+ ],
+ "Los Angeles, CA, USA": [
+  34.054,
+  -118.243
+ ],
+ "Louisville, KY, USA": [
+  38.254,
+  -85.759
+ ],
+ "Lowell, MI, USA": [
+  42.934,
+  -85.342
+ ],
+ "Manchester, UK": [
+  53.442,
+  -2.232
+ ],
+ "McKinney, TX, USA": [
+  33.198,
+  -96.615
+ ],
+ "Menlo Park, CA, USA": [
+  37.452,
+  -122.178
+ ],
+ "Mercer Island, WA, USA": [
+  47.577,
+  -122.228
+ ],
+ "Merrifield, VA, USA": [
+  38.877,
+  -77.243
+ ],
+ "Mountain View, CA, USA": [
+  37.389,
+  -122.083
+ ],
+ "Mumbai, Maharashtra, India": [
+  19.055,
+  72.869
+ ],
+ "Nashville, TN, USA": [
+  36.162,
+  -86.774
+ ],
+ "New York, NY, USA": [
+  40.713,
+  -74.006
+ ],
+ "New York, USA": [
+  40.713,
+  -74.006
+ ],
+ "Newberg, OR, USA": [
+  45.3,
+  -122.973
+ ],
+ "Newport, UK": [
+  51.572,
+  -2.975
+ ],
+ "North Chicago, IL, USA": [
+  42.328,
+  -87.839
+ ],
+ "North Raleigh, Raleigh, NC, USA": [
+  35.78,
+  -78.639
+ ],
+ "Ohio, USA": [
+  40.225,
+  -82.688
+ ],
+ "Oklahoma City, OK, USA": [
+  35.473,
+  -97.517
+ ],
+ "Orlando, FL, USA": [
+  28.542,
+  -81.379
+ ],
+ "Outpost Estates, Los Angeles, CA, USA": [
+  34.054,
+  -118.243
+ ],
+ "Overland Park, KS, USA": [
+  38.974,
+  -94.685
+ ],
+ "Palo Alto, CA, USA": [
+  37.444,
+  -122.16
+ ],
+ "Plano, TX, USA": [
+  33.014,
+  -96.693
+ ],
+ "Plaza Del Sol Estates, Phoenix, AZ, USA": [
+  33.448,
+  -112.074
+ ],
+ "Pompano Beach, FL, USA": [
+  26.238,
+  -80.125
+ ],
+ "Portland, OR, USA": [
+  45.52,
+  -122.674
+ ],
+ "Riverway Estates/Bruton Terrace, Dallas, TX, USA": [
+  32.776,
+  -96.797
+ ],
+ "Sacramento, CA, USA": [
+  38.581,
+  -121.494
+ ],
+ "San Francisco, CA, USA": [
+  37.788,
+  -122.408
+ ],
+ "San Juan Capistrano, CA, USA": [
+  33.502,
+  -117.663
+ ],
+ "San Mateo, CA, USA": [
+  37.497,
+  -122.333
+ ],
+ "Sausalito, CA, USA": [
+  37.859,
+  -122.485
+ ],
+ "Seattle, WA, USA": [
+  47.604,
+  -122.33
+ ],
+ "Seoul, South Korea": [
+  37.567,
+  126.978
+ ],
+ "Sheffield, AL, USA": [
+  34.761,
+  -87.698
+ ],
+ "Sierra Madre, CA, USA": [
+  34.162,
+  -118.053
+ ],
+ "Sioux Falls, SD, USA": [
+  43.548,
+  -96.729
+ ],
+ "St. Louis, MO, USA": [
+  38.625,
+  -90.19
+ ],
+ "State College, PA, USA": [
+  40.794,
+  -77.862
+ ],
+ "Stokes, San Jose, CA, USA": [
+  37.336,
+  -121.891
+ ],
+ "The Woodlands, TX, USA": [
+  30.173,
+  -95.505
+ ],
+ "Union Square, New York, NY, USA": [
+  40.713,
+  -74.006
+ ],
+ "United States": [
+  39.784,
+  -100.446
+ ],
+ "Vancouver": [
+  49.261,
+  -123.114
+ ],
+ "Vancouver, BC, Canada": [
+  49.261,
+  -123.114
+ ],
+ "Washington, DC, USA": [
+  38.895,
+  -77.036
+ ],
+ "Waterloo": [
+  42.498,
+  -92.333
+ ],
+ "Waterloo, ON, Canada": [
+  43.465,
+  -80.522
+ ],
+ "West Street / River Street, Boston, MA, USA": [
+  42.359,
+  -71.058
+ ],
+ "West University, Austin, TX, USA": [
+  30.265,
+  -97.747
+ ]
+}

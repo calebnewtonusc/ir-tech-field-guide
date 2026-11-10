@@ -1,5 +1,6 @@
 import Directory from "@/components/Directory";
 import Guide from "@/components/Guide";
+import WorldMap from "@/components/WorldMap";
 import { baseline, plan, postings, resources, stats } from "@/lib/data";
 
 const focusRing =
@@ -74,6 +75,9 @@ export default function Home() {
             >
               See the numbers
             </a>
+          </div>
+          <div className="mt-14 sm:mt-20">
+            <WorldMap />
           </div>
         </section>
 

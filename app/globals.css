@@ -59,11 +59,35 @@
   }
 }
 
+/* Map pins: Chrome draws a square box around a focused SVG circle. Focus is shown by the pin itself
+   instead: focusing a pin fills it ink and opens its card, so keyboard users still see where they are. */
+.map-hit:focus {
+  outline: none;
+}
+
+@keyframes pin-pulse {
+  from {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  to {
+    transform: scale(3.2);
+    opacity: 0;
+  }
+}
+
+.pin-pulse {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: pin-pulse 3.5s ease-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
-  .ticker-track {
+  .ticker-track,
+  .pin-pulse {
     animation: none;
   }
 }
