@@ -51,7 +51,6 @@ export default function Home() {
       <main id="top">
         {/* Hero */}
         <section className="mx-auto max-w-5xl px-4 pt-16 pb-12 sm:px-6 sm:pt-28">
-          <p className="mb-6 font-mono text-sm text-muted">For Sienna Kim</p>
           <h1 className="max-w-4xl text-[2.6rem] leading-[1.05] font-normal tracking-[-0.03em] sm:text-7xl">
             Tech companies are hiring people who study what you study.
           </h1>
@@ -289,7 +288,7 @@ export default function Home() {
 
       <footer className="border-t border-hairline">
         <div className="mx-auto flex max-w-5xl flex-col gap-2 px-4 py-10 text-sm text-body sm:flex-row sm:items-center sm:justify-between sm:px-6">
-          <p>Made for Sienna by Caleb, who thinks you&apos;d be great at this.</p>
+          <p>Made by a friend who thinks you&apos;d be great at this.</p>
           <p className="text-muted">
             Checked November 2026. Postings change, so confirm on each
             company&apos;s careers page.
