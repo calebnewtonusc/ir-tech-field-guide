@@ -1,40 +1,44 @@
 import Directory from "@/components/Directory";
 import Guide from "@/components/Guide";
+import Route from "@/components/Route";
+import { SmoothScroll } from "@/components/SmoothScroll";
+import TheCase from "@/components/TheCase";
 import WorldMap from "@/components/WorldMap";
-import { baseline, plan, postings, resources, stats } from "@/lib/data";
+import { postings, resources } from "@/lib/data";
+
+// One story in eight parts (SPEC.md): departure, the case, the passport, the visas,
+// where they are, why it matters, the route, the packing list.
 
 const focusRing =
   "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary";
-const textLink = `underline decoration-hairline-strong underline-offset-4 transition-colors hover:text-primary-active hover:decoration-primary ${focusRing}`;
 
 const nav = [
-  { href: "#numbers", label: "Numbers" },
-  { href: "#quiz", label: "Quiz" },
-  { href: "#paths", label: "Paths" },
-  { href: "#plan", label: "Plan" },
+  { href: "#quiz", label: "Passport" },
+  { href: "#visas", label: "Visas" },
   { href: "#orgs", label: "Orgs" },
-  { href: "#resources", label: "Resources" },
+  { href: "#route", label: "Route" },
 ];
 
 export default function Home() {
-  const tickerItems = [...postings, ...postings];
+  const board = [...postings, ...postings];
 
   return (
     <>
-      <header className="sticky top-0 z-30 border-b border-hairline bg-canvas/90 backdrop-blur">
-        <nav className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4 sm:px-6">
+      <SmoothScroll />
+      <header className="fixed inset-x-0 top-0 z-30 bg-night/80 text-on-night backdrop-blur-md">
+        <nav className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 sm:px-6">
           <a
             href="#top"
-            className={`font-medium tracking-tight transition-colors hover:text-primary-active ${focusRing}`}
+            className={`font-mono text-sm tracking-[0.2em] transition-colors hover:text-primary ${focusRing}`}
           >
-            IR x Tech
+            IR &times; TECH
           </a>
-          <div className="hidden items-center gap-6 text-sm text-body sm:flex">
+          <div className="hidden items-center gap-7 text-sm text-on-ink-muted sm:flex">
             {nav.map((n) => (
               <a
                 key={n.href}
                 href={n.href}
-                className={`transition-colors hover:text-ink ${focusRing}`}
+                className={`transition-colors hover:text-on-night ${focusRing}`}
               >
                 {n.label}
               </a>
@@ -44,258 +48,142 @@ export default function Home() {
             href="#quiz"
             className={`inline-flex min-h-10 items-center rounded-full bg-primary px-4 text-sm font-medium text-white transition duration-100 hover:bg-primary-active active:scale-[0.97] sm:hidden ${focusRing}`}
           >
-            Take the quiz
+            Get stamped
           </a>
         </nav>
       </header>
 
       <main id="top">
-        {/* Hero */}
-        <section className="mx-auto max-w-5xl px-4 pt-16 pb-12 sm:px-6 sm:pt-28">
-          <h1 className="max-w-4xl text-[2.6rem] leading-[1.05] font-normal tracking-[-0.03em] sm:text-7xl">
-            Tech companies are hiring people who study what you study.
-          </h1>
-          <p className="mt-7 max-w-2xl text-lg leading-relaxed text-body">
-            AI labs negotiate rules with governments. Defense startups sell to
-            ministries in a dozen countries. Fintechs launch country by country
-            under different regulators. All of it needs someone who understands
-            how states, borders and conflict work. Here are five of those jobs,
-            a quiz to find yours, and what to do this semester.
-          </p>
-          <div className="mt-9 flex flex-wrap gap-3">
-            <a
-              href="#quiz"
-              className={`inline-flex min-h-12 items-center rounded-full bg-primary px-6 font-medium text-white transition duration-100 hover:bg-primary-active active:scale-[0.97] ${focusRing}`}
-            >
-              Find your path
-            </a>
-            <a
-              href="#numbers"
-              className={`inline-flex min-h-12 items-center rounded-full border border-hairline-strong px-6 text-ink transition duration-100 hover:border-ink active:scale-[0.97] ${focusRing}`}
-            >
-              See the numbers
-            </a>
-          </div>
-          <div className="mt-14 sm:mt-20">
-            <WorldMap />
-          </div>
-        </section>
-
-        {/* Real postings ticker */}
-        <section
-          aria-label="Real 2026 job postings"
-          className="ticker overflow-hidden border-y border-hairline bg-card py-4"
-        >
-          <p className="mx-auto mb-3 max-w-5xl px-4 font-mono text-xs text-muted sm:px-6">
-            Real postings from 2026
-          </p>
-          <div className="ticker-track flex w-max gap-3">
-            {tickerItems.map((p, i) => (
-              <a
-                key={`${p.href}-${i}`}
-                href={p.href}
-                target="_blank"
-                rel="noopener"
-                aria-hidden={i >= postings.length}
-                tabIndex={i >= postings.length ? -1 : 0}
-                className={`flex shrink-0 items-center gap-3 rounded-full border border-hairline bg-canvas px-4 py-2 text-sm transition-colors hover:border-ink ${focusRing}`}
-              >
-                <span className="text-ink">{p.title}</span>
-                <span className="font-mono text-xs text-muted">
-                  {p.company}
-                </span>
-              </a>
-            ))}
-          </div>
-        </section>
-
-        {/* Numbers */}
-        <section
-          id="numbers"
-          className="mx-auto max-w-5xl scroll-mt-16 px-4 py-20 sm:px-6 sm:py-28"
-        >
-          <h2 className="text-3xl font-normal tracking-tight sm:text-4xl">
-            The numbers behind it
-          </h2>
-          <p className="mt-3 text-body">
-            Tap any number to see where it came from.
-          </p>
-          <div className="mt-10 grid gap-px overflow-hidden rounded-lg border border-hairline bg-hairline sm:grid-cols-2 lg:grid-cols-3">
-            {stats.map((s) => (
-              <a
-                key={s.value}
-                href={s.href}
-                target="_blank"
-                rel="noopener"
-                className={`group flex flex-col gap-3 bg-card p-6 transition-colors duration-100 hover:bg-canvas-soft sm:p-7 ${focusRing} focus-visible:-outline-offset-2`}
-              >
-                <span className="text-4xl tracking-tight sm:text-5xl">
-                  {s.value}
-                </span>
-                <span className="leading-relaxed text-body">{s.label}</span>
-                <span className="mt-auto pt-2 font-mono text-xs text-muted transition-colors group-hover:text-primary-active">
-                  {s.source} &rarr;
-                </span>
-              </a>
-            ))}
-          </div>
-          <p className="mt-6 max-w-3xl text-sm text-body">
-            {baseline.text}{" "}
-            <a
-              href={baseline.href}
-              target="_blank"
-              rel="noopener"
-              className={textLink}
-            >
-              BLS
-            </a>
-          </p>
-        </section>
-
-        <Guide />
-
-        {/* Plan */}
-        <section
-          id="plan"
-          className="scroll-mt-16 border-t border-hairline bg-card"
-        >
-          <div className="mx-auto max-w-5xl px-4 py-20 sm:px-6 sm:py-28">
-            <h2 className="text-3xl font-normal tracking-tight sm:text-4xl">
-              What to do, in order
-            </h2>
-            <p className="mt-3 max-w-2xl text-body">
-              This works for every path. Your path above adds the moves specific
-              to it.
+        {/* 1. Departure */}
+        <section className="relative flex flex-col bg-night pt-24 text-on-night sm:min-h-svh">
+          <div className="mx-auto w-full max-w-6xl px-4 sm:px-6">
+            <h1 className="max-w-4xl text-[clamp(2.7rem,min(7.4vw,9svh),5.6rem)] leading-[0.98] font-normal tracking-[-0.035em]">
+              Every tech company is a foreign policy company now.
+            </h1>
+            <p className="mt-6 max-w-md text-lg text-on-ink-soft">
+              If you study how the world works, they need you. Here&apos;s where
+              you&apos;d fit.
             </p>
-            <ol className="mt-12 grid gap-x-10 gap-y-10 md:grid-cols-2">
-              {plan.map((s, i) => (
-                <li key={s.title} className="flex gap-5">
-                  <span className="font-mono text-sm text-muted">
-                    {String(i + 1).padStart(2, "0")}
+          </div>
+          <div className="mx-auto mt-10 w-full max-w-6xl px-4 sm:flex-1 sm:px-6">
+            <WorldMap tone="dark" />
+          </div>
+          {/* Departures board: real 2026 postings */}
+          <div
+            className="ticker mt-10 overflow-hidden border-t border-white/10 py-4"
+            aria-label="Real job postings from 2026"
+          >
+            <div className="ticker-track flex w-max gap-10">
+              {board.map((p, i) => (
+                <a
+                  key={`${p.href}-${i}`}
+                  href={p.href}
+                  target="_blank"
+                  rel="noopener"
+                  aria-hidden={i >= postings.length}
+                  tabIndex={i >= postings.length ? -1 : 0}
+                  className={`flex shrink-0 items-baseline gap-3 font-mono text-sm transition-colors hover:text-primary ${focusRing}`}
+                >
+                  <span className="text-[11px] tracking-[0.2em] text-primary">
+                    NOW HIRING
                   </span>
-                  <div>
-                    <p className="font-mono text-xs uppercase tracking-wider text-muted">
-                      {s.when}
-                    </p>
-                    <p className="mt-1 text-xl font-medium">{s.title}</p>
-                    <p className="mt-2 leading-relaxed text-body">{s.body}</p>
-                  </div>
-                </li>
+                  <span className="text-on-night">{p.title}</span>
+                  <span className="text-on-ink-muted">{p.company}</span>
+                </a>
               ))}
-            </ol>
-
-            <div className="mt-16 border-t border-hairline pt-10">
-              <h3 className="text-2xl font-normal tracking-tight">
-                The honest part
-              </h3>
-              <ul className="mt-6 grid gap-4 leading-relaxed text-body md:grid-cols-3 md:gap-8">
-                <li>
-                  Many senior policy roles want years in government first.
-                  Anduril&apos;s DC government relations roles ask for national
-                  security experience on the Hill or in the executive branch,
-                  and its Global Defense internship is for master&apos;s
-                  students.{" "}
-                  <a
-                    href="https://jobs.luxcapital.com/companies/anduril/jobs/72450924-global-defense-intern"
-                    target="_blank"
-                    rel="noopener"
-                    className={textLink}
-                  >
-                    Posting
-                  </a>
-                </li>
-                <li>
-                  The way in as an undergrad is usually a broader role:
-                  operations, business development, trust and safety analyst, or
-                  research at a think tank. You specialize once you&apos;re in.
-                </li>
-                <li>
-                  Startups move fast and some fold. The upside is you own real
-                  work in year one that would take five years to reach somewhere
-                  bigger.
-                </li>
-              </ul>
             </div>
           </div>
         </section>
 
-        {/* Faith and the work */}
-        <section id="faith" className="scroll-mt-16 bg-ink text-canvas">
-          <div className="mx-auto max-w-3xl px-4 py-20 sm:px-6 sm:py-28">
-            <h2 className="text-3xl font-normal tracking-tight sm:text-4xl">Faith and the work</h2>
-            <blockquote className="mt-10 border-l border-on-ink-muted pl-6 text-2xl leading-snug sm:text-3xl">
-              &ldquo;Seek the welfare of the city where I have sent you into exile, and pray to the Lord on its behalf, for in its welfare you
-              will find your welfare.&rdquo;
-              <footer className="mt-4 font-mono text-sm text-on-ink-muted">Jeremiah 29:7</footer>
+        {/* 2. The case */}
+        <TheCase />
+
+        {/* 3 + 4. Passport and visas */}
+        <Guide />
+
+        {/* 5. Where they are */}
+        <Directory />
+
+        {/* 6. Why it matters */}
+        <section
+          id="faith"
+          className="scroll-mt-14 bg-night px-4 py-28 text-on-night sm:px-6 sm:py-40"
+        >
+          <div className="mx-auto max-w-5xl">
+            <blockquote className="text-[clamp(2rem,5.2vw,4.2rem)] leading-[1.08] tracking-[-0.025em]">
+              &ldquo;Seek the welfare of the city where I have sent you into
+              exile, and pray to the Lord on its behalf.&rdquo;
             </blockquote>
-            <p className="mt-10 max-w-2xl text-lg leading-relaxed text-on-ink-soft">
-              God told exiles in Babylon to work for the good of a foreign nation. That&apos;s close to what every one of these paths does. Policy
-              decides rules billions of people live under. Trust and safety protects people who can&apos;t protect themselves online. Risk work
-              keeps families and companies out of harm&apos;s way. Following Jesus in that work looks like telling the truth in a memo when it
-              costs you and caring about the people on the other end of a decision.
+            <p className="mt-6 font-mono text-sm text-on-ink-muted">
+              Jeremiah 29:7
+            </p>
+            <p className="mt-12 max-w-lg text-lg text-on-ink-soft">
+              God told exiles to work for the good of a foreign nation. Every
+              path above is a way to do that.
             </p>
           </div>
         </section>
 
-        <Directory />
+        {/* 7. The route */}
+        <Route />
 
-        {/* Resources */}
+        {/* 8. Packing list */}
         <section
           id="resources"
-          className="mx-auto max-w-5xl scroll-mt-16 px-4 py-20 sm:px-6 sm:py-28"
+          className="scroll-mt-14 border-t border-hairline bg-canvas-soft px-4 py-24 sm:px-6 sm:py-32"
         >
-          <h2 className="text-3xl font-normal tracking-tight sm:text-4xl">
-            Resources
-          </h2>
-          <p className="mt-3 text-body">
-            Start with one newsletter and one job board. That&apos;s enough for
-            week one.
-          </p>
-          <div className="mt-12 grid gap-x-12 gap-y-12 md:grid-cols-2">
-            {resources.map((g) => (
-              <div key={g.title}>
-                <h3 className="font-mono text-xs uppercase tracking-wider text-muted">
-                  {g.title}
-                </h3>
-                <ul className="mt-4 divide-y divide-hairline border-y border-hairline">
-                  {g.items.map((r) => (
-                    <li key={r.name}>
-                      <a
-                        href={r.href}
-                        target="_blank"
-                        rel="noopener"
-                        className={`group flex items-start justify-between gap-4 py-4 transition-colors ${focusRing}`}
-                      >
-                        <span>
-                          <span className="block font-medium text-ink transition-colors group-hover:text-primary-active">
-                            {r.name}
-                          </span>
-                          <span className="mt-1 block text-sm text-body">
-                            {r.note}
-                          </span>
-                        </span>
-                        <span
-                          aria-hidden
-                          className="mt-0.5 text-muted transition-transform duration-100 group-hover:translate-x-0.5 group-hover:text-primary-active"
+          <div className="mx-auto max-w-6xl">
+            <h2 className="max-w-2xl text-[clamp(2.4rem,6vw,4.5rem)] leading-[1.02] font-normal tracking-[-0.03em]">
+              Pack these.
+            </h2>
+            <div className="mt-14 grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+              {resources.map((g) => (
+                <div key={g.title}>
+                  <h3 className="font-mono text-xs tracking-[0.15em] text-muted uppercase">
+                    {g.title}
+                  </h3>
+                  <ul className="mt-4 divide-y divide-hairline border-y border-hairline">
+                    {g.items.map((r) => (
+                      <li key={r.name}>
+                        <a
+                          href={r.href}
+                          target="_blank"
+                          rel="noopener"
+                          className={`group flex min-h-14 items-center justify-between gap-4 py-3 ${focusRing}`}
                         >
-                          &rarr;
-                        </span>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+                          <span>
+                            <span className="block text-ink transition-colors group-hover:text-primary-active">
+                              {r.name}
+                            </span>
+                            <span className="block text-sm text-muted">
+                              {r.note}
+                            </span>
+                          </span>
+                          <span
+                            aria-hidden
+                            className="text-muted transition-transform duration-100 group-hover:translate-x-0.5 group-hover:text-primary-active"
+                          >
+                            &rarr;
+                          </span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
       </main>
 
-      <footer className="border-t border-hairline">
-        <div className="mx-auto flex max-w-5xl flex-col gap-2 px-4 py-10 text-sm text-body sm:flex-row sm:items-center sm:justify-between sm:px-6">
-          <p>Made by a friend who thinks you&apos;d be great at this.</p>
-          <p className="text-muted">
-            Checked November 2026. Postings change, so confirm on each
-            company&apos;s careers page.
+      <footer className="bg-night text-on-ink-muted">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-10 text-sm sm:flex-row sm:items-center sm:justify-between sm:px-6">
+          <p className="text-on-night">
+            Made by a friend who thinks you&apos;d be great at this.
+          </p>
+          <p>
+            Checked November 2026. Postings change, so confirm on each careers
+            page.
           </p>
         </div>
       </footer>

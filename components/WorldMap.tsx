@@ -28,7 +28,7 @@ export const PLACE_EVENT = "orgs:place";
 const focusRing =
   "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary";
 
-export default function WorldMap() {
+export default function WorldMap({ tone = "light" }: { tone?: "light" | "dark" }) {
   const reduce = useReducedMotion();
   const [active, setActive] = useState<Pin | null>(null);
 
@@ -69,7 +69,7 @@ export default function WorldMap() {
         >
           <path
             d={landPath}
-            stroke="var(--color-hairline-strong)"
+            stroke={tone === "dark" ? "var(--color-night-dot)" : "var(--color-hairline-strong)"}
             strokeWidth={2.6}
             strokeLinecap="round"
             fill="none"
@@ -95,7 +95,7 @@ export default function WorldMap() {
                   cx={p.x}
                   cy={p.y}
                   r={r}
-                  fill={isActive ? "var(--color-ink)" : "var(--color-primary)"}
+                  fill={isActive ? (tone === "dark" ? "var(--color-on-night)" : "var(--color-ink)") : "var(--color-primary)"}
                   initial={reduce ? false : { opacity: 0, scale: 0.4 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{
@@ -177,7 +177,7 @@ export default function WorldMap() {
           </div>
         )}
       </div>
-      <figcaption className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 font-mono text-xs text-muted">
+      <figcaption className={`mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 font-mono text-xs ${tone === "dark" ? "text-on-ink-muted" : "text-muted"}`}>
         <span className="inline-flex items-center gap-2">
           <span aria-hidden className="h-2.5 w-2.5 rounded-full bg-primary" />
           {placed} faith-driven orgs, where each is based

@@ -16,6 +16,18 @@
   --color-on-ink-soft: #d6d3c9;
   --color-match-soft: #fde6da;
 
+  /* Night ground for the departure, the case and the faith parts. */
+  --color-night: #14130f;
+  --color-night-2: #1f1d17;
+  --color-night-dot: #3d3a30;
+  --color-on-night: #f2f0e8;
+
+  /* The passport: navy cover, gold foil, cream pages. */
+  --color-passport: #1b2740;
+  --color-foil: #c9a45c;
+  --color-page: #fbf6ea;
+  --color-page-line: #e9dfc8;
+
   /* One color per path, used only to mark which path a thing belongs to. */
   --color-policy: #9fbbe0;
   --color-defense: #dfa88f;

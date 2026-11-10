@@ -95,40 +95,25 @@ export default function Directory() {
   }
 
   return (
-    <section id="orgs" className="scroll-mt-16 border-t border-hairline">
+    <section id="orgs" className="scroll-mt-14 border-t border-hairline bg-canvas">
       <div className="mx-auto max-w-5xl px-4 py-20 sm:px-6 sm:py-28">
-        <h2 className="text-3xl font-normal tracking-tight sm:text-4xl">
-          Every org in the network
+        <h2 className="max-w-3xl text-[clamp(2.4rem,6vw,4.5rem)] leading-[1.02] font-normal tracking-[-0.03em]">
+          {orgs.length} faith-driven orgs already doing this.
         </h2>
-        <p className="mt-3 max-w-2xl text-body">
-          All {counts.praxis} ventures on the{" "}
-          <a
-            href="https://jobs.praxis.co/companies"
-            target="_blank"
-            rel="noopener"
-            className={`underline decoration-hairline-strong underline-offset-4 hover:text-primary-active ${focusRing}`}
-          >
+        <p className="mt-4 max-w-2xl text-body">
+          Every venture on the{" "}
+          <a href="https://jobs.praxis.co/companies" target="_blank" rel="noopener" className={`underline decoration-hairline-strong underline-offset-4 hover:text-primary-active ${focusRing}`}>
             Praxis
           </a>{" "}
-          board, all {counts.bayarea} groups in the{" "}
-          <a
-            href="https://faithworktech.org/faith-and-work-directory"
-            target="_blank"
-            rel="noopener"
-            className={`underline decoration-hairline-strong underline-offset-4 hover:text-primary-active ${focusRing}`}
-          >
+          board, the{" "}
+          <a href="https://faithworktech.org/faith-and-work-directory" target="_blank" rel="noopener" className={`underline decoration-hairline-strong underline-offset-4 hover:text-primary-active ${focusRing}`}>
             Bay Area Center for Faith, Work &amp; Tech
           </a>{" "}
-          directory, and {counts.faithtech} projects out of{" "}
-          <a
-            href="https://faithtech.com/create"
-            target="_blank"
-            rel="noopener"
-            className={`underline decoration-hairline-strong underline-offset-4 hover:text-primary-active ${focusRing}`}
-          >
-            FaithTech Create
+          network and{" "}
+          <a href="https://faithtech.com/create" target="_blank" rel="noopener" className={`underline decoration-hairline-strong underline-offset-4 hover:text-primary-active ${focusRing}`}>
+            FaithTech
           </a>
-          . Pulled November 9, 2026.
+          .
         </p>
 
         <div className="mt-10 grid grid-cols-3 gap-px overflow-hidden rounded-lg border border-hairline bg-hairline">
