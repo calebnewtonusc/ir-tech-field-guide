@@ -51,12 +51,70 @@ const BUILT = Date.parse("2026-11-10T00:00:00");
 let NOW = BUILT;
 const daysUntil = (iso: string) => Math.ceil((new Date(`${iso}T23:59:00`).getTime() - NOW) / 86_400_000);
 
+// A one-event .ics file for a confirmed deadline, built in the browser. All-day event on the deadline,
+// with a reminder a week before.
+function addToCalendar(d: Door) {
+  if (!d.closes) return;
+  const day = d.closes.replaceAll("-", "");
+  const next = new Date(`${d.closes}T12:00:00`);
+  next.setDate(next.getDate() + 1);
+  const end = next.toISOString().slice(0, 10).replaceAll("-", "");
+  const ics = [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//IR x Tech//Open doors//EN",
+    "BEGIN:VEVENT",
+    `UID:${day}-${d.name.replace(/\W+/g, "-").toLowerCase()}@ir-tech-field-guide`,
+    `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, "").slice(0, 15)}Z`,
+    `DTSTART;VALUE=DATE:${day}`,
+    `DTEND;VALUE=DATE:${end}`,
+    `SUMMARY:${d.name} deadline`,
+    `DESCRIPTION:${d.blurb} ${d.href}`,
+    `URL:${d.href}`,
+    "BEGIN:VALARM",
+    "TRIGGER:-P7D",
+    "ACTION:DISPLAY",
+    `DESCRIPTION:${d.name} closes in a week`,
+    "END:VALARM",
+    "END:VEVENT",
+    "END:VCALENDAR",
+  ].join("\r\n");
+  const url = URL.createObjectURL(new Blob([ics], { type: "text/calendar" }));
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${d.name.replace(/\W+/g, "-")}-deadline.ics`;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
 export default function Doors() {
   const reduce = useReducedMotion();
   const [kind, setKind] = useState<Kind | "All">("All");
   const [month, setMonth] = useState<number | null>(null);
   const [paysOnly, setPaysOnly] = useState(false);
   const [faithOnly, setFaithOnly] = useState(false);
+  const [savedOnly, setSavedOnly] = useState(false);
+  const [saved, setSaved] = useState<string[]>([]);
+  // Saved doors live in her browser only. Wrapped: storage can be blocked (private mode), and the page
+  // must work the same without it.
+  useEffect(() => {
+    try {
+      setSaved(JSON.parse(localStorage.getItem("ir-doors-saved") || "[]"));
+    } catch {
+      setSaved([]);
+    }
+  }, []);
+  function toggleSave(name: string) {
+    setSaved((prev) => {
+      const next = prev.includes(name) ? prev.filter((n) => n !== name) : [...prev, name];
+      try {
+        localStorage.setItem("ir-doors-saved", JSON.stringify(next));
+      } catch {
+        /* storage blocked: the star still works for this visit */
+      }
+      return next;
+    });
+  }
   const [today, setToday] = useState(BUILT);
   useEffect(() => {
     NOW = Date.now();
@@ -97,7 +155,8 @@ export default function Doors() {
       (kind === "All" || d.kind === kind) &&
       (month === null || d.months.includes(month)) &&
       (!paysOnly || d.pays) &&
-      (!faithOnly || d.faith),
+      (!faithOnly || d.faith) &&
+      (!savedOnly || saved.includes(d.name)),
   );
 
   return (
@@ -231,6 +290,15 @@ export default function Doors() {
           >
             Faith-rooted
           </button>
+          <button
+            type="button"
+            role="switch"
+            aria-checked={savedOnly}
+            onClick={() => setSavedOnly(!savedOnly)}
+            className={`min-h-10 rounded-full border px-4 text-sm transition-colors duration-100 ${focusRing} ${savedOnly ? "border-primary bg-match-soft text-primary-active" : "border-hairline-strong bg-card text-body hover:border-ink"}`}
+          >
+            &#9733; Saved ({saved.length})
+          </button>
         </div>
         <p className="mt-6 font-mono text-sm text-muted" aria-live="polite">
           {shown.length} {shown.length === 1 ? "door" : "doors"}
@@ -247,6 +315,7 @@ export default function Doors() {
                 setMonth(null);
                 setPaysOnly(false);
                 setFaithOnly(false);
+                setSavedOnly(false);
               }}
               className={`mt-3 min-h-10 text-sm text-primary-active underline underline-offset-4 hover:text-ink ${focusRing}`}
             >
@@ -267,49 +336,49 @@ export default function Doors() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.97 }}
                   transition={{ duration: 0.18 }}
+                  className="group relative flex flex-col rounded-xl border border-hairline bg-card p-5 transition duration-150 hover:-translate-y-0.5 hover:border-ink hover:shadow-[0_14px_30px_-18px_rgba(38,37,30,0.35)]"
                 >
+                  <span className="flex items-center justify-between gap-3">
+                    <span className={`rounded-full px-2.5 py-1 text-xs ${KIND_TINT[d.kind]}`}>{d.kind}</span>
+                    <button
+                      type="button"
+                      aria-pressed={saved.includes(d.name)}
+                      aria-label={saved.includes(d.name) ? `Remove ${d.name} from saved` : `Save ${d.name}`}
+                      onClick={() => toggleSave(d.name)}
+                      className={`relative z-10 grid size-10 place-items-center rounded-full border text-lg transition-colors duration-100 ${focusRing} ${
+                        saved.includes(d.name) ? "border-primary bg-primary text-white" : "border-hairline-strong text-muted hover:border-ink hover:text-ink"
+                      }`}
+                    >
+                      {saved.includes(d.name) ? "\u2605" : "\u2606"}
+                    </button>
+                  </span>
                   <a
                     href={d.href}
                     target="_blank"
                     rel="noopener"
-                    className={`group flex h-full flex-col rounded-xl border border-hairline bg-card p-5 transition duration-150 hover:-translate-y-0.5 hover:border-ink hover:shadow-[0_14px_30px_-18px_rgba(38,37,30,0.35)] ${focusRing}`}
+                    className={`mt-3 block text-lg leading-snug text-ink after:absolute after:inset-0 after:rounded-xl after:content-[''] group-hover:text-primary-active ${focusRing}`}
                   >
-                    <span className="flex items-center justify-between gap-3">
-                      <span
-                        className={`rounded-full px-2.5 py-1 text-xs ${KIND_TINT[d.kind]}`}
-                      >
-                        {d.kind}
-                      </span>
-                      {d.faith && (
-                        <span className="font-mono text-[10px] tracking-[0.15em] text-muted">
-                          FAITH
-                        </span>
-                      )}
-                    </span>
-                    <span className="mt-4 block text-lg leading-snug text-ink group-hover:text-primary-active">
-                      {d.name}
-                    </span>
-                    <span className="mt-2 block text-sm leading-relaxed text-body">
-                      {d.blurb}
-                    </span>
-                    <span className="mt-auto grid gap-1 border-t border-dashed border-hairline pt-4 font-mono text-[11px] text-muted">
-                      <span>
-                        <span className="text-ink">{d.money}</span>
-                      </span>
-                      <span>{d.who}</span>
-                      <span
-                        className={
-                          d.closes &&
-                          daysUntil(d.closes) >= 0 &&
-                          daysUntil(d.closes) <= 30
-                            ? "text-primary-active"
-                            : ""
-                        }
-                      >
-                        {d.when}
-                      </span>
-                    </span>
+                    {d.name}
                   </a>
+                  <span className="mt-2 block text-sm leading-relaxed text-body">{d.blurb}</span>
+                  <span className="mt-auto grid gap-1 border-t border-dashed border-hairline pt-4 font-mono text-[11px] text-muted">
+                    <span className="text-ink">{d.money}</span>
+                    <span>{d.who}</span>
+                    {d.closes ? (
+                      <span className={daysUntil(d.closes) >= 0 && daysUntil(d.closes) <= 30 ? "text-primary-active" : "text-ink"}>Confirmed deadline: {d.when.replace(/^Closes /, "")}</span>
+                    ) : (
+                      <span>Typical timing: {d.when}. Confirm on their site.</span>
+                    )}
+                  </span>
+                  {d.closes && daysUntil(d.closes) >= 0 && (
+                    <button
+                      type="button"
+                      onClick={() => addToCalendar(d)}
+                      className={`relative z-10 mt-4 inline-flex min-h-10 items-center self-start rounded-full border border-hairline-strong px-4 text-xs text-ink transition-colors duration-100 hover:border-ink ${focusRing}`}
+                    >
+                      Add deadline to calendar
+                    </button>
+                  )}
                 </motion.li>
               ))}
             </AnimatePresence>

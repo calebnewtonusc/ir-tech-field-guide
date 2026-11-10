@@ -234,19 +234,24 @@ export default function StoryMap() {
     };
     size();
     window.addEventListener("resize", size);
+    // Draw only while the story is on screen: 4,600 dots a frame is a battery cost when nobody's looking.
+    let visible = true;
+    const io = new IntersectionObserver(([e]) => {
+      visible = e.isIntersecting;
+      if (visible && !reduce) {
+        cancelAnimationFrame(raf);
+        raf = requestAnimationFrame(loop);
+      }
+    });
+    io.observe(canvas);
     const loop = (t: number) => {
-      draw(
-        ctx,
-        canvas.clientWidth,
-        canvas.clientHeight,
-        reduce ? 1 : progress.current,
-        reduce ? 0 : t,
-      );
-      if (!reduce) raf = requestAnimationFrame(loop);
+      draw(ctx, canvas.clientWidth, canvas.clientHeight, reduce ? 1 : progress.current, reduce ? 0 : t);
+      if (!reduce && visible) raf = requestAnimationFrame(loop);
     };
     raf = requestAnimationFrame(loop);
     return () => {
       cancelAnimationFrame(raf);
+      io.disconnect();
       window.removeEventListener("resize", size);
     };
   }, [reduce]);
@@ -277,8 +282,7 @@ export default function StoryMap() {
   return (
     <section
       ref={ref}
-      className="relative bg-night text-on-night"
-      style={{ height: "520svh" }}
+      className="relative h-[420svh] bg-night text-on-night sm:h-[520svh]"
       aria-label="Why tech companies need people who understand the world"
     >
       <div className="sticky top-0 h-svh overflow-hidden">

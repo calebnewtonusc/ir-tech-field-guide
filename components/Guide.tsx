@@ -98,7 +98,12 @@ export default function Guide() {
         setAnswers(next);
         setPressing(null);
         if (step < questions.length - 1) setStep(step + 1);
-        else setOpenId(rank(scoreFor(next))[0]);
+        else {
+          const best = rank(scoreFor(next))[0];
+          setOpenId(best);
+          // Tell the classes section which path won, so it opens on her picks.
+          window.dispatchEvent(new CustomEvent("path:match", { detail: best }));
+        }
       },
       reduce ? 0 : 520,
     );

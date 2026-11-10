@@ -1,0 +1,790 @@
+{
+ "paths": {
+  "policy": [
+   {
+    "code": "IR 303",
+    "title": "Leadership and Diplomacy",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "The role of leaders, diplomatic leadership and creativity in statecraft, providing a deep understanding of the theoretical and practical dimensions...",
+    "spring": {
+     "openSeats": 46,
+     "sections": 1,
+     "when": "Tue/Thu 09:30-10:50"
+    },
+    "why": "How diplomacy actually gets done, from people who led.",
+    "href": "https://classes.usc.edu/term-20271/classes/ir/"
+   },
+   {
+    "code": "IR 306",
+    "title": "International Organizations",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "The emergence of international organizations as a permanent feature in world politics; role of the United Nations Organization as well as regional...",
+    "spring": {
+     "openSeats": 30,
+     "sections": 1,
+     "when": "TBA-TBA"
+    },
+    "why": "The UN, WTO and the rest: who really sets the rules.",
+    "href": "https://classes.usc.edu/term-20271/classes/ir/"
+   },
+   {
+    "code": "IR 343",
+    "title": "U.S. Foreign Policy Since World War II",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Analysis of U.S. foreign policy since 1945 as a basis for understanding significant new trends. Explanation of contemporary issues in U.S. relations...",
+    "spring": {
+     "openSeats": 24,
+     "sections": 1,
+     "when": "Mon/Wed 10:00-11:20"
+    },
+    "why": "The decisions that built the world tech companies sell into.",
+    "href": "https://classes.usc.edu/term-20271/classes/ir/"
+   },
+   {
+    "code": "POSC 438",
+    "title": "How Washington Really Works",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Provides students with a DC insider's understanding of American politics, campaigning and elections.",
+    "spring": {
+     "openSeats": 30,
+     "sections": 1,
+     "when": "TBA-TBA"
+    },
+    "why": "The class version of a DC internship.",
+    "href": "https://classes.usc.edu/term-20271/classes/posc/"
+   },
+   {
+    "code": "POSC 345",
+    "title": "International Law",
+    "terms": [
+     "Fall"
+    ],
+    "units": 4.0,
+    "desc": "Nature, origin, and development of international law; basic principles analyzed and illustrated with cases.",
+    "spring": null,
+    "why": "The legal language every policy team speaks.",
+    "href": "https://classes.usc.edu/term-20263/classes/posc/"
+   }
+  ],
+  "defense": [
+   {
+    "code": "IR 381",
+    "title": "Introduction to International Security",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Key concepts in international security studies; historical evolution of international warfare and diplomacy; contemporary international security...",
+    "spring": {
+     "openSeats": 30,
+     "sections": 1,
+     "when": "Tue/Thu 09:30-10:50"
+    },
+    "why": "The front door to the whole defense world.",
+    "href": "https://classes.usc.edu/term-20271/classes/ir/"
+   },
+   {
+    "code": "IR 304",
+    "title": "National Intelligence and the Shaping of Policy",
+    "terms": [
+     "Fall",
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "The focus is intelligence to improve the making of policy, with attention to collection; overt and covert, operations; domestic intelligence; and...",
+    "spring": {
+     "openSeats": 37,
+     "sections": 1,
+     "when": "Mon/Wed 12:00-13:20"
+    },
+    "why": "How intelligence turns into decisions.",
+    "href": "https://classes.usc.edu/term-20271/classes/ir/"
+   },
+   {
+    "code": "IR 386",
+    "title": "Terrorism and Counterterrorism",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Examination of terrorism and responses to terrorism, including how societies understand and deal with terrorism; focus on ethical and normative...",
+    "spring": {
+     "openSeats": 43,
+     "sections": 1,
+     "when": "Tue/Thu 12:30-13:50"
+    },
+    "why": "Threats defense startups are built to stop.",
+    "href": "https://classes.usc.edu/term-20271/classes/ir/"
+   },
+   {
+    "code": "IR 342",
+    "title": "The Politics and Strategy of Weapons of Mass Destruction",
+    "terms": [
+     "Fall"
+    ],
+    "units": 4.0,
+    "desc": "Causes and effects of use and spread of nuclear, biological and chemical weapons; responses to WMD, including deterrence, preventive war, and...",
+    "spring": null,
+    "why": "Deterrence, the oldest strategy problem there is.",
+    "href": "https://classes.usc.edu/term-20263/classes/ir/"
+   },
+   {
+    "code": "IR 384",
+    "title": "Asian Security Issues",
+    "terms": [
+     "Fall"
+    ],
+    "units": 4.0,
+    "desc": "Introduction to key security trends in the Asia-Pacific region, emphasizing strategic competition between U.S., Russia, and China; regional military...",
+    "spring": null,
+    "why": "Taiwan, the Koreas, the South China Sea.",
+    "href": "https://classes.usc.edu/term-20263/classes/ir/"
+   }
+  ],
+  "trust": [
+   {
+    "code": "IR 320",
+    "title": "Technology and International Relations",
+    "terms": [
+     "Fall"
+    ],
+    "units": 4.0,
+    "desc": "Impact of technological advances to global security and development. Focus on surveillance and cyber conflict; nuclear weaponry, aviation and UAVs...",
+    "spring": null,
+    "why": "Literally this website's thesis, as a class.",
+    "href": "https://classes.usc.edu/term-20263/classes/ir/"
+   },
+   {
+    "code": "PHIL 349",
+    "title": "AI Ethics",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Explores ethical questions concerning AI, including rights, alignment, fairness, privacy and AI's potential roles in politics, weapon systems, the...",
+    "spring": {
+     "openSeats": 11,
+     "sections": 1,
+     "when": "Mon/Wed 17:00-18:20"
+    },
+    "why": "The ethics questions trust and safety teams argue about daily.",
+    "href": "https://classes.usc.edu/term-20271/classes/phil/"
+   },
+   {
+    "code": "POSC 248",
+    "title": "Human Rights",
+    "terms": [
+     "Fall",
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Overview of human rights controversies across the globe. Introduction to techniques of analysis for social issues, interdisciplinary research...",
+    "spring": {
+     "openSeats": 75,
+     "sections": 5,
+     "when": "Tue/Thu 12:30-13:50"
+    },
+    "why": "The rights platforms decide whether to protect.",
+    "href": "https://classes.usc.edu/term-20271/classes/posc/"
+   },
+   {
+    "code": "POSC 437",
+    "title": "Mass Media and Politics",
+    "terms": [
+     "Fall"
+    ],
+    "units": 4.0,
+    "desc": "Analysis of political content of mass media. Audience response to alternative sources of political information. Consideration of the institutional...",
+    "spring": null,
+    "why": "How information shapes politics, and who controls it.",
+    "href": "https://classes.usc.edu/term-20263/classes/posc/"
+   },
+   {
+    "code": "IR 397",
+    "title": "Field Research in Human Rights",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Conducting human rights research and policy work in the field",
+    "spring": {
+     "openSeats": 19,
+     "sections": 1,
+     "when": "TBA-TBA"
+    },
+    "why": "Human rights research in the field.",
+    "href": "https://classes.usc.edu/term-20271/classes/ir/"
+   }
+  ],
+  "expansion": [
+   {
+    "code": "IR 213",
+    "title": "The Global Economy",
+    "terms": [
+     "Fall",
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Economic and political concepts necessary to the understanding of the modern global economy. Topics include international trade, foreign investment...",
+    "spring": {
+     "openSeats": 84,
+     "sections": 3,
+     "when": "Tue/Thu 11:00-12:20"
+    },
+    "why": "How money and goods move across borders.",
+    "href": "https://classes.usc.edu/term-20271/classes/ir/"
+   },
+   {
+    "code": "IR 330",
+    "title": "Politics of the World Economy",
+    "terms": [
+     "Fall",
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Exploration of questions and concepts in international economics and politics, especially as they relate to flows of trade, capital, people, and...",
+    "spring": {
+     "openSeats": 5,
+     "sections": 1,
+     "when": "Tue/Thu 15:30-16:50"
+    },
+    "why": "Why some markets open and others close.",
+    "href": "https://classes.usc.edu/term-20271/classes/ir/"
+   },
+   {
+    "code": "ECON 451",
+    "title": "The Politics of International Trade",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Economic approaches and political processes are used to explain observed international trade policy choices. Topics covered include globalization...",
+    "spring": {
+     "openSeats": 1,
+     "sections": 1,
+     "when": "Mon/Wed 14:00-15:20"
+    },
+    "why": "Trade fights, tariffs and who wins them.",
+    "href": "https://classes.usc.edu/term-20271/classes/econ/"
+   },
+   {
+    "code": "IR 364",
+    "title": "The Political Economy of Latin American Development",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "The main economic development themes and strategies in Latin America over the past century. The interplay between domestic and international...",
+    "spring": {
+     "openSeats": 38,
+     "sections": 1,
+     "when": "Tue/Thu 09:30-10:50"
+    },
+    "why": "A region fintechs are racing into.",
+    "href": "https://classes.usc.edu/term-20271/classes/ir/"
+   },
+   {
+    "code": "EALC 412B",
+    "title": "Business Chinese",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Continuation of EALC 412a.",
+    "spring": {
+     "openSeats": 9,
+     "sections": 1,
+     "when": "Tue/Thu 12:30-13:50"
+    },
+    "why": "Do business in Chinese, not just about China.",
+    "href": "https://classes.usc.edu/term-20271/classes/ealc/"
+   }
+  ],
+  "risk": [
+   {
+    "code": "IR 412",
+    "title": "Applied Data Science for International Relations 1",
+    "terms": [
+     "Fall"
+    ],
+    "units": 2.0,
+    "desc": "Introduction to statistical computing and data visualization in R. Focus on visualization of descriptive statistics; create publication-ready figures...",
+    "spring": null,
+    "why": "Data science for IR, two units, no CS major needed.",
+    "href": "https://classes.usc.edu/term-20263/classes/ir/"
+   },
+   {
+    "code": "IR 413",
+    "title": "Applied Data Science for International Relations 2",
+    "terms": [
+     "Spring"
+    ],
+    "units": 2.0,
+    "desc": "Intermediate statistical computing and data visualization in R. Focus the on graphical presentation of complex statistical relationships. Students...",
+    "spring": {
+     "openSeats": 12,
+     "sections": 1,
+     "when": "Tue 14:00-15:50"
+    },
+    "why": "Part two: build real analysis from world data.",
+    "href": "https://classes.usc.edu/term-20271/classes/ir/"
+   },
+   {
+    "code": "SSCI 202",
+    "title": "Principles of Geospatial Intelligence",
+    "terms": [
+     "Fall"
+    ],
+    "units": 4.0,
+    "desc": "Introduction to basic geospatial intelligence knowledge and related practical applications that assist in informing decision-making in a variety of...",
+    "spring": null,
+    "why": "Read satellites and maps the way analysts do.",
+    "href": "https://classes.usc.edu/term-20263/classes/ssci/"
+   },
+   {
+    "code": "SSCI 420",
+    "title": "Human Security and Geospatial Intelligence Practicum",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Create conceptual solutions for a real-world human security and geospatial intelligence issue by developing a problem set and recommended solution to...",
+    "spring": {
+     "openSeats": 18,
+     "sections": 1,
+     "when": "Wed 14:00-17:50"
+    },
+    "why": "Geospatial intelligence on real human security problems.",
+    "href": "https://classes.usc.edu/term-20271/classes/ssci/"
+   },
+   {
+    "code": "ECON 361",
+    "title": "Understanding Financial Crises",
+    "terms": [
+     "Spring"
+    ],
+    "units": 4.0,
+    "desc": "Key facts and basic mechanisms concerning financial crises and related topics (bank runs, sovereign default decision, currency collapse).",
+    "spring": {
+     "openSeats": 31,
+     "sections": 1,
+     "when": "Mon/Wed 10:00-11:20"
+    },
+    "why": "How crises start, spread and end.",
+    "href": "https://classes.usc.edu/term-20271/classes/econ/"
+   }
+  ]
+ },
+ "toolkit": [
+  {
+   "code": "ACAD 191",
+   "title": "Python for Machine Intelligence",
+   "terms": [
+    "Fall"
+   ],
+   "units": 2.0,
+   "desc": "Python programming for machine learning; topics include classification systems, training models, support vector machines, decision trees and random...",
+   "spring": null,
+   "why": "Python for people who don't code yet. Two units, in IYA.",
+   "href": "https://classes.usc.edu/term-20263/classes/acad/"
+  },
+  {
+   "code": "ACAD 222",
+   "title": "Introduction to Machine Intelligence",
+   "terms": [
+    "Spring"
+   ],
+   "units": 4.0,
+   "desc": "Introduction to artificial intelligence and machine learning through programming models, training models with several methodologies, support vector...",
+   "spring": {
+    "openSeats": 23,
+    "sections": 1,
+    "when": null
+   },
+   "why": "How AI actually works, taught in IYA.",
+   "href": "https://classes.usc.edu/term-20271/classes/acad/"
+  },
+  {
+   "code": "ACAD 280",
+   "title": "Information Design",
+   "terms": [
+    "Spring"
+   ],
+   "units": 4.0,
+   "desc": "Designing elegant and powerful graphic user interfaces for interacting with visual displays of quantitative information.",
+   "spring": {
+    "openSeats": 10,
+    "sections": 1,
+    "when": "Mon/Wed 14:00-15:50"
+   },
+   "why": "Make data and ideas look clear at a glance.",
+   "href": "https://classes.usc.edu/term-20271/classes/acad/"
+  },
+  {
+   "code": "ACAD 174",
+   "title": "Innovators Forum",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "Leaders in diverse disciplines, industries and the arts present and discuss problems facing society and critique real-world projects that challenge...",
+   "spring": {
+    "openSeats": 87,
+    "sections": 1,
+    "when": "Mon 18:00-19:50"
+   },
+   "why": "Two units of hearing from founders and innovators.",
+   "href": "https://classes.usc.edu/term-20271/classes/acad/"
+  },
+  {
+   "code": "ACAD 406",
+   "title": "Purpose-Driven Innovation Incubator",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "Evolve student projects into investor-ready ventures through exposure to industry best practices including market sizing, defining/pursuing key...",
+   "spring": {
+    "openSeats": 48,
+    "sections": 2,
+    "when": "Wed 16:00-17:50"
+   },
+   "why": "Two units building a venture that does good, in IYA.",
+   "href": "https://classes.usc.edu/term-20271/classes/acad/"
+  },
+  {
+   "code": "ECON 333",
+   "title": "Innovation Economics and Business: Beer, AI and Video Games",
+   "terms": [
+    "Spring"
+   ],
+   "units": 4.0,
+   "desc": "Analyze varied industries using legal, business, and economic principles. Emphasis is on how these forces shape marketing strategies.",
+   "spring": {
+    "openSeats": 28,
+    "sections": 1,
+    "when": "Mon/Wed 10:00-11:50"
+   },
+   "why": "Innovation economics through beer, AI and video games.",
+   "href": "https://classes.usc.edu/term-20271/classes/econ/"
+  }
+ ],
+ "fun": [
+  {
+   "code": "PHED 140A",
+   "title": "Tennis",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 1.0,
+   "desc": "Fundamental instruction of basic strokes for beginners and intermediate players; rules, scoring, court etiquette, strategies; singles and doubles...",
+   "spring": {
+    "openSeats": 0,
+    "sections": 4,
+    "when": "Mon/Wed 16:00-16:50"
+   },
+   "why": "Tennis.",
+   "href": "https://classes.usc.edu/term-20271/classes/phed/"
+  },
+  {
+   "code": "PHED 115",
+   "title": "Surfing",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 1.0,
+   "desc": "Fundamental instruction of surfing skills; water safety and wave etiquette; wave recognition and forecast interpretation; surf culture; board...",
+   "spring": {
+    "openSeats": 0,
+    "sections": 2,
+    "when": "Fri 08:00-09:50"
+   },
+   "why": "Surfing, for a grade.",
+   "href": "https://classes.usc.edu/term-20271/classes/phed/"
+  },
+  {
+   "code": "PHED 135",
+   "title": "Backpacking",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 1.0,
+   "desc": "Acquisition of backpacking knowledge and skills; conditioning plan; nutrition and equipment selection; ethics and environmental considerations...",
+   "spring": {
+    "openSeats": 10,
+    "sections": 2,
+    "when": "Mon 15:00-16:50"
+   },
+   "why": "Backpacking, with real trips.",
+   "href": "https://classes.usc.edu/term-20271/classes/phed/"
+  },
+  {
+   "code": "PHED 126",
+   "title": "AcroYoga",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 1.0,
+   "desc": "Groups work together to build strength, balance, coordination and communication skills, emphasizing dynamic movement of acrobatics, mindfulness of...",
+   "spring": {
+    "openSeats": 5,
+    "sections": 1,
+    "when": "Mon 14:00-15:50"
+   },
+   "why": "AcroYoga.",
+   "href": "https://classes.usc.edu/term-20271/classes/phed/"
+  },
+  {
+   "code": "PHED 148A",
+   "title": "Archery",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 1.0,
+   "desc": "Fundamental instruction of archery technique for beginners and intermediates; historical origins; form; the shot cycle; mindfulness; scoring...",
+   "spring": {
+    "openSeats": 0,
+    "sections": 4,
+    "when": null
+   },
+   "why": "Archery.",
+   "href": "https://classes.usc.edu/term-20271/classes/phed/"
+  },
+  {
+   "code": "PHED 144",
+   "title": "Pickleball",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 1.0,
+   "desc": "Introduction to pickleball; develop basic skills, techniques and fundamentals; rules, scoring, etiquette and strategies of play (singles/doubles...",
+   "spring": {
+    "openSeats": 49,
+    "sections": 10,
+    "when": "Mon 14:00-15:50"
+   },
+   "why": "Pickleball.",
+   "href": "https://classes.usc.edu/term-20271/classes/phed/"
+  },
+  {
+   "code": "PHED 138",
+   "title": "Beach Volleyball",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 1.0,
+   "desc": "Fundamental instruction of skills and tactics specific to sand volleyball and related physical conditioning; rules and strategies; history and...",
+   "spring": {
+    "openSeats": 0,
+    "sections": 2,
+    "when": "Fri 10:00-11:50"
+   },
+   "why": "Beach volleyball.",
+   "href": "https://classes.usc.edu/term-20271/classes/phed/"
+  },
+  {
+   "code": "PHED 118",
+   "title": "Sleep for Peak Performance",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "Introduction to sleep as it relates to physical and mental performance; breathing and meditation modalities to support healthy sleep; study of sleep...",
+   "spring": {
+    "openSeats": 32,
+    "sections": 4,
+    "when": "Mon/Wed 13:00-13:50"
+   },
+   "why": "A class on sleeping better. Truly.",
+   "href": "https://classes.usc.edu/term-20271/classes/phed/"
+  },
+  {
+   "code": "MPGU 120B",
+   "title": "Beginning Pop/Rock Guitar",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "Introduction to the performance technique of pop/rock guitar as well as music theory fundamentals, exploring repertoire by artists such as The...",
+   "spring": {
+    "openSeats": 36,
+    "sections": 2,
+    "when": "Tue 16:00-17:50"
+   },
+   "why": "Guitar, the sequel.",
+   "href": "https://classes.usc.edu/term-20271/classes/mpgu/"
+  },
+  {
+   "code": "MPGU 126",
+   "title": "Easy Fingerstyle Beatles",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "Techniques of classical guitar applied to the study of five to eight Beatles songs, from \"Hey Jude\" to \"Blackbird.\" No guitar or music background...",
+   "spring": {
+    "openSeats": 4,
+    "sections": 1,
+    "when": "Mon 18:00-19:50"
+   },
+   "why": "Beatles songs on fingerstyle guitar.",
+   "href": "https://classes.usc.edu/term-20271/classes/mpgu/"
+  },
+  {
+   "code": "SLL 199",
+   "title": "Chess and Critical Thinking",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "Analysis of significant chess games, reflecting societal attitudes towards science, competition, art, gender, psychology, politics, and technology...",
+   "spring": {
+    "openSeats": 18,
+    "sections": 2,
+    "when": "Tue 17:00-18:50"
+   },
+   "why": "Chess and critical thinking.",
+   "href": "https://classes.usc.edu/term-20271/classes/sll/"
+  },
+  {
+   "code": "EALC 102",
+   "title": "Language, Art and Culture: Calligraphy",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "This course introduces students to the origin of the basic components of Chinese scripts and the basic principles and styles of calligraphy.",
+   "spring": {
+    "openSeats": 33,
+    "sections": 5,
+    "when": "Mon 14:00-15:50"
+   },
+   "why": "Chinese calligraphy.",
+   "href": "https://classes.usc.edu/term-20271/classes/ealc/"
+  },
+  {
+   "code": "THTR 122",
+   "title": "Improvisation and Theatre Games",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "Individual and group exercises to free the actor physically and emotionally and to stimulate creativity, imagination, and self-expression.",
+   "spring": {
+    "openSeats": 52,
+    "sections": 6,
+    "when": "Mon 16:00-17:50"
+   },
+   "why": "Improv and theatre games.",
+   "href": "https://classes.usc.edu/term-20271/classes/thtr/"
+  },
+  {
+   "code": "THTR 318",
+   "title": "Creating the Hit Podcast",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "Develops the ability to create a podcast. Focuses on skills to produce, perform, market and monetize a podcast across a variety of genres.",
+   "spring": {
+    "openSeats": 0,
+    "sections": 1,
+    "when": null
+   },
+   "why": "Make a podcast people actually listen to.",
+   "href": "https://classes.usc.edu/term-20271/classes/thtr/"
+  },
+  {
+   "code": "THTR 290",
+   "title": "Introduction to Medical Clowning",
+   "terms": [
+    "Fall"
+   ],
+   "units": 2.0,
+   "desc": "Explores the art of clowning in hospitals for the purpose of improving the well-being of those in need.",
+   "spring": null,
+   "why": "Medical clowning, for hospital patients.",
+   "href": "https://classes.usc.edu/term-20263/classes/thtr/"
+  },
+  {
+   "code": "MUSC 255",
+   "title": "Songwriting I",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "Development of musical and lyrical skills, composing, listening, analysis, and critiques of popular original music.",
+   "spring": {
+    "openSeats": 121,
+    "sections": 5,
+    "when": "Mon 17:00-18:50"
+   },
+   "why": "Write your own songs.",
+   "href": "https://classes.usc.edu/term-20271/classes/musc/"
+  },
+  {
+   "code": "CORE 200",
+   "title": "Liberal Arts Reading Salon",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "Critical readings of a series of texts in the liberal arts designed to promote discussion of important themes, theoretical approaches, research...",
+   "spring": {
+    "openSeats": 16,
+    "sections": 2,
+    "when": "Mon 16:00-17:50"
+   },
+   "why": "A reading salon, two units.",
+   "href": "https://classes.usc.edu/term-20271/classes/core/"
+  },
+  {
+   "code": "PHIL 122A",
+   "title": "Reasoning and Argument",
+   "terms": [
+    "Fall",
+    "Spring"
+   ],
+   "units": 2.0,
+   "desc": "Techniques for constructing good arguments and for assessing and criticizing the arguments of others. (Duplicates credit in former PHIL 250a)",
+   "spring": {
+    "openSeats": 10,
+    "sections": 1,
+    "when": "Tue/Thu 17:00-18:50"
+   },
+   "why": "Learn to win arguments, fairly.",
+   "href": "https://classes.usc.edu/term-20271/classes/phil/"
+  }
+ ],
+ "funCount": 70
+}

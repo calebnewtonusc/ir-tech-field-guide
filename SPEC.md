@@ -37,3 +37,16 @@ A passport. IR is the study of borders, and a career move is a crossing. The qui
 ## Checks before done
 
 375 and 1440 with no sideways scroll, no console errors, quiz played through, a pin tapped through to the directory, and reduced motion showing everything stamped and static.
+
+## Upgrade plan (2026-11-09, 9:10pm)
+
+Caleb asked to poke holes, then: "be systematic with making a plan to upgrade this and then execute". The holes, ranked by what they cost the reader, and the fix for each:
+
+1. The first impression is a blank link card in iMessage. Fix: an Open Graph image drawn from the site's own map at the "You can." moment, plus metadataBase so it resolves.
+2. Faith was one verse at the end. Fix: "They did it first", five people in Scripture who did this work, one per path, each with a reference: Joseph (risk, Gen 41), Daniel (policy, Dan 6:3), Esther (trust and safety, Esth 4:14), Nehemiah (defense, Neh 2:7-9 and 4:17), Paul (expansion, Acts 22:25-28 and 1 Cor 9:22). Each card carries its path's stamp color so it ties to the passport.
+3. She's at USC and nothing on the page is. Fix: a USC row in the doors, with each URL checked live before it ships.
+4. It's read-once. Fix: star a door to save it (localStorage), a saved count in the header, and "add to calendar" (.ics) on every door with a confirmed deadline.
+5. Some timings were from memory. Fix: doors with a confirmed date say "confirmed"; the rest say "typical timing, confirm on site".
+6. The story canvas drew 4,600 dots every frame even off screen. Fix: pause it with an IntersectionObserver, and shorten the scroll on phones.
+
+Out of scope tonight: real people's stories (needs their permission) and Caleb's warm intros (those go by text, never on a public page).

@@ -1,4 +1,6 @@
+import DidItFirst from "@/components/DidItFirst";
 import Directory from "@/components/Directory";
+import Courses from "@/components/Courses";
 import Doors from "@/components/Doors";
 import Guide from "@/components/Guide";
 import Route from "@/components/Route";
@@ -16,6 +18,7 @@ const focusRing =
 const nav = [
   { href: "#quiz", label: "Passport" },
   { href: "#visas", label: "Visas" },
+  { href: "#classes", label: "Classes" },
   { href: "#doors", label: "Doors" },
   { href: "#orgs", label: "Orgs" },
   { href: "#route", label: "Route" },
@@ -84,31 +87,17 @@ export default function Home() {
         {/* 3 + 4. Passport and visas */}
         <Guide />
 
+        {/* Classes at USC */}
+        <Courses />
+
         {/* Open doors */}
         <Doors />
 
         {/* 5. Where they are */}
         <Directory />
 
-        {/* 6. Why it matters */}
-        <section
-          id="faith"
-          className="scroll-mt-14 bg-night px-4 py-28 text-on-night sm:px-6 sm:py-40"
-        >
-          <div className="mx-auto max-w-5xl">
-            <blockquote className="text-[clamp(2rem,5.2vw,4.2rem)] leading-[1.08] tracking-[-0.025em]">
-              &ldquo;Seek the welfare of the city where I have sent you into
-              exile, and pray to the Lord on its behalf.&rdquo;
-            </blockquote>
-            <p className="mt-6 font-mono text-sm text-on-ink-muted">
-              Jeremiah 29:7
-            </p>
-            <p className="mt-12 max-w-lg text-lg text-on-ink-soft">
-              God told exiles to work for the good of a foreign nation. Every
-              path above is a way to do that.
-            </p>
-          </div>
-        </section>
+        {/* 6. They did it first */}
+        <DidItFirst />
 
         {/* 7. The route */}
         <Route />
