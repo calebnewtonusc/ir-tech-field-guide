@@ -8,7 +8,8 @@
   "description": "NeuroNav provides independent facilitation and person-centered planning to adults with developmental disabilities as they navigate disability services. The company provides services such as self-determination...",
   "location": "Manchester, UK",
   "sector": "Autism & disability",
-  "global": true
+  "global": true,
+  "logo": "/logos/neuronav.webp"
  },
  {
   "name": "Venus Aerospace",
@@ -19,7 +20,8 @@
   "description": "Venus Aerospace is a space company that provides an innovative approach to hypersonic transportation. Venus Aerospace is a startup aerospace company focused on engineering the future of hypersonic flight. We are making...",
   "location": "Houston, TX, USA",
   "sector": "Science & industry",
-  "global": true
+  "global": true,
+  "logo": "/logos/venus-aerospace.webp"
  },
  {
   "name": "Refined Technologies",
@@ -30,7 +32,8 @@
   "description": "At RTI, we believe operating with eternal purpose fuels excellence. This belief guides our enterprise and provides daily inspiration. Eternal Purpose is not limited to charitable giving, service activities, or...",
   "location": "The Woodlands, TX, USA",
   "sector": "Economic development & livelihoods",
-  "global": true
+  "global": true,
+  "logo": "/logos/refined-technologies.webp"
  },
  {
   "name": "Pronoia",
@@ -41,7 +44,8 @@
   "description": "Pronoia, Inc. is developing a novel battery that functions without electrolyte and separator, and is not only rechargeable, but also will have minimal capacity loss with continued cycling.",
   "location": "Los Angeles, CA, USA",
   "sector": "Science & industry",
-  "global": true
+  "global": true,
+  "logo": "/logos/pronoia.webp"
  },
  {
   "name": "Settled",
@@ -52,7 +56,8 @@
   "description": "Settled provides information, advice and support services to help EU citizens living in the UK apply for settled or pre-settled status, and to access their status rights. We also provide advice and support for Ukrainian...",
   "location": "Newport, UK",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/settled.webp"
  },
  {
   "name": "HOPE International",
@@ -63,7 +68,8 @@
   "description": "Hope International is a non-profit organization that helps with a holistic approach, energetic drive, humility, innovation, and compassion.",
   "location": "Lancaster, PA, USA",
   "sector": "Economic development & livelihoods",
-  "global": true
+  "global": true,
+  "logo": "/logos/hope-international.webp"
  },
  {
   "name": "Kadence",
@@ -74,7 +80,8 @@
   "description": "Kadence is the world’s #1 workplace operations platform for people and spaces. Designed for modern enterprises, Kadence unifies space management, team scheduling, occupancy insights, and AI-powered coordination into one...",
   "location": "Stokes, San Jose, CA, USA",
   "sector": "Economic development & livelihoods",
-  "global": true
+  "global": true,
+  "logo": "/logos/kadence.webp"
  },
  {
   "name": "Sanctuary Mental Health Ministries",
@@ -85,7 +92,8 @@
   "description": "With offices in Vancouver and the UK, Sanctuary Mental Health Ministries is a non-profit charitable organization founded in Canada in 2012 that equips the Church to support mental health and wellbeing. We provide...",
   "location": "Vancouver, BC, Canada",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/sanctuary-mental-health-ministries.webp"
  },
  {
   "name": "Semilla Nueva",
@@ -96,7 +104,8 @@
   "description": "Semilla Nueva is a non-profit organization working to combat malnutrition through high-nutrient crops.",
   "location": "Guatemala City, Guatemala",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/semilla-nueva.webp"
  },
  {
   "name": "Treetops Collective",
@@ -107,7 +116,8 @@
   "description": "Treetops Collective is on a mission to create a more welcoming world for refugees, starting in local communities.",
   "location": "Grand Rapids, MI, USA",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/treetops-collective.webp"
  },
  {
   "name": "Liberty in North Korea",
@@ -118,7 +128,8 @@
   "description": "Non-profit organization that works with the North Korean people to create change.",
   "location": "California Heights, Long Beach, CA, USA",
   "sector": "Media & culture",
-  "global": true
+  "global": true,
+  "logo": "/logos/liberty-in-north-korea.webp"
  },
  {
   "name": "Nomi Network",
@@ -129,7 +140,8 @@
   "description": "Nomi Network creates economic opportunities for survivors and women at risk of human trafficking. They prevent human trafficking and are breaking generational cycles of slavery. For inquiries, telephone and email...",
   "location": "Union Square, New York, NY, USA",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/nomi-network.webp"
  },
  {
   "name": "Old Skool Cafe",
@@ -140,7 +152,8 @@
   "description": "Old Skool Cafe empowers formerly incarcerated youth in our Soul Food Supper Club.",
   "location": "San Francisco, CA, USA",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/old-skool-cafe.webp"
  },
  {
   "name": "Purposity",
@@ -151,7 +164,8 @@
   "description": "Purposity is a non-profit app that allows you to meet the critical, physical needs of people in your community with just a few clicks.",
   "location": "Atlanta, GA, USA",
   "sector": "Other",
-  "global": true
+  "global": true,
+  "logo": "/logos/purposity.webp"
  },
  {
   "name": "Rare Genomics Institute",
@@ -162,7 +176,8 @@
   "description": "Rare Genomics, they are more than just an organization. They are a community dedicated to helping rare disease patients find hope for a cure.",
   "location": "Outpost Estates, Los Angeles, CA, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/rare-genomics-institute.webp"
  },
  {
   "name": "Restore NYC",
@@ -173,7 +188,8 @@
   "description": "Restore NYC is an organization dedicated to ending sex trafficking in New York and restoring the well-being and independence of the survivors.",
   "location": "Canal Street, New York, NY, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/restore-nyc.webp"
  },
  {
   "name": "The Veritas Forum",
@@ -184,7 +200,8 @@
   "description": "The Veritas Forum helps students and faculty ask life's hardest questions.",
   "location": "Cambridge, MA, USA",
   "sector": "Education",
-  "global": true
+  "global": true,
+  "logo": "/logos/the-veritas-forum.webp"
  },
  {
   "name": "UNDIVIDED",
@@ -195,7 +212,8 @@
   "description": "Academically validated immersive experiences activate communities for racial healing and justice. A national 501(c)(3) nonprofit based in Cincinnati, OH, offers virtual and in-person workshops and cohorts across the US.",
   "location": "",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/undivided.webp"
  },
  {
   "name": "Aruna Project",
@@ -206,7 +224,8 @@
   "description": "Aruna is a premium athleisure bags and accessories brand creating lifelong freedom for women with lived experience of human trafficking.",
   "location": "Mumbai, Maharashtra, India",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/aruna-project.webp"
  },
  {
   "name": "FaithTech",
@@ -217,7 +236,8 @@
   "description": "FaithTech is a global tech community for Christ.",
   "location": "Waterloo, ON, Canada",
   "sector": "Other",
-  "global": true
+  "global": true,
+  "logo": "/logos/faithtech.webp"
  },
  {
   "name": "Human Trafficking Institute",
@@ -228,7 +248,8 @@
   "description": "Human Trafficking Institute exists to decimate human trafficking by working alongside justice systems around the world to empower police.",
   "location": "Connecticut Ave/ K Street, Washington, DC, USA",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/human-trafficking-institute.webp"
  },
  {
   "name": "New Story Charity",
@@ -239,7 +260,8 @@
   "description": "New Story is a non-profit organization that pioneers solutions to end global homelessness. New Story creates a more inclusive housing market for low-income families. To shape that market, they rely on innovative...",
   "location": "San Francisco, CA, USA",
   "sector": "Education",
-  "global": true
+  "global": true,
+  "logo": "/logos/new-story-charity.webp"
  },
  {
   "name": "Open Door Legal",
@@ -250,7 +272,8 @@
   "description": "Open Door Legal introduces the first system of universal access to legal help. The company is a group of lawyers, paralegals, communication professionals, counselors, social workers, administrators, recruiters, and more...",
   "location": "San Francisco, CA, USA",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/open-door-legal.webp"
  },
  {
   "name": "Simple Charity",
@@ -261,7 +284,8 @@
   "description": "Simple Charity offers philanthropic advising and student programs that inspire love in action. To learn more about philanthropic advising, schedule a free discovery call with us at simplecharity.org/advising. We also...",
   "location": "Duke University - Main Campus, Durham, NC, USA",
   "sector": "Education",
-  "global": true
+  "global": true,
+  "logo": "/logos/simple-charity.webp"
  },
  {
   "name": "Akilah",
@@ -272,7 +296,8 @@
   "description": "The Akilah Institute is a college for women in East Africa offering a unique model of market-relevant education. We work closely with our partners in government, civil society, and the private sector to deliver a...",
   "location": "Brooklyn, NY, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/akilah.webp"
  },
  {
   "name": "Amani Global Works",
@@ -283,7 +308,8 @@
   "description": "Regardless of tribe, religion, family name, or origin, Amani Global Works aims to increase the health of a region by providing preventive and emergency care for a community in need, and then creating a template of care...",
   "location": "Canal Street, New York, NY, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/amani-global-works.webp"
  },
  {
   "name": "Aviation charity app",
@@ -294,7 +320,8 @@
   "description": "Four volunteers built an app for a mission aviation charity.",
   "location": "Waterloo",
   "sector": "FaithTech Create project",
-  "global": true
+  "global": true,
+  "logo": "/logos/faithtech.png"
  },
  {
   "name": "B2THEWORLD",
@@ -305,7 +332,8 @@
   "description": "B2THEWORLD creates and develops schools in countries recovering from war.",
   "location": "Merrifield, VA, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/b2theworld.webp"
  },
  {
   "name": "Bean Path",
@@ -316,7 +344,8 @@
   "description": "The Bean Path aims to sow technical expertise to grow networks, spark workforce development, and fertilize communities through innovation.",
   "location": "Jackson, WY, USA",
   "sector": "Economic development & livelihoods",
-  "global": true
+  "global": true,
+  "logo": "/logos/bean-path.webp"
  },
  {
   "name": "Common Pictures",
@@ -327,7 +356,8 @@
   "description": "Common Pictures is an impact-driven storytelling studio producing films and media content that explore social justice, restoration, and human connection. It aims to humanize complex global issues by sharing meaningful...",
   "location": "Orlando, FL, USA",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/common-pictures.webp"
  },
  {
   "name": "Ellescope",
@@ -338,7 +368,8 @@
   "description": "Ellescope exists because mothers are still dying, in the worst cases, from preventable pregnancy complications or poor mental health. Maternal risk is multifactorial. We believe that there is a need to change the scope...",
   "location": "London, UK",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/ellescope.webp"
  },
  {
   "name": "Ending Human Trafficking at the Point of Demand",
@@ -349,7 +380,8 @@
   "description": "A Create project going after trafficking by reaching the buyers.",
   "location": "Vancouver",
   "sector": "FaithTech Create project",
-  "global": true
+  "global": true,
+  "logo": "/logos/faithtech.png"
  },
  {
   "name": "Every Shelter",
@@ -360,7 +392,8 @@
   "description": "Every Shelter creates and designs sustainable shelters for refugees.",
   "location": "Houston, TX, USA",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/every-shelter.webp"
  },
  {
   "name": "Exile International",
@@ -371,7 +404,8 @@
   "description": "Exile International empowered rescued child soldiers and children orphaned by war to become leaders for peace through art-focused trauma care.",
   "location": "Nashville, TN, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/exile-international.webp"
  },
  {
   "name": "Ezra",
@@ -382,7 +416,8 @@
   "description": "Ezra provides a rewards platform with smart money management tools to support employee retention and financial wellness.",
   "location": "San Francisco, CA, USA",
   "sector": "Economic development & livelihoods",
-  "global": true
+  "global": true,
+  "logo": "/logos/ezra.webp"
  },
  {
   "name": "Faith Network app",
@@ -393,7 +428,8 @@
   "description": "A community app for believers in Chennai, built through FaithTech Create.",
   "location": "Chennai",
   "sector": "FaithTech Create project",
-  "global": true
+  "global": true,
+  "logo": "/logos/faithtech.png"
  },
  {
   "name": "Gifts for Good",
@@ -404,7 +440,8 @@
   "description": "Gifts for Good is a corporate gifting company that curates premium and ethical gifts for employees, clients, professionals, and leads. The gifts support over 40 charities and social enterprises in 65 countries and 19...",
   "location": "Los Angeles, CA, USA",
   "sector": "Consumer & marketplace",
-  "global": true
+  "global": true,
+  "logo": "/logos/gifts-for-good.webp"
  },
  {
   "name": "GoLiveServe",
@@ -426,7 +463,8 @@
   "description": "The Justice Defense Fund (JDF) is a 501(c)(3) nonprofit committed to empowering survivors of tech-facilitated sex trafficking, child sexual abuse material (CSAM), and image-based sexual abuse to seek justice through...",
   "location": "",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/justice-defense-fund.webp"
  },
  {
   "name": "Justice Rising",
@@ -437,7 +475,8 @@
   "description": "Justice Rising exists to transform communities affected by conflict through the power of education.",
   "location": "Los Angeles, CA, USA",
   "sector": "Education",
-  "global": true
+  "global": true,
+  "logo": "/logos/justice-rising.webp"
  },
  {
   "name": "Keseb",
@@ -448,7 +487,8 @@
   "description": "Keseb is a nonpartisan, nonprofit organization committed to advancing inclusive and resilient democracies.",
   "location": "Columbia Heights, Washington, DC, USA",
   "sector": "Economic development & livelihoods",
-  "global": true
+  "global": true,
+  "logo": "/logos/keseb.webp"
  },
  {
   "name": "Kuju Coffee",
@@ -459,7 +499,8 @@
   "description": "Founded by two Eagle Scout brothers who grew tired of instant coffee, Kuju is leading a movement towards a new category of ready-to-brew, quality-driven coffee products for home, on-the-go, and everywhere in between...",
   "location": "San Francisco, CA, USA",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/kuju-coffee.webp"
  },
  {
   "name": "Kylix Bio",
@@ -470,7 +511,8 @@
   "description": "Kylix specializes in a broad selection of wines and spirits from Greek and international producers. Its portfolio includes sparkling wines, cognacs, and other beverages curated to accommodate diverse preferences. The...",
   "location": "",
   "sector": "Consumer & marketplace",
-  "global": true
+  "global": true,
+  "logo": "/logos/kylix-bio.webp"
  },
  {
   "name": "Launch Property Management",
@@ -481,7 +523,8 @@
   "description": "We provide quality hospitable housing, credit establishment, and a network of compassionate supporters to serve the 2,500 refugees who transition to Louisville each year.",
   "location": "Louisville, KY, USA",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/launch-property-management.webp"
  },
  {
   "name": "LivFul",
@@ -492,7 +535,8 @@
   "description": "LivFul is a biotechnology company that develops consumer products and also offers healthcare solutions. It was founded in 2015 and is based in Alpharetta, Georgia, United States.",
   "location": "Alpharetta, GA, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/livful.webp"
  },
  {
   "name": "Many Hopes",
@@ -503,7 +547,8 @@
   "description": "Many Hopes rescues children from oppression and raises them to be adults of influence equipped to do justice for others.",
   "location": "New York, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/many-hopes.webp"
  },
  {
   "name": "Missional Labs",
@@ -514,7 +559,8 @@
   "description": "Missional Labs is a nonprofit venture lab supporting ventures and leaders on the frontiers of Christian mission.",
   "location": "Brooklyn, NY, USA",
   "sector": "Capital & venture",
-  "global": true
+  "global": true,
+  "logo": "/logos/missional-labs.webp"
  },
  {
   "name": "Niya",
@@ -525,7 +571,8 @@
   "description": "Niya is a career management tool that uses AI to generate career pathways and enable users to accelerate in their tech career.",
   "location": "England, UK",
   "sector": "Education",
-  "global": true
+  "global": true,
+  "logo": "/logos/niya.webp"
  },
  {
   "name": "Pangea",
@@ -536,7 +583,8 @@
   "description": "FX Risk, Global Payments, FX Infrastructure, Market-Maker, Swap Dealer, CTA, AI, FinTech.",
   "location": "San Francisco, CA, USA",
   "sector": "Science & industry",
-  "global": true
+  "global": true,
+  "logo": "/logos/pangea.webp"
  },
  {
   "name": "Prevention Now",
@@ -547,7 +595,8 @@
   "description": "Prevention Now and their partners stop human trafficking before it ever starts, leveraging innovative data analytics.",
   "location": "Portland, OR, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/prevention-now.webp"
  },
  {
   "name": "Proabled",
@@ -569,7 +618,8 @@
   "description": "Radial Analytics is a venture-backed startup with a unique technology and approach. Every day, patients across America face “crossroads moments” in their healthcare journey. Clinicians often describe these moments as...",
   "location": "Concord, MA, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/radial-analytics.webp"
  },
  {
   "name": "Redeem International",
@@ -580,7 +630,8 @@
   "description": "Redeem International partners with local law enforcement authorities to protect widows and orphans from violent abuse and exploitation.",
   "location": "Merrifield, VA, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/redeem-international.webp"
  },
  {
   "name": "Savok x FaithTech",
@@ -591,7 +642,8 @@
   "description": "Christian mentoring made accessible for everyone.",
   "location": "Bangkok",
   "sector": "FaithTech Create project",
-  "global": true
+  "global": true,
+  "logo": "/logos/faithtech.png"
  },
  {
   "name": "Scarlet Hope",
@@ -602,7 +654,8 @@
   "description": "Scarlet Hope transforms the lives of women in the Adult Entertainment Industry experiencing exploitation and trafficking.",
   "location": "Louisville, KY, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/scarlet-hope.webp"
  },
  {
   "name": "ShareBibles",
@@ -613,7 +666,8 @@
   "description": "App that tracks the distribution of Bibles worldwide, built by FaithTech volunteers.",
   "location": "Waterloo",
   "sector": "FaithTech Create project",
-  "global": true
+  "global": true,
+  "logo": "/logos/faithtech.png"
  },
  {
   "name": "SoapBox Soaps",
@@ -624,7 +678,8 @@
   "description": "SoapBox Soaps primarily manufactures and supplies soaps. It provides soaps to families at homeless shelters, women's shelters, and nursing homes in the United States and donates its soaps internationally to various...",
   "location": "Connecticut Ave/ K Street, Washington, DC, USA",
   "sector": "Health & clinical",
-  "global": true
+  "global": true,
+  "logo": "/logos/soapbox-soaps.webp"
  },
  {
   "name": "Tech of Eden",
@@ -646,7 +701,8 @@
   "description": "We empower small teams to make a big impact. Tether's all-in-one system makes learning and training easy to create, enjoyable to use, and simple to manage. Powerful, flexible, and data-driven, Tether makes it easy to...",
   "location": "Nashville, TN, USA",
   "sector": "Education",
-  "global": true
+  "global": true,
+  "logo": "/logos/tether.webp"
  },
  {
   "name": "The Bridge International",
@@ -668,7 +724,8 @@
   "description": "CCPL is a new, nonpartisan institution with the mission to contend for the credibility of Christian resources in public life.",
   "location": "Gay Street, Baltimore, MD, USA",
   "sector": "Economic development & livelihoods",
-  "global": true
+  "global": true,
+  "logo": "/logos/the-center-for-christianity-and-public-life.webp"
  },
  {
   "name": "The Forgotten Initiative",
@@ -679,7 +736,8 @@
   "description": "Mission: The Forgotten Initiative exists to help churches support foster care caseworkers through awareness, encouragement, and advocacy. Vision: Every foster care caseworker supported by local churches, faithfully...",
   "location": "Bloomington, IL, USA",
   "sector": "Justice & anti-trafficking",
-  "global": true
+  "global": true,
+  "logo": "/logos/the-forgotten-initiative.webp"
  },
  {
   "name": "THRIVEfunds",
@@ -690,7 +748,8 @@
   "description": "THRIVEfunds is a simple formula: Connect Funders to Needs. THRIVEfunds brings together impact-minded donors looking to invest in anti-poverty solutions and families who are ready to build their wealth.",
   "location": "Indianapolis, IN, USA",
   "sector": "Economic development & livelihoods",
-  "global": true
+  "global": true,
+  "logo": "/logos/thrivefunds.webp"
  },
  {
   "name": "Ubuntu Life",
@@ -701,7 +760,8 @@
   "description": "Ubuntu Life is a lifestyle brand based in Kenya that offers handcrafted espadrilles, bracelets, wallets, dog collars, and bags.",
   "location": "Austin, TX, USA",
   "sector": "Autism & disability",
-  "global": true
+  "global": true,
+  "logo": "/logos/ubuntu-life.webp"
  },
  {
   "name": "Unless U",
@@ -712,7 +772,8 @@
   "description": "Unless you serve adults with developmental disabilities through continuing education, job training, life skills, and social skills.",
   "location": "Birmingham, AL, USA",
   "sector": "Autism & disability",
-  "global": true
+  "global": true,
+  "logo": "/logos/unless-u.webp"
  },
  {
   "name": "Grayscale Labs",
@@ -723,7 +784,8 @@
   "description": "Grayscale keeps your recruiting motion humming by providing frontline HR and talent acquisition teams the platform and tools they need to deliver a frictionless candidate experience. Source, match, and hire faster with...",
   "location": "Atlantic Station, Atlanta, GA, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/grayscale-labs.webp"
  },
  {
   "name": "Axis",
@@ -734,7 +796,8 @@
   "description": "Axis builds lifelong faith by helping parents and caring adults talk with their kids.",
   "location": "Colorado Springs, CO, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/axis.webp"
  },
  {
   "name": "City Link Center",
@@ -745,7 +808,8 @@
   "description": "Citylink Center is a non-profit firm that offers education, industry training, career, childcare, employment, and financial services.",
   "location": "Cincinnati, OH, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/city-link-center.webp"
  },
  {
   "name": "Virtuous Management",
@@ -756,7 +820,8 @@
   "description": "Virtuous Software is a Customer Relationship Management (CRM) software solution that helps charities raise more money. Its platform aims to help organizations build better relationships with donors and streamline their...",
   "location": "Plaza Del Sol Estates, Phoenix, AZ, USA",
   "sector": "Media & culture",
-  "global": false
+  "global": false,
+  "logo": "/logos/virtuous-management.webp"
  },
  {
   "name": "Everclean",
@@ -767,7 +832,8 @@
   "description": "Everclean is a modern car wash experience, offering monthly unlimited plans.",
   "location": "Illinois Medical District, Chicago, IL, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/everclean.webp"
  },
  {
   "name": "Immerse Arkansas",
@@ -778,7 +844,8 @@
   "description": "Immerse Arkansas is a non-profit organization that helps youth and families to address underlying trauma resulting from abuse or neglect.",
   "location": "Little Rock, AR, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/immerse-arkansas.webp"
  },
  {
   "name": "Please Assist Me",
@@ -789,7 +856,8 @@
   "description": "Please Assist Me is a home management platform that offers home resident services for apartments and clients. Residents truly experience luxury when they return home to groceries in the fridge, laundry and dry-cleaning...",
   "location": "Nashville, TN, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/please-assist-me.webp"
  },
  {
   "name": "Design Outreach",
@@ -800,7 +868,8 @@
   "description": "Design Outreach is a non-profit organization that provides technology solutions, health, education, and employment opportunities.",
   "location": "Gahanna, OH, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/design-outreach.webp"
  },
  {
   "name": "Goalbook",
@@ -811,7 +880,8 @@
   "description": "Goalbook provides Goalbook Toolkit, Goalbook Pathways, instructional support, instructional design process, design multiple pathways of learning, and Universal Design for Learning services.",
   "location": "San Mateo, CA, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/goalbook.webp"
  },
  {
   "name": "Immerse",
@@ -822,7 +892,8 @@
   "description": "Developer of a virtual language immersion platform intended to transform the way English is taught and learned using Virtual Reality. The company's platform offers software tools and implementation training necessary to...",
   "location": "Irvine, CA, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/immerse.webp"
  },
  {
   "name": "Orb Aerospace",
@@ -833,7 +904,8 @@
   "description": "Orb Aerospace is a manufacturing company that focuses on developing an electric aircraft to revolutionize the aviation sector. Orb Aerospace was founded in 2017 and was headquartered in Lowell, Michigan.",
   "location": "Lowell, MI, USA",
   "sector": "Science & industry",
-  "global": false
+  "global": false,
+  "logo": "/logos/orb-aerospace.webp"
  },
  {
   "name": "Reserve Squad",
@@ -844,7 +916,8 @@
   "description": "Reserve Squad is a full-service talent management solution that assists businesses in retaining one of its most valuable properties.",
   "location": "Cincinnati, OH, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/reserve-squad.webp"
  },
  {
   "name": "Act (Advocates for Community Transformation)",
@@ -855,7 +928,8 @@
   "description": "Act exists to make neighborhood safety a normal reality for everyone.",
   "location": "Riverway Estates/Bruton Terrace, Dallas, TX, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/act-advocates-for-community-transformation.webp"
  },
  {
   "name": "Take Command Health",
@@ -866,7 +940,8 @@
   "description": "Take Command Health is an innovative health insurance software provider for small businesses and independent professionals. Take Command Health enables small employers to reimburse employees tax-free for health...",
   "location": "Riverway Estates/Bruton Terrace, Dallas, TX, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/take-command-health.webp"
  },
  {
   "name": "AsOne Ministries",
@@ -877,7 +952,8 @@
   "description": "Our mission is to make disciples of Jesus and create sustainable solutions in education, enterprise, health, and agriculture that holistically address poverty in rural, underserved communities. We're creating a movement...",
   "location": "Sioux Falls, SD, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/asone-ministries.webp"
  },
  {
   "name": "Brookwood in Georgetown",
@@ -888,7 +964,8 @@
   "description": "Brookwood in Georgetown is a vocational community that engages in the belonging, dignity, and respect of adults with special needs.",
   "location": "Georgetown, TX, USA",
   "sector": "Autism & disability",
-  "global": false
+  "global": false,
+  "logo": "/logos/brookwood-in-georgetown.webp"
  },
  {
   "name": "FluxWorks",
@@ -899,7 +976,8 @@
   "description": "FluxWorks is a developer and manufacturer of magnetic gears and magnetic gear integrated motors.",
   "location": "College Station, TX, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/fluxworks.webp"
  },
  {
   "name": "Greenline Housing Foundation",
@@ -910,7 +988,8 @@
   "description": "Greenline Housing Foundation is a nonprofit organization that provides homeownership support and community development services.",
   "location": "Sierra Madre, CA, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/greenline-housing-foundation.webp"
  },
  {
   "name": "Patient Sortal",
@@ -921,7 +1000,8 @@
   "description": "Patient Sortal is a community-based organization that provides returning citizens with healthcare experiences during community reintegration. They provide evidence-based, data-driven population health, care management...",
   "location": "West University, Austin, TX, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/patient-sortal.webp"
  },
  {
   "name": "PortX",
@@ -932,7 +1012,8 @@
   "description": "PortX’s Fintech Hub is the Integration-Platform-as-a-Service focused on financial services infrastructure that allows open access to core data and simplifies integrations to third-party applications like fintechs...",
   "location": "Mercer Island, WA, USA",
   "sector": "Software & B2B",
-  "global": false
+  "global": false,
+  "logo": "/logos/portx.webp"
  },
  {
   "name": "Canopy Lawn Care",
@@ -943,7 +1024,8 @@
   "description": "Canopy is a landscaping company that uses technology for consumers to purchase and schedule lawn maintenance services. It uses technology to streamline operations and improve communications in order to provide an...",
   "location": "North Raleigh, Raleigh, NC, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/canopy-lawn-care.webp"
  },
  {
   "name": "Every Mother's Advocate",
@@ -954,7 +1036,8 @@
   "description": "Every Mother's Advocate exists to prevent family separation by advocating for mothers in crisis.",
   "location": "Pompano Beach, FL, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/every-mother-s-advocate.webp"
  },
  {
   "name": "GirlTrek",
@@ -965,7 +1048,8 @@
   "description": "GirlTrek, the largest public health nonprofit for African-American women and girls in the United States.",
   "location": "Connecticut Ave/ K Street, Washington, DC, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/girltrek.webp"
  },
  {
   "name": "ianacare",
@@ -976,7 +1060,8 @@
   "description": "Ianacare is on a mission to encourage, empower, and equip working family caregivers with resources and communities, so no one has to do it alone. Ianacare is the front door to navigating all the care in the home across...",
   "location": "West Street / River Street, Boston, MA, USA",
   "sector": "Autism & disability",
-  "global": false
+  "global": false,
+  "logo": "/logos/ianacare.webp"
  },
  {
   "name": "Impact Atlas",
@@ -987,7 +1072,8 @@
   "description": "Impact Atlas develops technology that enables social service providers to reach more people with higher quality services.",
   "location": "San Francisco, CA, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/impact-atlas.webp"
  },
  {
   "name": "Martin Bionics Innovations",
@@ -998,7 +1084,8 @@
   "description": "Martin Bionics Innovations is a prosthetics clinic and technology company with a mission to advance the human experience through innovation. The company has developed a socket-soft socket that uses socket-less socket...",
   "location": "Oklahoma City, OK, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/martin-bionics-innovations.webp"
  },
  {
   "name": "Ozone Story Tech",
@@ -1009,7 +1096,8 @@
   "description": "Ozone Story’s focus on enhancing animated character tools could really elevate the storytelling experience in entertainment by providing producers with advanced technology.",
   "location": "Corona, CA, USA",
   "sector": "Media & culture",
-  "global": false
+  "global": false,
+  "logo": "/logos/ozone-story-tech.webp"
  },
  {
   "name": "Soma Games",
@@ -1020,7 +1108,8 @@
   "description": "Soma Games is a developer of video games for multiple platforms designed to entertain people. The company's video games include a wide range of genres on PC, online, console, and mobile platforms, enabling players to...",
   "location": "Newberg, OR, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/soma-games.webp"
  },
  {
   "name": "Sprout AI Studio",
@@ -1031,7 +1120,8 @@
   "description": "Sprout AI Studio builds AI applications to support human relationships and well-being, focusing on ethical and purposeful technology.",
   "location": "Duke University - Main Campus, Durham, NC, USA",
   "sector": "Science & industry",
-  "global": false
+  "global": false,
+  "logo": "/logos/sprout-ai-studio.webp"
  },
  {
   "name": "Uprooted Academy",
@@ -1042,7 +1132,8 @@
   "description": "Uprooted Academy is a virtual community center for kids of color navigating the high school-to-career path.",
   "location": "Fort Worth, TX, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/uprooted-academy.webp"
  },
  {
   "name": "Webconnex",
@@ -1053,7 +1144,8 @@
   "description": "Webconnex specializes in custom software design and development for event management and fundraising.",
   "location": "Sacramento, CA, USA",
   "sector": "Media & culture",
-  "global": false
+  "global": false,
+  "logo": "/logos/webconnex.webp"
  },
  {
   "name": "Whiteboard",
@@ -1064,7 +1156,8 @@
   "description": "Whiteboard helps you lead digital, end-to-end. It was founded in 2010.",
   "location": "Curtis Street, Chattanooga, TN, USA",
   "sector": "Media & culture",
-  "global": false
+  "global": false,
+  "logo": "/logos/whiteboard.webp"
  },
  {
   "name": "100 Fold Studio",
@@ -1075,7 +1168,8 @@
   "description": "100 Fold Studio provides a professional platform for young architects to develop a Biblical philosophy of architecture.",
   "location": "Lakeside, MT, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/100-fold-studio.webp"
  },
  {
   "name": "Abara",
@@ -1086,7 +1180,8 @@
   "description": "Inspiring connections beyond borders through mutual understanding, education, and meaningful action.",
   "location": "El Paso, TX, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/abara.webp"
  },
  {
   "name": "ACTS 17 Collective",
@@ -1097,7 +1192,8 @@
   "description": "Our mission is to make a case for Christ to leaders in technology and entertainment. We provide a relaxed and welcoming environment where leaders can explore the idea of faith and its relevance, regardless of their...",
   "location": "National",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/acts-17-collective.png"
  },
  {
   "name": "Adaptic Health",
@@ -1108,7 +1204,8 @@
   "description": "Adaptic Health offers CaringHand, a subscription-based membership for proactive health. It features the first AI-driven health navigator providing personalized support from preventative care through critical conditions...",
   "location": "San Francisco, CA, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/adaptic-health.webp"
  },
  {
   "name": "Allies",
@@ -1119,7 +1216,8 @@
   "description": "Allies is the first end-to-end platform that helps doulas and maternity providers get paid through insurance while connecting them with families seeking trusted care.",
   "location": "New York, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/allies.webp"
  },
  {
   "name": "Ambition Angels",
@@ -1130,7 +1228,8 @@
   "description": "Ambition Angels is on a mission to scale youth development through technology.",
   "location": "Palo Alto, CA, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/ambition-angels.webp"
  },
  {
   "name": "Ampd",
@@ -1141,7 +1240,8 @@
   "description": "Ampd's enterprise Adtech platform is transforming how brand and commerce teams optimize media for the modern shopper journey. With agentic routing, closed-loop attribution, and commerce optimization, Ampd empowers...",
   "location": "Seattle, WA, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/ampd.webp"
  },
  {
   "name": "AND Campaign",
@@ -1152,7 +1252,8 @@
   "description": "AND Campaign is a coalition of urban Christians who are determined to address the sociopolitical arena.",
   "location": "Washington, DC, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/and-campaign.webp"
  },
  {
   "name": "Aura Health",
@@ -1163,7 +1264,8 @@
   "description": "Aura is a digital wellness ecosystem that provides personalized content and community from therapists and coaches around the world.",
   "location": "San Francisco, CA, USA",
   "sector": "Attention & digital health",
-  "global": false
+  "global": false,
+  "logo": "/logos/aura-health.webp"
  },
  {
   "name": "Avail NYC",
@@ -1174,7 +1276,8 @@
   "description": "Avail empowers women and men facing an unexpected pregnancy or past abortion experience.",
   "location": "New York, NY, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/avail-nyc.webp"
  },
  {
   "name": "Basil Tech",
@@ -1185,7 +1288,8 @@
   "description": "Basil Tech exists to serve Jesus through technology. We do this in 3 ways: 1) We provide technology consulting to ministries and churches 2) We build innovative technologies to serve the church 3) We invest in...",
   "location": "National",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/basil-tech.png"
  },
  {
   "name": "Bay Area Center for Faith, Work & Tech",
@@ -1196,7 +1300,8 @@
   "description": "We exist to cultivate faith and work integration in the Bay Area to transform people who are transforming the world.",
   "location": "Bay Area",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/bay-area-center-for-faith-work-tech.png"
  },
  {
   "name": "Be Amazing Online",
@@ -1207,7 +1312,8 @@
   "description": "Be Amazing Online is a digital agency specializing in customized web and mobile app development, brand strategy, creative production, and digital marketing services.",
   "location": "Albany, NY, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/be-amazing-online.webp"
  },
  {
   "name": "Be Strong",
@@ -1218,7 +1324,8 @@
   "description": "Be Strong’s mission is to save and improve the lives of youth using a peer-to-peer approach by strengthening mental and emotional health.",
   "location": "Deerfield Beach, FL, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/be-strong.webp"
  },
  {
   "name": "Be the Bridge",
@@ -1229,7 +1336,8 @@
   "description": "Be the Bridge empowers individuals, groups, and organizations toward racial healing, equity, and reconciliation.",
   "location": "Atlanta, GA, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/be-the-bridge.webp"
  },
  {
   "name": "BioLogos",
@@ -1240,7 +1348,8 @@
   "description": "BioLogos explores God’s Word and God’s World to inspire authentic faith for today. Our vision is faith and science working hand in hand.",
   "location": "National",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/biologos.png"
  },
  {
   "name": "Blockit",
@@ -1251,7 +1360,8 @@
   "description": "Alluvium Healthcare enables getting the patient scheduled (demand) with the best provider or service (supply) within health systems and large delivery networks. The platform is a unified capacity engine that combines...",
   "location": "McKinney, TX, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/blockit.webp"
  },
  {
   "name": "Brazen Animation",
@@ -1262,7 +1372,8 @@
   "description": "Brazen Animation is an audacious gathering of artists, animators, scientists, writers, designers, producers, and marketers.",
   "location": "Riverway Estates/Bruton Terrace, Dallas, TX, USA",
   "sector": "Media & culture",
-  "global": false
+  "global": false,
+  "logo": "/logos/brazen-animation.webp"
  },
  {
   "name": "Christian Youth Theater",
@@ -1273,7 +1384,8 @@
   "description": "Christian Youth Theater is a nonprofit organization that offers after-school arts training programs to children ages 4-18 nationwide.",
   "location": "Jacksonville, FL, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/christian-youth-theater.webp"
  },
  {
   "name": "Church Space",
@@ -1284,7 +1396,8 @@
   "description": "ChurchSpace is a technology startup that operates a digital marketplace connecting users with underutilized church properties for various events and activities. Through its platform, individuals and organizations can...",
   "location": "Houston, TX, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/church-space.webp"
  },
  {
   "name": "Cloverleaf",
@@ -1295,7 +1408,8 @@
   "description": "Cloverleaf improves team dynamics by integrating disconnected HR data and insights into personalized, actionable development experiences at scale. Cloverleaf enables personalized coaching, clearer communication, and...",
   "location": "Covington, GA, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/cloverleaf.webp"
  },
  {
   "name": "Common Good Marketplace",
@@ -1306,7 +1420,8 @@
   "description": "Common Good Marketplace is an exchange for impact assets to transparently create, verify, and trade impact that advances sustainable goals. The company is driven by the purpose to direct capital to unrecognized value...",
   "location": "East Market Street B, Greensboro, NC, USA",
   "sector": "Capital & venture",
-  "global": false
+  "global": false,
+  "logo": "/logos/common-good-marketplace.webp"
  },
  {
   "name": "Connect Silicon Valley",
@@ -1317,7 +1432,8 @@
   "description": "Our vision is to see Silicon Valley known not only as an epicenter of technological innovation and entrepreneurship, but also as a place transformed by the love of Jesus. Our mission is to catalyze the Great Commission...",
   "location": "Bay Area",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/connect-silicon-valley.png"
  },
  {
   "name": "Connection Homes",
@@ -1328,7 +1444,8 @@
   "description": "Connections Homes is dedicated to connecting young adults who have aged out of foster care.",
   "location": "Lawrenceville, GA, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/connection-homes.webp"
  },
  {
   "name": "Corner to Corner",
@@ -1339,7 +1456,8 @@
   "description": "Corner to Corner co-creates economic participation and growth with underestimated Nashvillians through knowledge, tools, and networks. We are based in Nashville, tackling economic inequity from its roots: through early...",
   "location": "Nashville, TN, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/corner-to-corner.webp"
  },
  {
   "name": "Croft",
@@ -1350,7 +1468,8 @@
   "description": "Croft Labs is a developer of hydrogen-based technologies aimed at decarbonizing heavy-duty industries. It researches and engineers rugged vehicles, modular at-home hydrogen fueling stations, and integrated devices for...",
   "location": "Atlanta, GA, USA",
   "sector": "Science & industry",
-  "global": false
+  "global": false,
+  "logo": "/logos/croft.webp"
  },
  {
   "name": "CrossPurpose",
@@ -1361,7 +1480,8 @@
   "description": "CrossPurpose abolishes economic, relational, and spiritual poverty through career and community development in Denver.",
   "location": "Denver, CO, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/crosspurpose.webp"
  },
  {
   "name": "Cubit Capital",
@@ -1372,7 +1492,8 @@
   "description": "Cubit Capital is an early-stage venture firm dedicated to partnering with leaders called to confront foundational problems with humility and confidence.",
   "location": "Dallas, TX, USA",
   "sector": "Capital & venture",
-  "global": false
+  "global": false,
+  "logo": "/logos/cubit-capital.webp"
  },
  {
   "name": "CW3",
@@ -1383,7 +1504,8 @@
   "description": "At Christians in Web3, we're a private, vetted, highly educated faith community on a quest to equip all generations with AI, Crypto, Blockchain, and Metaverse technologies to love our neighbors and build a better world...",
   "location": "Bay Area",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/cw3.png"
  },
  {
   "name": "Delegate CX",
@@ -1394,7 +1516,8 @@
   "description": "Delegate CX work on a flex-to-fit model with clients. Delegate CX is all about matching talent with quality work.",
   "location": "Riverway Estates/Bruton Terrace, Dallas, TX, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/delegate-cx.webp"
  },
  {
   "name": "Dollar For",
@@ -1405,7 +1528,8 @@
   "description": "Dollar for Crushes medical bills and empowers patients.",
   "location": "Bennington, Vancouver, WA, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/dollar-for.webp"
  },
  {
   "name": "Eden Equities",
@@ -1416,7 +1540,8 @@
   "description": "Eden Equities is a small, Texas-focused real estate investment company.",
   "location": "Dallas, TX, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/eden-equities.webp"
  },
  {
   "name": "EdMission AI",
@@ -1427,7 +1552,8 @@
   "description": "A comprehensive platform that transforms the college admissions experience for everyone involved.",
   "location": "",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/edmission-ai.webp"
  },
  {
   "name": "EverFree",
@@ -1438,7 +1564,8 @@
   "description": "EverFree supports survivors of exploitation with care, education, and technology-driven resources.",
   "location": "San Juan Capistrano, CA, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/everfree.webp"
  },
  {
   "name": "Faith & Work Movement Global",
@@ -1460,7 +1587,8 @@
   "description": "As entrepreneurs, we follow in the footsteps of the Original Entrepreneur. From the very beginning, God created us to share in His entrepreneurial process with purpose, passion, and pursuit. He gives us ideas, dreams...",
   "location": "Bay Area",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/faith-driven-entrepreneur.png"
  },
  {
   "name": "FaithTech",
@@ -1471,7 +1599,8 @@
   "description": "FaithTech exists to see a Jesus revival awakened in and through tech by practicing redemptive technology design.",
   "location": "Bay Area",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/faithtech.png"
  },
  {
   "name": "Faros Health",
@@ -1482,7 +1611,8 @@
   "description": "Faros Health offers the ENLIGHT platform, which assists employees in navigating healthcare decisions by providing transparency in healthcare costs, quality, and outcomes. The company collaborates with employers to offer...",
   "location": "Addison, TX, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/faros-health.webp"
  },
  {
   "name": "Father’s Uplift",
@@ -1493,7 +1623,8 @@
   "description": "Fathers' UpLift offers mental health counseling, coaching, and advocacy to help fathers overcome obstacles. The company was founded in 2014 by Charles Daniels Jr. and Samantha Fils-Daniels.",
   "location": "West Street / River Street, Boston, MA, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/father-s-uplift.webp"
  },
  {
   "name": "Flaire",
@@ -1504,7 +1635,8 @@
   "description": "Flaire is a platform that allows people to share experiences, reviews, and recommendations of the places.",
   "location": "Atlanta, GA, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/flaire.webp"
  },
  {
   "name": "Flourish Fund",
@@ -1515,7 +1647,8 @@
   "description": "Our venture philanthropy fund enables high-capacity givers to invest in rigorous, faith-inspired strategies that result in measurable outcomes for human flourishing. Partnering with generous families, we identify and...",
   "location": "Alexandria, VA, USA",
   "sector": "Faith & church",
-  "global": false
+  "global": false,
+  "logo": "/logos/flourish-fund.webp"
  },
  {
   "name": "Generosity Bay Area",
@@ -1537,7 +1670,8 @@
   "description": "Healing Hands of Joy offers Safe Motherhood Ambassador training, male family members training, stakeholder workshops, and community engagement events. They develop a holistic rehabilitation program to help fistula...",
   "location": "Charlotte, NC, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/healing-hands-of-joy.webp"
  },
  {
   "name": "Healthy Hip Hop",
@@ -1548,7 +1682,8 @@
   "description": "\"Spotify meets TikTok\" in a curated environment for children and families. Healthy Hip Hop infused hip-hop culture with innovative technology, education, and positive attributes to improve focus, engagement, and...",
   "location": "United States",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/healthy-hip-hop.webp"
  },
  {
   "name": "Higher",
@@ -1559,7 +1694,8 @@
   "description": "Higher is a startup studio that helps in modernizing local commerce and rebuilding social infrastructure.",
   "location": "Birmingham, AL, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/higher.webp"
  },
  {
   "name": "Hildegard College",
@@ -1570,7 +1706,8 @@
   "description": "Located in Costa Mesa, CA, Hildegard College is a business incubator that meets a classical honors college. We form entrepreneurially minded young adults into transformative leaders and culture creators who have the...",
   "location": "Costa Mesa, CA, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/hildegard-college.webp"
  },
  {
   "name": "HomeStart",
@@ -1581,7 +1718,8 @@
   "description": "HomeStart is a Greater Boston nonprofit that seeks to end homelessness.",
   "location": "West Street / River Street, Boston, MA, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/homestart.webp"
  },
  {
   "name": "Hope",
@@ -1592,7 +1730,8 @@
   "description": "Hispanic Organization Promoting Education is a non-profit organization that promotes leadership, education, and community service.",
   "location": "Lawrenceville, GA, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/hope.webp"
  },
  {
   "name": "Hope is Alive Ministries",
@@ -1603,7 +1742,8 @@
   "description": "Hope is Alive provides drug addicts and alcoholics treatment services.",
   "location": "Oklahoma City, OK, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/hope-is-alive-ministries.webp"
  },
  {
   "name": "Hoving Home",
@@ -1614,7 +1754,8 @@
   "description": "Hoving Home provides a loving community devoted to rebuilding and empowering women who have been shattered by addiction to fulfill their God-given purposes. This is done through a Christian discipleship residential...",
   "location": "Las Vegas, NV, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/hoving-home.webp"
  },
  {
   "name": "Hydrostasis",
@@ -1625,7 +1766,8 @@
   "description": "Hydrostasis believes hydration is a vital sign. We empower people to understand their hydration needs for better health and wellness.",
   "location": "Liberty Station, San Diego, CA, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/hydrostasis.webp"
  },
  {
   "name": "Impact Foundation",
@@ -1636,7 +1778,8 @@
   "description": "Impact Foundation donates money to companies that impact society in positive ways on all three fronts.",
   "location": "Overland Park, KS, USA",
   "sector": "Capital & venture",
-  "global": false
+  "global": false,
+  "logo": "/logos/impact-foundation.webp"
  },
  {
   "name": "Infinite Giving",
@@ -1647,7 +1790,8 @@
   "description": "Infinite Giving is a modern asset management platform for nonprofits. We help organizations invest reserve funds, create and manage endowments, and easily receive stock, crypto, and DAF donations all in one easy-to-use...",
   "location": "Atlanta, GA, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/infinite-giving.webp"
  },
  {
   "name": "Inspire More",
@@ -1658,7 +1802,8 @@
   "description": "Inspire More is an online publishing company that covers news, media, entertainment, and other information.",
   "location": "Dallas, TX, USA",
   "sector": "Media & culture",
-  "global": false
+  "global": false,
+  "logo": "/logos/inspire-more.webp"
  },
  {
   "name": "Iona House",
@@ -1680,7 +1825,8 @@
   "description": "Jonas Paul Eyewear produces stylish kids' and teen glasses with an impact on the sight of a child. The company is driven by the goal of helping children feel beautiful in their glasses while preventing childhood...",
   "location": "Grand Rapids, MI, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/jonas-paul-eyewear.webp"
  },
  {
   "name": "Kammok",
@@ -1691,7 +1837,8 @@
   "description": "Today, Kammok designs technical and functional hammock camping gear for every adventure. Our vision is that Kammok becomes a platform to elevate camp in every way possible, from the gear and apparel we create to the...",
   "location": "Austin, TX, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/kammok.webp"
  },
  {
   "name": "Kicky",
@@ -1702,7 +1849,8 @@
   "description": "Connecting the art world with the latest technologies that will unlock both access to great art and fair compensation.",
   "location": "Atlantic Station, Atlanta, GA, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/kicky.webp"
  },
  {
   "name": "Kingdom Haus",
@@ -1724,7 +1872,8 @@
   "description": "Known Supply is an online fashion shop. They provide tops, graphics, bottoms, sweaters, jackets, dresses, jumpsuits, hats, accessories, and more for women and men.",
   "location": "Costa Mesa, CA, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/known-supply.webp"
  },
  {
   "name": "LoanWell",
@@ -1735,7 +1884,8 @@
   "description": "LoanWell is community lending re-imagined. Our modern platform for CDFIs automates the entire loan origination and servicing process, enabling delivery of more capital, more efficiently. We help these mission-driven...",
   "location": "Durham, NC, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/loanwell.webp"
  },
  {
   "name": "More Media",
@@ -1746,7 +1896,8 @@
   "description": "More Media is a multi-media production and content company.",
   "location": "Los Angeles, CA, USA",
   "sector": "Media & culture",
-  "global": false
+  "global": false,
+  "logo": "/logos/more-media.webp"
  },
  {
   "name": "Neurokids",
@@ -1757,7 +1908,8 @@
   "description": "NeuroKids helps the world's children with Hydrocephalus and Spina Bifida live longer and better lives.",
   "location": "",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/neurokids.webp"
  },
  {
   "name": "New College Berkeley",
@@ -1779,7 +1931,8 @@
   "description": "Our Mission: Mentor people to discover their life design to flourish and make an impact in their communities. Our Purpose: Mentor young adults to discover their life design and activate their future.",
   "location": "Bay Area",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/nexus-mentoring.png"
  },
  {
   "name": "PairUp",
@@ -1790,7 +1943,8 @@
   "description": "PairUp develops a mentorship platform intended to maximize learning, growth, and social support.",
   "location": "Sausalito, CA, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/pairup.webp"
  },
  {
   "name": "Path United",
@@ -1801,7 +1955,8 @@
   "description": "Path United exists to empower children growing up in at-risk mobile home parks to find their path to high school graduation and God's plan for their future! We do this by operating community centers inside mobile home...",
   "location": "Lawrenceville, GA, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/path-united.webp"
  },
  {
   "name": "Petite Studio",
@@ -1812,7 +1967,8 @@
   "description": "Petite Studio provides a wide collection of clothing, fashion apparel, and accessories.",
   "location": "Canal Street, New York, NY, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/petite-studio.webp"
  },
  {
   "name": "Pray the Bay",
@@ -1823,7 +1979,8 @@
   "description": "Pray the Bay is a unifying prayer & worship movement for and through the local Church of the San Francisco Bay Area. We are believing for revival in the Church, renewal in our cities, and an awakening to the presence of...",
   "location": "Bay Area",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/pray-the-bay.png"
  },
  {
   "name": "Procure Impact",
@@ -1834,7 +1991,8 @@
   "description": "Procure Impact is a B2B marketplace that assists corporations in purchasing. By purchasing high-quality products manufactured by social enterprises, the company partners with corporations that want to leverage their...",
   "location": "Falls Church, VA, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/procure-impact.webp"
  },
  {
   "name": "ProGrace",
@@ -1845,7 +2003,8 @@
   "description": "ProGrace helps Christians live out a non-political, grace-centered approach to abortion.",
   "location": "North Chicago, IL, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/prograce.webp"
  },
  {
   "name": "Regent College - MALTS",
@@ -1856,7 +2015,8 @@
   "description": "The MA in Leadership, Theology & Society is a program designed to enable participants to remain in their current workplace while developing their leadership abilities through which they can bring transformation to their...",
   "location": "National",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/regent-college-malts.png"
  },
  {
   "name": "Resolve",
@@ -1867,7 +2027,8 @@
   "description": "Resolve is a B2B payments platform that offers buy now, pay later billing for business purchases. Resolve is a B2B payments solution that allows merchants to extend risk-free net terms to their customers. By making it...",
   "location": "San Francisco, CA, USA",
   "sector": "Capital & venture",
-  "global": false
+  "global": false,
+  "logo": "/logos/resolve.webp"
  },
  {
   "name": "RhizeBio",
@@ -1878,7 +2039,8 @@
   "description": "RhizeBio offers a soil testing approach that decodes the complexity of the soil microbiome, revealing a variety of critical properties for improved plant development and productivity.",
   "location": "",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/rhizebio.webp"
  },
  {
   "name": "Scholars of Finance",
@@ -1889,7 +2051,8 @@
   "description": "Scholars of Finance is an organization dedicated to inspiring character and integrity in tomorrow's finance leaders. Aiming to solve the world's most pressing challenges by investing in undergraduate students through...",
   "location": "Canal Street, New York, NY, USA",
   "sector": "Capital & venture",
-  "global": false
+  "global": false,
+  "logo": "/logos/scholars-of-finance.webp"
  },
  {
   "name": "Screen Sanity",
@@ -1900,7 +2063,8 @@
   "description": "Screen Sanity helps families pursue digital health so kids can grow up captivated by life, not screens.",
   "location": "Indian Creek Park Estates, Overland Park, KS, USA",
   "sector": "Attention & digital health",
-  "global": false
+  "global": false,
+  "logo": "/logos/screen-sanity.webp"
  },
  {
   "name": "Sharpen Recovery",
@@ -1922,7 +2086,8 @@
   "description": "Sky Harvest generates carbon credits by collaborating with landowners to defer timber harvests, effectively removing carbon dioxide (CO2) from the atmosphere. The company offers a Carbon 2.0 calculator to simplify the...",
   "location": "Dallas, TX, USA",
   "sector": "Science & industry",
-  "global": false
+  "global": false,
+  "logo": "/logos/sky-harvest.webp"
  },
  {
   "name": "Spotless Materials",
@@ -1933,7 +2098,8 @@
   "description": "SpotLESS Materials engineers nature-inspired, ultra-repellent coatings that prevent fouling from liquids, sludge, bacteria, and mineral deposits. Their flagship technology, LESS (Liquid-Entrenched Smooth Surface), was...",
   "location": "State College, PA, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/spotless-materials.webp"
  },
  {
   "name": "Starfish Project",
@@ -1944,7 +2110,8 @@
   "description": "Starfish Project is a fair trade, social enterprise jewelry company.",
   "location": "Goshen, IN, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/starfish-project.webp"
  },
  {
   "name": "StreetCode Academy",
@@ -1955,7 +2122,8 @@
   "description": "StreetCode Academy creates a community-based ecosystem that provides free courses in coding, entrepreneurship, and design.",
   "location": "Menlo Park, CA, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/streetcode-academy.webp"
  },
  {
   "name": "Sycamore Equity",
@@ -1966,7 +2134,8 @@
   "description": "Sycamore Equity is solving home affordability for staff of nonprofits, particularly in faith-driven organizations. We realize housing cost and stability can cause financial stress and undermine the work leaders take on...",
   "location": "Boulder, CO, USA",
   "sector": "Capital & venture",
-  "global": false
+  "global": false,
+  "logo": "/logos/sycamore-equity.webp"
  },
  {
   "name": "Sycamore Studios",
@@ -1977,7 +2146,8 @@
   "description": "Sycamore Studios is a film production studio that combines filmmaking with animation pipelines to produce premium family entertainment.",
   "location": "West University, Austin, TX, USA",
   "sector": "Media & culture",
-  "global": false
+  "global": false,
+  "logo": "/logos/sycamore-studios.webp"
  },
  {
   "name": "Telos",
@@ -1988,7 +2158,8 @@
   "description": "Telos provides experiences, relationships, and training necessary to help Americans do the rigorous work of peacemaking.",
   "location": "Washington, DC, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/telos.webp"
  },
  {
   "name": "TenYour",
@@ -1999,7 +2170,8 @@
   "description": "Operator of a wealth tracking platform intended to help the middle and working class attain and sustain generational wealth. The company offers products focused on protecting personal and family savings funds, helping...",
   "location": "Sacramento, CA, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/tenyour.webp"
  },
  {
   "name": "The Birthday Party Project",
@@ -2010,7 +2182,8 @@
   "description": "The Birthday Party Project brings JOY to children experiencing homelessness through the MAGIC of a birthday celebration.",
   "location": "Dallas, TX, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/the-birthday-party-project.webp"
  },
  {
   "name": "The Institute for Innovation, Integration & Impact",
@@ -2032,7 +2205,8 @@
   "description": "Looma offers an in-store digital media platform that combines storytelling, education, and point-of-decision recommendations on screens positioned alongside merchandise. The platform is designed to engage shoppers with...",
   "location": "Duke University - Main Campus, Durham, NC, USA",
   "sector": "Attention & digital health",
-  "global": false
+  "global": false,
+  "logo": "/logos/the-looma-project.webp"
  },
  {
   "name": "The Order of the Common Life",
@@ -2043,7 +2217,8 @@
   "description": "The 21st-century world is searching for a way to give deep, meaningful, and authentic shape to our lives. The problem is so many of us are doing it alone. Here, we’re responding to an invitation to a common way of...",
   "location": "Ohio, USA",
   "sector": "Faith & church",
-  "global": false
+  "global": false,
+  "logo": "/logos/the-order-of-the-common-life.webp"
  },
  {
   "name": "The Root Cause",
@@ -2054,7 +2229,8 @@
   "description": "TRC provides practical, proven steps toward health for people in underserved communities who are at risk for chronic diseases.",
   "location": "Plano, TX, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/the-root-cause.webp"
  },
  {
   "name": "Threadloom (Primary.org)",
@@ -2065,7 +2241,8 @@
   "description": "Threadloom's mission is to restore authenticity to the Internet, beginning with shopping. It's the maker of Primary, a browser extension that takes unfiltered, raw product reviews buried deep in forums all over the web...",
   "location": "Mountain View, CA, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/threadloom-primary-org.webp"
  },
  {
   "name": "Thriving Cities Group",
@@ -2076,7 +2253,8 @@
   "description": "Thriving Cities is a non-profit organization that offers civic design, consulting, advisory, and digital solutions to help communities thrive.",
   "location": "Durham, NC, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/thriving-cities-group.webp"
  },
  {
   "name": "TO THE MARKET",
@@ -2087,7 +2265,8 @@
   "description": "To The Market is an innovative platform powering the ethical and sustainable supply chain for some of the world’s largest companies. Facing intense and rising demand for operational transparency, our clients rely on our...",
   "location": "Lexington, KY, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/to-the-market.webp"
  },
  {
   "name": "Transforming the Bay with Christ",
@@ -2098,7 +2277,8 @@
   "description": "Connecting and Equipping Leaders to help Ignite a Gospel Movement in the Bay Area",
   "location": "Bay Area",
   "sector": "Faith and work",
-  "global": false
+  "global": false,
+  "logo": "/logos/transforming-the-bay-with-christ.png"
  },
  {
   "name": "Trelus",
@@ -2109,7 +2289,8 @@
   "description": "The Trelus Exit Navigation Platform™ helps owners avoid disappointment by putting them in control with small actions tailored to The Trelus goal. The best tools, articles, videos, and advisors are based on the...",
   "location": "St. Louis, MO, USA",
   "sector": "Media & culture",
-  "global": false
+  "global": false,
+  "logo": "/logos/trelus.webp"
  },
  {
   "name": "Unshattered",
@@ -2120,7 +2301,8 @@
   "description": "Unshattered is a 501c3 nonprofit social enterprise whose mission is to end the addiction relapse cycle. This USA-based organization employs women in recovery to make premium handbags out of upcycled materials. Through a...",
   "location": "Sheffield, AL, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/unshattered.webp"
  },
  {
   "name": "UpSmith",
@@ -2131,7 +2313,8 @@
   "description": "UpSmith is significantly enhancing lives by giving people access to training in practical skills and long-lasting careers.",
   "location": "Riverway Estates/Bruton Terrace, Dallas, TX, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/upsmith.webp"
  },
  {
   "name": "Verdant Frontiers",
@@ -2142,7 +2325,8 @@
   "description": "Verdant Frontiers operates as a venture builder, creating companies from inception and guiding them through early-stage development and expansion. Its approach includes market analysis, business model design, and...",
   "location": "West University, Austin, TX, USA",
   "sector": "Capital & venture",
-  "global": false
+  "global": false,
+  "logo": "/logos/verdant-frontiers.webp"
  },
  {
   "name": "VeroSkills",
@@ -2153,7 +2337,8 @@
   "description": "VeroSkills retrains refugees into AI, Automation, and Software Engineering careers through a self-paced program combined with human and AI tutoring.",
   "location": "Birmingham, AL, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/veroskills.webp"
  },
  {
   "name": "Wilderness Collective",
@@ -2164,7 +2349,8 @@
   "description": "Wilderness Collective guides trip-of-a-lifetime adventure experiences, produces films, and a printed magazine.",
   "location": "Los Angeles, CA, USA",
   "sector": "Consumer & marketplace",
-  "global": false
+  "global": false,
+  "logo": "/logos/wilderness-collective.webp"
  },
  {
   "name": "Wildsam Field Guides",
@@ -2175,7 +2361,8 @@
   "description": "Wildsam Field Guides is a travel company based in the United States that specializes in sharing genuine tales about places.",
   "location": "Austin, TX, USA",
   "sector": "Health & clinical",
-  "global": false
+  "global": false,
+  "logo": "/logos/wildsam-field-guides.webp"
  },
  {
   "name": "Will Reed",
@@ -2186,7 +2373,8 @@
   "description": "Will Reed Jobs is a community for the top young sales professionals. Request to join. Will Reed is a community of quality professionals interested in customer-facing roles. To join, you must complete a short assessment...",
   "location": "Dallas, TX, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/will-reed.webp"
  },
  {
   "name": "Wise Rock",
@@ -2197,7 +2385,8 @@
   "description": "Wise Rock builds software that dramatically amplifies, rather than replaces, human capability.",
   "location": "Houston, TX, USA",
   "sector": "Science & industry",
-  "global": false
+  "global": false,
+  "logo": "/logos/wise-rock.webp"
  },
  {
   "name": "World Hope Ministries International",
@@ -2208,7 +2397,8 @@
   "description": "WHMI provides theological training to pastors, helping to build healthy churches and working for community transformation. Through its Bible Institute, they maintain an active ministry. More than 5,000 students receive...",
   "location": "Houston, TX, USA",
   "sector": "Education",
-  "global": false
+  "global": false,
+  "logo": "/logos/world-hope-ministries-international.webp"
  },
  {
   "name": "World Impact",
@@ -2219,7 +2409,8 @@
   "description": "World Impact is a Christian organization committed to facilitating church-planting movements, evangelizing, and empowering the urban poor.",
   "location": "Los Angeles, CA, USA",
   "sector": "Media & culture",
-  "global": false
+  "global": false,
+  "logo": "/logos/world-impact.webp"
  },
  {
   "name": "Yonder",
@@ -2230,6 +2421,7 @@
   "description": "Provider of a travel insurance aggregator platform intended to help people find the right travel insurance. The company's platform offers to get travel insurance through an algorithm that custom matches the right travel...",
   "location": "Burnsville, MN, USA",
   "sector": "Other",
-  "global": false
+  "global": false,
+  "logo": "/logos/yonder.webp"
  }
 ]

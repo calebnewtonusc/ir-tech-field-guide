@@ -14,6 +14,7 @@ type Org = {
   location: string;
   sector: string;
   global: boolean;
+  logo?: string;
 };
 
 const orgs = orgsData as Org[];
@@ -33,7 +34,26 @@ const sourceLabel: Record<Org["source"], string> = {
 
 const focusRing =
   "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary";
-const PAGE = 24;
+const PAGE = 12;
+
+// One tint per sector so a page of cards reads as different kinds of work at a glance.
+const SECTOR_TINT: Record<string, string> = {
+  "Health & clinical": "bg-[#e3f0e6] text-[#2f6b40]",
+  Education: "bg-[#e4ecf8] text-[#33558f]",
+  "Consumer & marketplace": "bg-[#fbe6d8] text-[#9a4a1c]",
+  "Justice & anti-trafficking": "bg-[#f6e0e3] text-[#9b2f45]",
+  "Media & culture": "bg-[#efe4f6] text-[#6a3f8f]",
+  "Capital & venture": "bg-[#f4ecd2] text-[#7c6417]",
+  "Science & industry": "bg-[#e0eef0] text-[#26666e]",
+  "Economic development & livelihoods": "bg-[#f1ead9] text-[#7a5a1f]",
+  "Autism & disability": "bg-[#e7e9f8] text-[#454fa0]",
+  "Attention & digital health": "bg-[#e8f3ec] text-[#2f6f52]",
+  "Faith & church": "bg-[#f3e7da] text-[#8a5320]",
+  "Software & B2B": "bg-[#e4eaf0] text-[#3c5468]",
+  "Faith and work": "bg-[#f3e7da] text-[#8a5320]",
+  "FaithTech Create project": "bg-[#fde6da] text-[#a8410f]",
+};
+const tintFor = (sector: string) => SECTOR_TINT[sector] ?? "bg-canvas text-body";
 
 export default function Directory() {
   const [query, setQuery] = useState("");
@@ -206,41 +226,40 @@ export default function Directory() {
             </button>
           </div>
         ) : (
-          <ul className="mt-4 divide-y divide-hairline border-y border-hairline">
+          <ul className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {filtered.slice(0, shown).map((o) => (
               <li
                 key={`${o.source}-${o.name}`}
-                className="grid gap-2 py-5 sm:grid-cols-[1fr_auto] sm:gap-6"
+                className="group relative flex flex-col rounded-xl border border-hairline bg-card p-5 transition duration-150 hover:-translate-y-0.5 hover:border-ink hover:shadow-[0_14px_30px_-18px_rgba(38,37,30,0.35)]"
               >
-                <div>
-                  <a
-                    href={o.href}
-                    target="_blank"
-                    rel="noopener"
-                    className={`text-lg font-medium text-ink transition-colors hover:text-primary-active ${focusRing}`}
-                  >
-                    {o.name}
-                  </a>
-                  <p className="mt-1 leading-relaxed text-body">
-                    {o.description}
-                  </p>
-                  <p className="mt-2 font-mono text-xs text-muted">
-                    {[sourceLabel[o.source], o.sector, o.location]
-                      .filter(Boolean)
-                      .join("  ·  ")}
-                  </p>
+                <div className="flex items-start gap-4">
+                  <Logo org={o} />
+                  <div className="min-w-0 flex-1">
+                    <a
+                      href={o.href}
+                      target="_blank"
+                      rel="noopener"
+                      className={`block font-medium leading-snug text-ink after:absolute after:inset-0 after:rounded-xl after:content-[''] ${focusRing}`}
+                    >
+                      {o.name}
+                    </a>
+                    <p className="mt-1 truncate font-mono text-[11px] text-muted">{o.location || "Online"}</p>
+                  </div>
                 </div>
-                {o.openRoles > 0 && (
-                  <a
-                    href={o.jobsHref}
-                    target="_blank"
-                    rel="noopener"
-                    className={`inline-flex h-10 items-center self-start rounded-full border border-hairline-strong px-4 text-sm text-ink transition-colors duration-100 hover:border-primary hover:text-primary-active ${focusRing}`}
-                  >
-                    {o.openRoles} open {o.openRoles === 1 ? "role" : "roles"}{" "}
-                    &rarr;
-                  </a>
-                )}
+                <p className="mt-4 line-clamp-2 text-sm leading-relaxed text-body">{o.description}</p>
+                <div className="mt-auto flex flex-wrap items-center justify-between gap-2 pt-5">
+                  <span className={`rounded-full px-2.5 py-1 text-xs ${tintFor(o.sector)}`}>{o.sector === "Other" ? sourceLabel[o.source] : o.sector}</span>
+                  {o.openRoles > 0 && (
+                    <a
+                      href={o.jobsHref}
+                      target="_blank"
+                      rel="noopener"
+                      className={`relative z-10 inline-flex min-h-9 items-center rounded-full bg-ink px-3 text-xs font-medium text-canvas transition-colors hover:bg-primary ${focusRing}`}
+                    >
+                      {o.openRoles} hiring &rarr;
+                    </a>
+                  )}
+                </div>
               </li>
             ))}
           </ul>
@@ -296,5 +315,18 @@ function Toggle({
       />
       {label}
     </button>
+  );
+}
+
+function Logo({ org }: { org: Org }) {
+  return (
+    <span className="grid size-12 shrink-0 place-items-center overflow-hidden rounded-lg border border-hairline bg-white">
+      {org.logo ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={org.logo} alt="" loading="lazy" className="size-full object-contain p-1.5" />
+      ) : (
+        <span className="text-lg font-medium text-muted">{org.name.charAt(0)}</span>
+      )}
+    </span>
   );
 }

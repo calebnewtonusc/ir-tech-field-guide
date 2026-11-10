@@ -25,6 +25,16 @@ const short: Record<PathId, string> = {
 // A stamp is never pressed square. Fixed angles per page so nothing jitters between renders.
 const ANGLE = [-8, 6, -4, 9, -11, 4, -6];
 
+// Employer marks pulled with logo-fetch into public/logos. Shield AI, Palantir, Meta and Rhodium only
+// served blurry icons (refused under 64px), so those chips show a letter instead.
+const EMPLOYER_LOGO: [RegExp, string][] = [
+  [/openai/i, "openai"], [/anthropic/i, "anthropic"], [/anduril/i, "anduril"], [/saronic/i, "saronic"],
+  [/helsing/i, "helsing"], [/discord/i, "discord"], [/roblox/i, "roblox"], [/tiktok/i, "tiktok"],
+  [/stripe/i, "stripe"], [/deel/i, "deel"], [/^wise/i, "wise"], [/revolut/i, "revolut"],
+  [/strider/i, "strider"], [/dataminr/i, "dataminr"], [/eurasia/i, "eurasia-group"],
+];
+const logoFor = (name: string) => EMPLOYER_LOGO.find(([re]) => re.test(name))?.[1];
+
 const emptyScores: Record<PathId, number> = {
   policy: 0,
   defense: 0,
@@ -331,10 +341,13 @@ export default function Guide() {
                       </span>
                       <span className="mt-3 flex flex-wrap gap-2">
                         {p.hiring.slice(0, 3).map((h) => (
-                          <span
-                            key={h}
-                            className="rounded-full border border-page-line bg-white/70 px-3 py-1 text-sm text-body"
-                          >
+                          <span key={h} className="inline-flex items-center gap-2 rounded-full border border-page-line bg-white/80 py-1 pr-3 pl-1 text-sm text-ink">
+                            {logoFor(h) ? (
+                              // eslint-disable-next-line @next/next/no-img-element
+                              <img src={`/logos/${logoFor(h)}.png`} alt="" className="size-6 rounded-full bg-white object-contain" />
+                            ) : (
+                              <span className="grid size-6 place-items-center rounded-full bg-page-line text-[11px] text-body">{h.charAt(0)}</span>
+                            )}
                             {h}
                           </span>
                         ))}

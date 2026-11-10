@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { motion, useReducedMotion } from "motion/react";
 import mapData from "@/lib/map.json";
 
@@ -31,6 +31,17 @@ const focusRing =
 export default function WorldMap({ tone = "light" }: { tone?: "light" | "dark" }) {
   const reduce = useReducedMotion();
   const [active, setActive] = useState<Pin | null>(null);
+  // Hover opens a card and leaving the dot closes it. A short grace lets the pointer cross
+  // from the dot onto the card without it vanishing. Tap and keyboard keep it open.
+  const closeTimer = useRef<number | null>(null);
+  const cancelClose = () => {
+    if (closeTimer.current) window.clearTimeout(closeTimer.current);
+    closeTimer.current = null;
+  };
+  const closeSoon = () => {
+    cancelClose();
+    closeTimer.current = window.setTimeout(() => setActive(null), 220);
+  };
 
   // One path of zero-length segments with round caps draws 4,674 dots in a single DOM node.
   const landPath = useMemo(
@@ -114,7 +125,11 @@ export default function WorldMap({ tone = "light" }: { tone?: "light" | "dark" }
                   role="button"
                   aria-label={`${p.label}: ${p.orgs.length} ${p.orgs.length === 1 ? "org" : "orgs"}`}
                   className="map-hit cursor-pointer"
-                  onMouseEnter={() => setActive(p)}
+                  onMouseEnter={() => {
+                    cancelClose();
+                    setActive(p);
+                  }}
+                  onMouseLeave={closeSoon}
                   onFocus={() => setActive(p)}
                   onClick={() => setActive(p)}
                   onKeyDown={(e) => {
@@ -131,6 +146,8 @@ export default function WorldMap({ tone = "light" }: { tone?: "light" | "dark" }
 
         {active && (
           <div
+            onMouseEnter={cancelClose}
+            onMouseLeave={closeSoon}
             /* Phone: the card sits under the map at full width (a floating 256px card clipped off the left edge at 390px).
                sm and up: it floats beside the dot, positioned through CSS variables. */
             className={`relative z-10 mt-4 w-full rounded-lg border border-hairline bg-card p-4 shadow-[0_8px_30px_rgba(38,37,30,0.12)] sm:absolute sm:mt-0 sm:w-64 sm:-translate-x-1/2 sm:left-[var(--tip-left)] sm:top-[var(--tip-top)] ${
