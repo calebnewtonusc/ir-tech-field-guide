@@ -5,9 +5,9 @@ import Doors from "@/components/Doors";
 import Guide from "@/components/Guide";
 import Route from "@/components/Route";
 import { SmoothScroll } from "@/components/SmoothScroll";
-import TheCase from "@/components/TheCase";
 import StoryMap from "@/components/StoryMap";
-import { postings, resources } from "@/lib/data";
+import Pack from "@/components/Pack";
+import { postings } from "@/lib/data";
 
 // One story in eight parts (SPEC.md): departure, the case, the passport, the visas,
 // where they are, why it matters, the route, the packing list.
@@ -91,9 +91,6 @@ export default function Home() {
         {/* Classes at USC */}
         <Courses />
 
-        {/* 2. The case */}
-        <TheCase />
-
         {/* Open doors */}
         <Doors />
 
@@ -103,53 +100,8 @@ export default function Home() {
         {/* 7. The route */}
         <Route />
 
-        {/* 8. Packing list */}
-        <section
-          id="resources"
-          className="scroll-mt-14 border-t border-hairline bg-canvas-soft px-4 py-24 sm:px-6 sm:py-32"
-        >
-          <div className="mx-auto max-w-6xl">
-            <h2 className="max-w-2xl text-[clamp(2.4rem,6vw,4.5rem)] leading-[1.02] font-normal tracking-[-0.03em]">
-              Pack these.
-            </h2>
-            <div className="mt-14 grid gap-x-10 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-              {resources.map((g) => (
-                <div key={g.title}>
-                  <h3 className="font-mono text-xs tracking-[0.15em] text-muted uppercase">
-                    {g.title}
-                  </h3>
-                  <ul className="mt-4 divide-y divide-hairline border-y border-hairline">
-                    {g.items.map((r) => (
-                      <li key={r.name}>
-                        <a
-                          href={r.href}
-                          target="_blank"
-                          rel="noopener"
-                          className={`group flex min-h-14 items-center justify-between gap-4 py-3 ${focusRing}`}
-                        >
-                          <span>
-                            <span className="block text-ink transition-colors group-hover:text-primary-active">
-                              {r.name}
-                            </span>
-                            <span className="block text-sm text-muted">
-                              {r.note}
-                            </span>
-                          </span>
-                          <span
-                            aria-hidden
-                            className="text-muted transition-transform duration-100 group-hover:translate-x-0.5 group-hover:text-primary-active"
-                          >
-                            &rarr;
-                          </span>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        {/* 8. Packing list, then the last moment */}
+        <Pack />
       </main>
 
       <footer className="bg-night text-on-ink-muted">

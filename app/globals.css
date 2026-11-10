@@ -71,6 +71,12 @@
   }
 }
 
+/* On a phone there is no hover: a press or a focused link holds the ticker still so it can be read. */
+.ticker:active .ticker-track,
+.ticker:focus-within .ticker-track {
+  animation-play-state: paused;
+}
+
 /* Map pins: Chrome draws a square box around a focused SVG circle. Focus is shown by the pin itself
    instead: focusing a pin fills it ink and opens its card, so keyboard users still see where they are. */
 .map-hit:focus {

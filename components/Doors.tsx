@@ -3,6 +3,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { doors, type Door, type Kind } from "@/lib/opportunities";
+import { DOORS_FOR } from "@/lib/forPath";
+import type { PathId } from "@/lib/data";
 
 // Open doors: every program in lib/opportunities.ts. Three ways in, top to bottom: what closes soon
 // (a live countdown), the year at a glance (tap a month), and the full grid with filters.
@@ -97,6 +99,15 @@ export default function Doors() {
   const [saved, setSaved] = useState<string[]>([]);
   // Six cards first: all 31 at once ran 12 phone screens (measured 2026-11-10).
   const [all, setAll] = useState(false);
+  // After the passport quiz, her path's doors move to the front and get tagged.
+  const [path, setPath] = useState<PathId | null>(null);
+  useEffect(() => {
+    const on = (e: Event) => setPath((e as CustomEvent<PathId>).detail);
+    window.addEventListener("path:match", on);
+    return () => window.removeEventListener("path:match", on);
+  }, []);
+  const mine = path ? DOORS_FOR[path] : [];
+  const rank = (d: Door) => (mine.includes(d.name) ? mine.indexOf(d.name) : 99);
   // Saved doors live in her browser only. Wrapped: storage can be blocked (private mode), and the page
   // must work the same without it.
   useEffect(() => {
@@ -159,7 +170,7 @@ export default function Doors() {
       (!paysOnly || d.pays) &&
       (!faithOnly || d.faith) &&
       (!savedOnly || saved.includes(d.name)),
-  );
+  ).sort((a, b) => rank(a) - rank(b));
 
   return (
     <section
@@ -170,6 +181,11 @@ export default function Doors() {
         <h2 className="max-w-3xl text-[clamp(2.4rem,6vw,4.5rem)] leading-[1.02] font-normal tracking-[-0.03em]">
           {doors.length} open doors most IR majors never hear about.
         </h2>
+        {path && (
+          <p className="mt-4 max-w-xl text-body">
+            Your path&apos;s {mine.length} are up front, tagged in orange.
+          </p>
+        )}
 
         {/* Closing soon */}
         {soon.length > 0 && (
@@ -341,7 +357,12 @@ export default function Doors() {
                   className="group relative flex flex-col rounded-xl border border-hairline bg-card p-5 transition duration-150 hover:-translate-y-0.5 hover:border-ink hover:shadow-[0_14px_30px_-18px_rgba(38,37,30,0.35)]"
                 >
                   <span className="flex items-center justify-between gap-3">
-                    <span className={`rounded-full px-2.5 py-1 text-xs ${KIND_TINT[d.kind]}`}>{d.kind}</span>
+                    <span className="flex items-center gap-2">
+                      <span className={`rounded-full px-2.5 py-1 text-xs ${KIND_TINT[d.kind]}`}>{d.kind}</span>
+                      {mine.includes(d.name) && (
+                        <span className="font-mono text-[11px] tracking-[0.12em] text-primary">FOR YOUR PATH</span>
+                      )}
+                    </span>
                     <button
                       type="button"
                       aria-pressed={saved.includes(d.name)}
