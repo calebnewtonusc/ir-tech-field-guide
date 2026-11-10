@@ -282,7 +282,7 @@ export default function StoryMap() {
   return (
     <section
       ref={ref}
-      className="relative h-[420svh] bg-night text-on-night sm:h-[520svh]"
+      className="relative h-[300svh] bg-night text-on-night sm:h-[380svh]"
       aria-label="Why tech companies need people who understand the world"
     >
       <div className="sticky top-0 h-svh overflow-hidden">

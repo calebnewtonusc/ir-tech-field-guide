@@ -77,7 +77,7 @@ export default function TheCase() {
       id="case"
       aria-label="Why this matters now"
       className="relative scroll-mt-14 bg-night text-on-night"
-      style={{ height: `${N * 100}svh` }}
+      style={{ height: `${N * 55 + 45}svh` }}
     >
       <div className="sticky top-0 flex h-svh items-center overflow-hidden px-4 sm:px-6">
         <div className="mx-auto w-full max-w-6xl">
