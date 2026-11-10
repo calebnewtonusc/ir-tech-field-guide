@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { PLACE_EVENT } from "@/components/WorldMap";
+import WorldMap, { PLACE_EVENT } from "@/components/WorldMap";
 import orgsData from "@/lib/orgs.json";
 
 type Org = {
@@ -135,6 +135,10 @@ export default function Directory() {
           </a>
           .
         </p>
+
+        <div className="mt-10 rounded-2xl bg-night p-4 sm:p-8">
+          <WorldMap tone="dark" />
+        </div>
 
         <div className="mt-10 grid grid-cols-3 gap-px overflow-hidden rounded-lg border border-hairline bg-hairline">
           <Figure value={String(orgs.length)} label="orgs" />

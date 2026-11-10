@@ -3,7 +3,7 @@ import Guide from "@/components/Guide";
 import Route from "@/components/Route";
 import { SmoothScroll } from "@/components/SmoothScroll";
 import TheCase from "@/components/TheCase";
-import WorldMap from "@/components/WorldMap";
+import StoryMap from "@/components/StoryMap";
 import { postings, resources } from "@/lib/data";
 
 // One story in eight parts (SPEC.md): departure, the case, the passport, the visas,
@@ -54,46 +54,27 @@ export default function Home() {
       </header>
 
       <main id="top">
-        {/* 1. Departure */}
-        <section className="relative flex flex-col bg-night pt-24 text-on-night sm:min-h-svh">
-          <div className="mx-auto w-full max-w-6xl px-4 sm:px-6">
-            <h1 className="max-w-4xl text-[clamp(2.7rem,min(7.4vw,9svh),5.6rem)] leading-[0.98] font-normal tracking-[-0.035em]">
-              Every tech company is a foreign policy company now.
-            </h1>
-            <p className="mt-6 max-w-md text-lg text-on-ink-soft">
-              If you study how the world works, they need you. Here&apos;s where
-              you&apos;d fit.
-            </p>
+        {/* 1. Departure: the story map */}
+        <StoryMap />
+        <div className="ticker overflow-hidden border-y border-white/10 bg-night py-4" aria-label="Real job postings from 2026">
+          <div className="ticker-track flex w-max gap-10">
+            {board.map((p, i) => (
+              <a
+                key={`${p.href}-${i}`}
+                href={p.href}
+                target="_blank"
+                rel="noopener"
+                aria-hidden={i >= postings.length}
+                tabIndex={i >= postings.length ? -1 : 0}
+                className={`flex shrink-0 items-baseline gap-3 font-mono text-sm transition-colors hover:text-primary ${focusRing}`}
+              >
+                <span className="text-[11px] tracking-[0.2em] text-primary">NOW HIRING</span>
+                <span className="text-on-night">{p.title}</span>
+                <span className="text-on-ink-muted">{p.company}</span>
+              </a>
+            ))}
           </div>
-          <div className="mx-auto mt-10 w-full max-w-6xl px-4 sm:flex-1 sm:px-6">
-            <WorldMap tone="dark" />
-          </div>
-          {/* Departures board: real 2026 postings */}
-          <div
-            className="ticker mt-10 overflow-hidden border-t border-white/10 py-4"
-            aria-label="Real job postings from 2026"
-          >
-            <div className="ticker-track flex w-max gap-10">
-              {board.map((p, i) => (
-                <a
-                  key={`${p.href}-${i}`}
-                  href={p.href}
-                  target="_blank"
-                  rel="noopener"
-                  aria-hidden={i >= postings.length}
-                  tabIndex={i >= postings.length ? -1 : 0}
-                  className={`flex shrink-0 items-baseline gap-3 font-mono text-sm transition-colors hover:text-primary ${focusRing}`}
-                >
-                  <span className="text-[11px] tracking-[0.2em] text-primary">
-                    NOW HIRING
-                  </span>
-                  <span className="text-on-night">{p.title}</span>
-                  <span className="text-on-ink-muted">{p.company}</span>
-                </a>
-              ))}
-            </div>
-          </div>
-        </section>
+        </div>
 
         {/* 2. The case */}
         <TheCase />
