@@ -293,7 +293,7 @@ export default function Directory() {
                       href={o.jobsHref}
                       target="_blank"
                       rel="noopener"
-                      className={`relative z-10 inline-flex min-h-9 items-center rounded-full bg-ink px-3 text-xs font-medium text-canvas transition-colors hover:bg-primary ${focusRing}`}
+                      className={`relative z-10 inline-flex min-h-10 items-center rounded-full bg-ink px-3.5 text-xs font-medium text-canvas transition-colors hover:bg-primary ${focusRing}`}
                     >
                       {o.openRoles} hiring &rarr;
                     </a>

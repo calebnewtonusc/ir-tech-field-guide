@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { paths, questions, type PathId } from "@/lib/data";
 import { shareVisa } from "@/lib/visaCard";
@@ -72,6 +72,8 @@ function leanOf(qi: number, choice: number): PathId {
   )[0][0];
 }
 
+const SAVE_KEY = "ir-passport-answers";
+
 export default function Guide() {
   const reduce = useReducedMotion();
   const [open, setOpen] = useState(false);
@@ -79,6 +81,27 @@ export default function Guide() {
   const [answers, setAnswers] = useState<number[]>([]);
   const [pressing, setPressing] = useState<number | null>(null);
   const [openId, setOpenId] = useState<PathId | null>(null);
+
+  // Her stamps survive a closed tab: without this, coming back the next day reset every personal
+  // section (faith card, classes, doors, orgs, route, ending) until she retook the quiz.
+  useEffect(() => {
+    let saved: unknown = null;
+    try {
+      saved = JSON.parse(localStorage.getItem(SAVE_KEY) ?? "null");
+    } catch {
+      return;
+    }
+    if (!Array.isArray(saved) || saved.length !== questions.length) return;
+    const restored = saved.filter((n): n is number => typeof n === "number");
+    if (restored.length !== questions.length) return;
+    const best = rank(scoreFor(restored))[0];
+    setAnswers(restored);
+    setStep(questions.length - 1);
+    setOpen(true);
+    setOpenId(best);
+    // The other sections register their listeners in their own effects, after this one.
+    window.setTimeout(() => window.dispatchEvent(new CustomEvent("path:match", { detail: best })), 0);
+  }, []);
 
   const done = answers.length === questions.length;
   const scores = useMemo(() => scoreFor(answers), [answers]);
@@ -102,6 +125,11 @@ export default function Guide() {
         else {
           const best = rank(scoreFor(next))[0];
           setOpenId(best);
+          try {
+            localStorage.setItem(SAVE_KEY, JSON.stringify(next));
+          } catch {
+            // Private mode or blocked storage: the result still shows, it just won't be remembered.
+          }
           // Tell the classes section which path won, so it opens on her picks.
           window.dispatchEvent(new CustomEvent("path:match", { detail: best }));
         }
@@ -117,6 +145,11 @@ export default function Guide() {
   }
 
   function restart() {
+    try {
+      localStorage.removeItem(SAVE_KEY);
+    } catch {
+      // Nothing saved to clear.
+    }
     setAnswers([]);
     setStep(0);
     setOpenId(null);
